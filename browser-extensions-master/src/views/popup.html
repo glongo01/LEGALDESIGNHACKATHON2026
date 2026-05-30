@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/popup.css" />
+</head>
+<body>
+
+<!-- ── NOT FOUND ────────────────────────────────────────────────────────── -->
+<div id="nourl" style="display:none">
+    <div class="header notfound-header">
+        <img class="header-logo" alt="AI Act Checker" src="icons/logo/logo128.png" />
+        <div class="header-title">AI Act Checker</div>
+    </div>
+    <div class="notfound-body">
+        <div class="notfound-icon">🔍</div>
+        <h3>Site not in our database</h3>
+        <p id="notFoundDomain" class="notfound-domain"></p>
+        <p class="notfound-hint">
+            Only sites we have analysed appear here.<br>
+            Run <code>scrape_tosdr.py</code> + <code>classify_rights.py</code><br>
+            to add more companies.
+        </p>
+    </div>
+    <div class="footer">
+        <span>AI Act Checker</span> · <span>BO 2026 Legal Design Hackathon</span>
+    </div>
+</div>
+
+<!-- ── LOADING ───────────────────────────────────────────────────────────── -->
+<div id="loading" style="opacity:1">
+    <div class="loading-inner">
+        <img class="loadingIcon" alt="Loading…" src="icons/loading.svg" />
+        <p>Checking EU AI Act compliance…</p>
+    </div>
+</div>
+
+<!-- ── ERROR ─────────────────────────────────────────────────────────────── -->
+<div id="error" style="display:none">
+    <img class="errorIcon" alt="Error" src="icons/error.svg" />
+    <div class="errorText">
+        <h2 id="errorTitle">Something went wrong.</h2>
+        <p id="errorDescription">Please try again.</p>
+    </div>
+</div>
+
+<!-- ── LOADED ────────────────────────────────────────────────────────────── -->
+<div id="loaded" style="filter:blur(10px)">
+
+    <!-- Header: service name + semaphore verdict -->
+    <div id="headerPopup" class="header">
+        <div class="header-row">
+            <div class="header-name serviceName">Loading…</div>
+            <div class="semaphore-wrap">
+                <span id="semaphoreLight" class="semaphore-light">⬜</span>
+            </div>
+        </div>
+        <div id="semaphoreLabel" class="semaphore-label">Analysing…</div>
+    </div>
+
+    <!-- ── Prohibited practices ──────────────────────────────────────────── -->
+    <div id="prohibitionSection" class="section" style="display:none">
+        <div class="section-title prohibition-title">
+            <span>🚫</span> Prohibited AI practices detected
+        </div>
+        <div id="prohibitionList" class="finding-list"></div>
+    </div>
+
+    <!-- ── Rights found ──────────────────────────────────────────────────── -->
+    <div id="rightsSection" class="section" style="display:none">
+        <div class="section-title rights-title">
+            <span>✅</span> Rights explicitly granted
+        </div>
+        <div id="rightsList" class="finding-list"></div>
+    </div>
+
+    <!-- ── Rights at risk / missing ─────────────────────────────────────── -->
+    <div id="gapsSection" class="section" style="display:none">
+        <div class="section-title gaps-title">
+            <span>⚠️</span> Rights not clearly stated
+        </div>
+        <div id="gapsList" class="finding-list"></div>
+    </div>
+
+</div>
+
+<!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+<div class="footer">
+    <span>AI Act Checker</span> · <span>BO 2026 Legal Design Hackathon</span>
+    <button id="toggleButton" title="Toggle dark mode">🌙</button>
+</div>
+
+<script type="module" src="../scripts/views/popup.js"></script>
+</body>
+</html>

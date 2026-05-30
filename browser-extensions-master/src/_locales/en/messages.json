@@ -1,0 +1,11 @@
+{
+    "extensionName": {
+        "message": "AI Act Checker",
+        "description": "Name of the extension."
+    },
+
+    "extensionDescription": {
+        "message": "Check websites for EU AI Act compliance. See which rights you have and whether prohibited AI practices are in use.",
+        "description": "Description of the extension. Needs to be 112 chars or less."
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ai-act-checker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Check websites for EU AI Act compliance — semaphore verdict and per-article rights breakdown.",
+  "author": "BO 2026 Legal Design Hackathon Team",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@types/chrome": "^0.1.0",
+    "@types/node": "^24.0.14",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.11",
+    "vite-plugin-web-extension": "^4.4.4"
+  },
+  "scripts": {
+    "dev": "vite build --watch --mode development --config vite.chrome.config.ts",
+    "dev:firefox": "vite build --watch --mode development --config vite.firefox.config.ts",
+    "build": "node scripts/build.js",
+    "build:chrome": "vite build --mode production --config vite.chrome.config.ts",
+    "build:firefox": "vite build --mode production --config vite.firefox.config.ts",
+    "clean": "rimraf dist build tsc",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src scripts --ext .js,.ts",
+    "lint:fix": "eslint src scripts --ext .js,.ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-team/ai-act-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-team/ai-act-checker/issues"
+  },
+  "homepage": "https://github.com/your-team/ai-act-checker#readme",
+  "keywords": []
+}
