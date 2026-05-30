@@ -1,0 +1,12 @@
+{
+  "right_explanation":     "right__right_explanation.png",
+  "right_human_oversight": "right__right_human_oversight.png",
+  "right_ai_transparency": "right__right_chatbot_disclosure.png",
+  "right_complaint":       "right__right_complaint.png",
+  "right_erasure":         "right__right_erasure.png",
+  "right_contest":         "right__right_contest.png",
+  "no_ai_disclosure":      "risk__no_ai_disclosure.png",
+  "training_on_user_data": "risk__training_on_user_data.png",
+  "profiling":             "risk__profiling.png",
+  "third_party_sharing":   "risk__third_party_sharing.png"
+}
