@@ -35,7 +35,7 @@ Browser Extension (popup.html / popup.js)
 
 | Adult mode | Child-friendly mode |
 |---|---|
-| ![Adult mode](Screenshot%202026-05-30%20alle%2021.16.32.png) | ![Child mode](Screenshot%202026-05-30%20alle%2021.16.56.png) |
+| ![Adult mode](screenshot_adult_mode.png) | ![Child mode](screenshot_child_mode.png) |
 
 ## Quick install
 
