@@ -33,7 +33,7 @@ Browser Extension (popup.html / popup.js)
 
 ## Demo
 
-<video src="Video Demo.mov" controls width="100%"></video>
+![LEXIA Demo](Video%20Demo.mp4)
 
 ## Screenshots
 
