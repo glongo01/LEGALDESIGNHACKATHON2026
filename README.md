@@ -33,7 +33,7 @@ Browser Extension (popup.html / popup.js)
 
 ## Demo
 
-![LEXIA Demo](Video%20Demo.mp4)
+▶️ [Watch the demo video](Video%20Demo.mp4)
 
 ## Screenshots
 
