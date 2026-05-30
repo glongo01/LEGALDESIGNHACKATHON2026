@@ -1,0 +1,30 @@
+{
+  "id": 8592,
+  "is_comprehensively_reviewed": false,
+  "name": "Synthesia",
+  "updated_at": "2023-06-28T22:02:19.014519",
+  "created_at": "2023-06-28T20:59:13.999421",
+  "slug": "synthesia",
+  "rating": "N/A",
+  "urls": [
+    "synthesia.io"
+  ],
+  "image": "https://s3.tosdr.org/logos/8592.png",
+  "documents": [
+    {
+      "id": 16721,
+      "name": "Privacy Policy",
+      "url": "https://www.synthesia.io/terms/privacy-policy",
+      "updated_at": "2024-11-08T11:31:45.761908",
+      "created_at": "2023-06-28T20:59:14.060033"
+    },
+    {
+      "id": 16720,
+      "name": "Terms of Service",
+      "url": "https://www.synthesia.io/terms/terms-of-service",
+      "updated_at": "2024-11-08T11:31:46.017353",
+      "created_at": "2023-06-28T20:59:14.030427"
+    }
+  ],
+  "points": []
+}

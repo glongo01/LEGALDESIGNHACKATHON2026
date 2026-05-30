@@ -1,0 +1,74 @@
+{
+  "id": 11619,
+  "is_comprehensively_reviewed": false,
+  "name": "Anthropic, PBC",
+  "updated_at": "2026-02-25T16:49:07.660382",
+  "created_at": "2025-09-24T15:34:14.954149",
+  "slug": null,
+  "rating": "N/A",
+  "urls": [
+    "anthropic.com",
+    "claude.ai"
+  ],
+  "image": "https://s3.tosdr.org/logos/11619.png",
+  "documents": [
+    {
+      "id": 23320,
+      "name": "Terms of Service",
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "updated_at": "2025-09-24T15:35:58.543179",
+      "created_at": "2025-09-24T15:35:58.543179"
+    },
+    {
+      "id": 23321,
+      "name": "Commercial Terms",
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "updated_at": "2025-09-24T15:37:05.164585",
+      "created_at": "2025-09-24T15:37:05.164585"
+    },
+    {
+      "id": 23322,
+      "name": "Acceptable Use Policy",
+      "url": "https://www.anthropic.com/legal/aup",
+      "updated_at": "2025-09-24T15:39:51.895916",
+      "created_at": "2025-09-24T15:39:51.895916"
+    },
+    {
+      "id": 23323,
+      "name": "Privacy Policy",
+      "url": "https://www.anthropic.com/legal/privacy",
+      "updated_at": "2025-09-24T15:41:09.277704",
+      "created_at": "2025-09-24T15:41:09.277704"
+    },
+    {
+      "id": 23324,
+      "name": "Vulnerability Disclosure Policy",
+      "url": "https://www.anthropic.com/responsible-disclosure-policy",
+      "updated_at": "2025-09-24T15:43:00.778777",
+      "created_at": "2025-09-24T15:43:00.778777"
+    }
+  ],
+  "points": [
+    {
+      "id": 323840,
+      "title": "There is a date of the last update of the agreements",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 331,
+        "weight": 50,
+        "title": "There is a date of the last update of the agreements",
+        "localized_title": null,
+        "description": "The given text has a date that allows to know when it was last updated.",
+        "updated_at": "2021-03-27T16:59:06.252181",
+        "created_at": "2018-09-15T15:08:09.700759",
+        "topic_id": 38,
+        "classification": "neutral"
+      },
+      "document_id": 23320,
+      "updated_at": "2026-05-12T02:10:43.063178",
+      "created_at": "2026-05-10T21:34:24.866082"
+    }
+  ]
+}

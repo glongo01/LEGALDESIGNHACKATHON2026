@@ -1,0 +1,384 @@
+{
+  "id": 536,
+  "is_comprehensively_reviewed": false,
+  "name": "Discord",
+  "updated_at": "2026-03-06T10:55:44.301431",
+  "created_at": "2018-06-20T12:22:06.538763",
+  "slug": "discord",
+  "rating": "D",
+  "urls": [
+    "discord.com",
+    "discord.gg",
+    "discord.co",
+    "discordapp.io",
+    "discord.dev",
+    "discord.new",
+    "discord.media",
+    "discord.design",
+    "discordapp.com",
+    "discordapp.net",
+    "dis.gd",
+    "discord.gift",
+    "discordstatus.com",
+    "discordcdn.com",
+    "airhorn.solutions",
+    "airhornbot.com",
+    "bigbeans.solutions",
+    "watchanimeattheoffice.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/536.png",
+  "documents": [
+    {
+      "id": 15037,
+      "name": "Paid Services Terms",
+      "url": "https://discord.com/terms/paid-services-terms",
+      "updated_at": "2026-03-06T10:28:16.818907",
+      "created_at": "2023-03-29T16:20:20.967511"
+    },
+    {
+      "id": 3005,
+      "name": "Community Guidelines",
+      "url": "https://discord.com/guidelines",
+      "updated_at": "2026-03-06T10:29:42.264990",
+      "created_at": "2020-11-02T09:53:53.634141"
+    },
+    {
+      "id": 985,
+      "name": "Privacy Policy",
+      "url": "https://discord.com/privacy",
+      "updated_at": "2026-03-06T10:30:35.978494",
+      "created_at": "2019-02-07T16:04:32.433225"
+    },
+    {
+      "id": 2648,
+      "name": "Terms of Service",
+      "url": "https://discord.com/terms",
+      "updated_at": "2026-03-06T10:31:17.420878",
+      "created_at": "2020-07-05T09:58:18.728205"
+    },
+    {
+      "id": 23473,
+      "name": "Cookie Policy",
+      "url": "https://discord.com/terms/cookie-policy",
+      "updated_at": "2026-03-06T10:33:45.714652",
+      "created_at": "2026-03-06T10:33:45.714652"
+    }
+  ],
+  "points": [
+    {
+      "id": 34114,
+      "title": "Instead of asking directly, this Service will assume your consent merely from your usage.",
+      "source": "https://discord.com/terms",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 403,
+        "weight": 50,
+        "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+        "localized_title": null,
+        "description": "The Service infers your acceptance from your continued usage, instead of prompting you to read the new Terms and asking for direct consent. This doesn’t apply to services that have no way to seek consent from users through their contact details or an account.",
+        "updated_at": "2026-04-01T01:57:47.111082",
+        "created_at": "2020-12-30T03:17:35.286075",
+        "topic_id": 46,
+        "classification": "bad"
+      },
+      "document_id": 2648,
+      "updated_at": "2023-06-10T22:18:26.778964",
+      "created_at": "2023-06-08T18:46:44.696730"
+    },
+    {
+      "id": 35060,
+      "title": "Your account can be suspended for several reasons",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 205,
+        "weight": 50,
+        "title": "Your account can be suspended for several reasons",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:05:24.939122",
+        "created_at": "2018-01-16T15:26:09.988104",
+        "topic_id": 47,
+        "classification": "neutral"
+      },
+      "document_id": 2648,
+      "updated_at": "2023-10-09T16:45:54.891879",
+      "created_at": "2023-10-09T02:30:00.479769"
+    },
+    {
+      "id": 35058,
+      "title": "You can delete your content from this service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 175,
+        "weight": 50,
+        "title": "You can delete your content from this service",
+        "localized_title": null,
+        "description": "You can ask the service to remove your content at any time, and it's deleted within a reasonable time.",
+        "updated_at": "2021-02-27T14:23:56.238878",
+        "created_at": "2018-01-16T15:26:09.452580",
+        "topic_id": 45,
+        "classification": "good"
+      },
+      "document_id": 985,
+      "updated_at": "2023-10-09T16:46:45.091215",
+      "created_at": "2023-10-09T02:28:22.752339"
+    },
+    {
+      "id": 35062,
+      "title": "Your account can be deleted without prior notice and without a reason",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 201,
+        "weight": 50,
+        "title": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+        "localized_title": null,
+        "description": "At any time, your account can be terminated without explanation and without warning by the service. ",
+        "updated_at": "2024-04-11T15:32:51.319612",
+        "created_at": "2018-01-16T15:26:09.915249",
+        "topic_id": 47,
+        "classification": "bad"
+      },
+      "document_id": 2648,
+      "updated_at": "2024-03-29T13:41:34.286765",
+      "created_at": "2023-10-09T02:35:49.913321"
+    },
+    {
+      "id": 35076,
+      "title": "Information is gathered about you through third parties",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 382,
+        "weight": 50,
+        "title": "Information is gathered about you through third parties",
+        "localized_title": null,
+        "description": "This Service may employ, either identifiable or non-identifiable, data collection from third party sources about you.",
+        "updated_at": "2021-05-06T08:29:07.413292",
+        "created_at": "2019-01-10T18:06:34.391114",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 985,
+      "updated_at": "2023-10-18T10:11:02.507842",
+      "created_at": "2023-10-10T00:30:54.832810"
+    },
+    {
+      "id": 35075,
+      "title": "Extra data may be collected about you through promotions",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 211,
+        "weight": 50,
+        "title": "Extra data may be collected about you through promotions",
+        "localized_title": null,
+        "description": "Additional personal data may be collected through contests, surveys, promotions, petitions or sweepstakes. ",
+        "updated_at": "2021-05-06T08:29:55.670148",
+        "created_at": "2018-01-16T15:26:10.199169",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 985,
+      "updated_at": "2023-10-26T09:38:08.545710",
+      "created_at": "2023-10-10T00:24:08.576792"
+    },
+    {
+      "id": 130062,
+      "title": "This service is only available to users over 13 years old",
+      "source": "",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 152,
+        "weight": 50,
+        "title": "This service is only available to users over a certain age",
+        "localized_title": null,
+        "description": "The Services are intended for users who are at least a certain age. If you are younger than the age required then you are prohibited from using the Service.",
+        "updated_at": "2021-03-27T16:41:50.594690",
+        "created_at": "2018-01-16T15:26:08.952429",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 2648,
+      "updated_at": "2026-03-12T21:29:34.425054",
+      "created_at": "2025-09-08T16:25:54.887305"
+    },
+    {
+      "id": 130063,
+      "title": "You authorise the service to charge a credit card supplied on re-occurring basis",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 384,
+        "weight": 50,
+        "title": "You authorise the service to charge a credit card supplied on re-occurring basis",
+        "localized_title": null,
+        "description": "You card will be billed on recurring basis unless cancelled. For instance, monthly or annual subscriptions.",
+        "updated_at": "2021-05-31T20:25:18.854573",
+        "created_at": "2019-04-19T09:19:06.923122",
+        "topic_id": 54,
+        "classification": "neutral"
+      },
+      "document_id": 15037,
+      "updated_at": "2026-03-12T21:29:46.984796",
+      "created_at": "2025-09-08T20:24:18.579037"
+    },
+    {
+      "id": 130065,
+      "title": "Some personal data may be kept for business interests or legal obligations",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 333,
+        "weight": 50,
+        "title": "Some personal data may be kept for business interests or legal obligations",
+        "localized_title": null,
+        "description": "After the end of the data retention period and/or if you request the deletion of your data, they may still keep it for business interests (fraud detection, transactions...) or legal obligations (tax, legal reporting...)",
+        "updated_at": "2021-07-15T22:27:22.568820",
+        "created_at": "2018-09-21T00:08:10.584163",
+        "topic_id": 45,
+        "classification": "bad"
+      },
+      "document_id": 985,
+      "updated_at": "2026-03-12T21:30:20.810353",
+      "created_at": "2025-09-08T20:32:21.797257"
+    },
+    {
+      "id": 130066,
+      "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 243,
+        "weight": 50,
+        "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+        "localized_title": null,
+        "description": "If the service gets acquired or is involved in a merger, bankruptcy, reorganisation or sale, your personal data may be transferred or sold.",
+        "updated_at": "2021-05-06T08:18:13.688385",
+        "created_at": "2018-08-08T06:24:47.607478",
+        "topic_id": 39,
+        "classification": "bad"
+      },
+      "document_id": 985,
+      "updated_at": "2026-03-12T21:30:32.462011",
+      "created_at": "2025-09-08T20:34:24.131542"
+    },
+    {
+      "id": 318126,
+      "title": "You agree not to use the service for illegal purposes",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 280,
+        "weight": 50,
+        "title": "You agree not to use the service for illegal purposes",
+        "localized_title": null,
+        "description": "The user agrees not to commit any unlawful acts through the use of the website, including the posting of illegal content or messaging.",
+        "updated_at": "2021-05-06T08:43:36.925216",
+        "created_at": "2018-08-24T00:28:50.493125",
+        "topic_id": 52,
+        "classification": "neutral"
+      },
+      "document_id": 3005,
+      "updated_at": "2026-03-12T21:29:55.691852",
+      "created_at": "2026-02-19T20:38:45.913213"
+    },
+    {
+      "id": 130067,
+      "title": "Two factor authentication is provided for your account",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 312,
+        "weight": 50,
+        "title": "Two factor authentication is provided for your account",
+        "localized_title": null,
+        "description": "The service provides means of further securing your account with two factor authentification, thus greatly improving account security.",
+        "updated_at": "2021-05-06T08:18:28.306333",
+        "created_at": "2018-08-28T19:11:03.401196",
+        "topic_id": 50,
+        "classification": "good"
+      },
+      "document_id": 985,
+      "updated_at": "2026-03-12T21:29:09.635313",
+      "created_at": "2025-09-08T20:35:17.023532"
+    },
+    {
+      "id": 130064,
+      "title": "Your IP address is collected, which can be used to view your approximate location",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 399,
+        "weight": 50,
+        "title": "Your IP address is collected, which can be used to view your approximate location",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:11:11.748969",
+        "created_at": "2020-10-24T03:25:39.315313",
+        "topic_id": 56,
+        "classification": "neutral"
+      },
+      "document_id": 985,
+      "updated_at": "2026-03-12T21:29:28.102454",
+      "created_at": "2025-09-08T20:29:44.868907"
+    },
+    {
+      "id": 317979,
+      "title": "Minors must have the authorization of their legal guardians to use the service",
+      "source": "https://discord.com/terms/paid-services-terms",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 486,
+        "weight": 50,
+        "title": "Minors must have the authorization of their legal guardians to use the service",
+        "localized_title": null,
+        "description": "Minors must have the authorization of their legal guardians to use the services. The legal guardians are responsible for the use of the service by the minor.",
+        "updated_at": "2021-05-08T12:37:09.382832",
+        "created_at": "2021-05-08T12:37:09.382832",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 15037,
+      "updated_at": "2026-03-12T21:30:13.463851",
+      "created_at": "2026-01-27T01:28:36.167479"
+    },
+    {
+      "id": 319103,
+      "title": "Your provided identifiable information is actively checked by the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 492,
+        "weight": 50,
+        "title": "Your provided identifiable information is actively checked by the service",
+        "localized_title": null,
+        "description": "The service checks if the required identifiable information you've provided is correct, and may do so on a regular basis. The check measures could be analyzing your browser information and/or providing the identifiable information to a third-party or the authority, thus compromising your anonymity.",
+        "updated_at": "2021-05-28T09:51:31.306055",
+        "created_at": "2021-05-28T09:40:19.204027",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 2648,
+      "updated_at": "2026-03-21T19:02:59.166247",
+      "created_at": "2026-03-13T16:47:04.334088"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": 4334,
+  "is_comprehensively_reviewed": false,
+  "name": "Experian",
+  "updated_at": "2025-04-30T15:46:36.421085",
+  "created_at": "2021-07-02T19:59:33.515005",
+  "slug": "experian",
+  "rating": "D",
+  "urls": [
+    "experian.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/4334.png",
+  "documents": [
+    {
+      "id": 7625,
+      "name": "Privacy Policy",
+      "url": "https://www.experian.com/privacy/index",
+      "updated_at": "2024-11-08T11:13:50.459472",
+      "created_at": "2021-07-02T19:59:33.517374"
+    },
+    {
+      "id": 16264,
+      "name": "Terms",
+      "url": "https://www.experian.com/corporate/legalterms",
+      "updated_at": "2024-11-08T11:30:50.677188",
+      "created_at": "2023-05-18T17:39:50.242218"
+    }
+  ],
+  "points": [
+    {
+      "id": 36667,
+      "title": "This service assumes no responsibility and liability for the contents of links to other websites",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 279,
+        "weight": 50,
+        "title": "This service assumes no responsibility and liability for the contents of links to other websites",
+        "localized_title": null,
+        "description": "The service rejects any responsibility for the contents of other websites to which it links.",
+        "updated_at": "2018-08-24T00:18:08.427476",
+        "created_at": "2018-08-24T00:18:08.427476",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 16264,
+      "updated_at": "2025-01-05T20:16:15.995497",
+      "created_at": "2024-04-12T22:15:59.521835"
+    },
+    {
+      "id": 36665,
+      "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage.",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 403,
+        "weight": 50,
+        "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+        "localized_title": null,
+        "description": "The Service infers your acceptance from your continued usage, instead of prompting you to read the new Terms and asking for direct consent. This doesn’t apply to services that have no way to seek consent from users through their contact details or an account.",
+        "updated_at": "2026-04-01T01:57:47.111082",
+        "created_at": "2020-12-30T03:17:35.286075",
+        "topic_id": 46,
+        "classification": "bad"
+      },
+      "document_id": 16264,
+      "updated_at": "2025-01-05T20:16:11.248356",
+      "created_at": "2024-04-12T22:15:07.415089"
+    },
+    {
+      "id": 36666,
+      "title": "This service assumes no liability for any losses or damages resulting from any matter relating to the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 293,
+        "weight": 50,
+        "title": "The service assumes no liability for any damages the user incurs",
+        "localized_title": null,
+        "description": "The service assumes no liability for any damages the user incurs, including tangible (e.g. profits) and intangible losses (e.g. data), resulting from the use or inability to use the service or any other matter relating to the service.",
+        "updated_at": "2025-03-30T11:20:33.605027",
+        "created_at": "2018-08-26T22:31:46.138198",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 16264,
+      "updated_at": "2024-10-25T13:50:54.222970",
+      "created_at": "2024-04-12T22:15:36.440326"
+    },
+    {
+      "id": 36662,
+      "title": "The service is provided 'as is' and to be used at your sole risk",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 286,
+        "weight": 50,
+        "title": "The service is provided 'as is' and to be used at your sole risk",
+        "localized_title": null,
+        "description": "This service does not provide any guarantees as to its usability or fitness for the users' purposes. Users agree to use it at their own risk, accepting any possible bugs, malfunctions or harm to their devices.",
+        "updated_at": "2021-06-05T18:05:24.110855",
+        "created_at": "2018-08-25T23:38:08.160210",
+        "topic_id": 32,
+        "classification": "neutral"
+      },
+      "document_id": 16264,
+      "updated_at": "2025-01-05T20:15:45.251735",
+      "created_at": "2024-04-12T22:13:38.481825"
+    },
+    {
+      "id": 36663,
+      "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 287,
+        "weight": 50,
+        "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+        "localized_title": null,
+        "description": "The service provider expressly does not claim to provide uninterrupted, timely, secure or error-free service.",
+        "updated_at": "2023-04-03T18:58:37.030294",
+        "created_at": "2018-08-25T23:51:23.964727",
+        "topic_id": 32,
+        "classification": "neutral"
+      },
+      "document_id": 16264,
+      "updated_at": "2025-01-05T20:15:49.834389",
+      "created_at": "2024-04-12T22:14:19.625074"
+    },
+    {
+      "id": 36664,
+      "title": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 329,
+        "weight": 50,
+        "title": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+        "localized_title": null,
+        "description": "The service may update the Terms without notice, but if they significantly change the agreements in a manner that importantly and/or negatively affects the way the service is used, users will be notified.",
+        "updated_at": "2021-05-06T08:45:04.837282",
+        "created_at": "2018-09-10T12:21:49.956070",
+        "topic_id": 46,
+        "classification": "neutral"
+      },
+      "document_id": 16264,
+      "updated_at": "2025-01-05T20:15:57.603772",
+      "created_at": "2024-04-12T22:14:43.706816"
+    }
+  ]
+}

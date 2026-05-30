@@ -1,0 +1,221 @@
+{
+  "id": 3770,
+  "is_comprehensively_reviewed": false,
+  "name": "Klarna",
+  "updated_at": "2025-04-30T15:46:35.426387",
+  "created_at": "2021-05-24T21:06:55.419519",
+  "slug": "klarna",
+  "rating": "C",
+  "urls": [
+    "klarna.com",
+    "app.klarna.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/3770.png",
+  "documents": [
+    {
+      "id": 6320,
+      "name": "Legal",
+      "url": "https://www.klarna.com/us/legal/",
+      "updated_at": "2021-05-24T19:12:54.150976",
+      "created_at": "2021-05-24T21:06:55.427865"
+    },
+    {
+      "id": 6319,
+      "name": "Privacy",
+      "url": "https://www.klarna.com/us/privacy/",
+      "updated_at": "2024-11-08T11:11:54.545238",
+      "created_at": "2021-05-24T21:06:55.424714"
+    }
+  ],
+  "points": [
+    {
+      "id": 36767,
+      "title": "The service claims to be CCPA compliant for California users",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 482,
+        "weight": 50,
+        "title": "The service claims to be CCPA compliant for California users",
+        "localized_title": null,
+        "description": "The service has a different behavior towards users protected by the California Consumer Privacy Act.",
+        "updated_at": "2021-05-02T18:27:16.534781",
+        "created_at": "2021-05-02T12:54:56.791488",
+        "topic_id": 44,
+        "classification": "good"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:58:33.299547",
+      "created_at": "2024-04-13T22:23:43.406803"
+    },
+    {
+      "id": 36768,
+      "title": "Your IP address is collected, which can be used to view your approximate location",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 399,
+        "weight": 50,
+        "title": "Your IP address is collected, which can be used to view your approximate location",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:11:11.748969",
+        "created_at": "2020-10-24T03:25:39.315313",
+        "topic_id": 56,
+        "classification": "neutral"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:59:04.309679",
+      "created_at": "2024-04-13T22:25:50.173476"
+    },
+    {
+      "id": 36770,
+      "title": "Your personal data is aggregated into statistics",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 190,
+        "weight": 50,
+        "title": "Your personal data is aggregated into statistics",
+        "localized_title": null,
+        "description": "Your personal data is used for statistics in a de-identified/aggregated form (i.e. not directly linked to a unique identity) to analyse trends, for research and for analytics.",
+        "updated_at": "2021-02-25T11:55:50.916941",
+        "created_at": "2018-01-16T15:26:09.717516",
+        "topic_id": 41,
+        "classification": "neutral"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:59:08.746383",
+      "created_at": "2024-04-13T22:27:55.845473"
+    },
+    {
+      "id": 36771,
+      "title": "Information is gathered about you through third parties",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 382,
+        "weight": 50,
+        "title": "Information is gathered about you through third parties",
+        "localized_title": null,
+        "description": "This Service may employ, either identifiable or non-identifiable, data collection from third party sources about you.",
+        "updated_at": "2021-05-06T08:29:07.413292",
+        "created_at": "2019-01-10T18:06:34.391114",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 6319,
+      "updated_at": "2024-12-31T16:48:36.082355",
+      "created_at": "2024-04-13T22:28:30.472666"
+    },
+    {
+      "id": 36772,
+      "title": "You are not allowed to use pseudonyms, as trust and transparency between users regarding their identities is relevant to the service.",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 213,
+        "weight": 50,
+        "title": "You are not allowed to use pseudonyms, as trust and transparency between users regarding their identities is relevant to the service",
+        "localized_title": null,
+        "description": "You must provide your legal name and pseudonyms aren't allowed, but it makes sense for the purposes of this service.",
+        "updated_at": "2026-04-04T07:23:44.907258",
+        "created_at": "2018-01-16T15:26:10.275878",
+        "topic_id": 26,
+        "classification": "neutral"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:59:23.098114",
+      "created_at": "2024-04-13T22:29:58.729096"
+    },
+    {
+      "id": 36775,
+      "title": "Your personal data is aggregated into statistics",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 190,
+        "weight": 50,
+        "title": "Your personal data is aggregated into statistics",
+        "localized_title": null,
+        "description": "Your personal data is used for statistics in a de-identified/aggregated form (i.e. not directly linked to a unique identity) to analyse trends, for research and for analytics.",
+        "updated_at": "2021-02-25T11:55:50.916941",
+        "created_at": "2018-01-16T15:26:09.717516",
+        "topic_id": 41,
+        "classification": "neutral"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:59:29.527011",
+      "created_at": "2024-04-13T22:37:11.717128"
+    },
+    {
+      "id": 36769,
+      "title": "Your provided identifiable information is actively checked by the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 492,
+        "weight": 50,
+        "title": "Your provided identifiable information is actively checked by the service",
+        "localized_title": null,
+        "description": "The service checks if the required identifiable information you've provided is correct, and may do so on a regular basis. The check measures could be analyzing your browser information and/or providing the identifiable information to a third-party or the authority, thus compromising your anonymity.",
+        "updated_at": "2021-05-28T09:51:31.306055",
+        "created_at": "2021-05-28T09:40:19.204027",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 6319,
+      "updated_at": "2024-12-14T16:32:16.234492",
+      "created_at": "2024-04-13T22:27:12.316103"
+    },
+    {
+      "id": 36774,
+      "title": "Blocking first party cookies may limit your ability to use the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 375,
+        "weight": 50,
+        "title": "Blocking first-party cookies may limit your ability to use the service",
+        "localized_title": null,
+        "description": "Most browsers allow users to set preferences related to cookies storage. You may choose to block all cookies (including first-party cookies), but it may impact your use of this service and you may not be able to access some or any of the features provided.",
+        "updated_at": "2026-05-12T16:24:31.325353",
+        "created_at": "2018-10-21T10:14:30.867458",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:58:45.021610",
+      "created_at": "2024-04-13T22:35:56.319362"
+    },
+    {
+      "id": 36773,
+      "title": "You can request access, correction and/or deletion of your data",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 195,
+        "weight": 50,
+        "title": "You can request access, correction and/or deletion of your data",
+        "localized_title": null,
+        "description": "Users have the right to access personal data hold by the Service, correct it and/or permanently delete it. This usually applies to Services GDPR compliants. ",
+        "updated_at": "2021-03-15T19:39:19.351488",
+        "created_at": "2018-01-16T15:26:09.802002",
+        "topic_id": 34,
+        "classification": "good"
+      },
+      "document_id": 6319,
+      "updated_at": "2025-01-04T01:58:56.040970",
+      "created_at": "2024-04-13T22:32:16.731717"
+    }
+  ]
+}

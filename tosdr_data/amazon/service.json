@@ -1,0 +1,1068 @@
+{
+  "id": 190,
+  "is_comprehensively_reviewed": true,
+  "name": "Amazon",
+  "updated_at": "2026-05-20T03:00:00.165289",
+  "created_at": "2018-01-16T15:26:05.657605",
+  "slug": "amazon",
+  "rating": "E",
+  "urls": [
+    "amazon.com",
+    "amazon.com.au",
+    "amazon.de",
+    "amazon.co.uk",
+    "amazon.nl",
+    "amazon.pl",
+    "amazon.sa",
+    "amazon.sg",
+    "amazon.se",
+    "amazon.com.tr",
+    "amazon.ae",
+    "amazon.co.jp",
+    "amazon.es",
+    "amazon.in",
+    "amazon.ca",
+    "amazon.fr",
+    "amazon.it",
+    "amazon.com.br",
+    "amazon.cn",
+    "amazon.com.mx",
+    "amzn.to",
+    "amazontrust.com",
+    "amazongames.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/190.png",
+  "documents": [
+    {
+      "id": 40,
+      "name": "Kindle Store Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201014950",
+      "updated_at": "2026-02-26T04:25:54.066930",
+      "created_at": "2018-07-17T10:11:41.892666"
+    },
+    {
+      "id": 43,
+      "name": "Amazon Photos Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201376540",
+      "updated_at": "2026-02-26T04:26:49.144234",
+      "created_at": "2018-07-17T10:11:41.956146"
+    },
+    {
+      "id": 42,
+      "name": "Amazon Device Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080",
+      "updated_at": "2026-02-26T04:27:40.248643",
+      "created_at": "2018-07-17T10:11:41.935588"
+    },
+    {
+      "id": 57,
+      "name": "[DEPRECATED] Amazon Coins Terms",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201434520",
+      "updated_at": "2026-02-26T04:33:37.645234",
+      "created_at": "2018-07-17T10:11:42.257189"
+    },
+    {
+      "id": 38,
+      "name": "Amazon Privacy Notice",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+      "updated_at": "2026-02-26T04:20:15.171094",
+      "created_at": "2018-07-17T10:11:41.845825"
+    },
+    {
+      "id": 39,
+      "name": "Interest-Based Ads",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GLVB9XDF9M8MU7UZ",
+      "updated_at": "2026-02-26T04:23:42.562855",
+      "created_at": "2018-07-17T10:11:41.868015"
+    },
+    {
+      "id": 46,
+      "name": "Alexa Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740",
+      "updated_at": "2026-02-26T04:35:43.484775",
+      "created_at": "2018-07-17T10:11:42.020074"
+    },
+    {
+      "id": 52,
+      "name": "[DEPRECATED] Kindle Special Offer Text Notifications Terms & Conditions",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201339340",
+      "updated_at": "2026-02-26T04:36:26.988193",
+      "created_at": "2018-07-17T10:11:42.151459"
+    },
+    {
+      "id": 47,
+      "name": "Amazon Prime Terms & Conditions",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=G2B9L3YR7LR8J4XP",
+      "updated_at": "2026-02-26T04:37:30.588874",
+      "created_at": "2018-07-17T10:11:42.042576"
+    },
+    {
+      "id": 54,
+      "name": "Amazon Appstore Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201485660",
+      "updated_at": "2026-02-26T04:38:31.469025",
+      "created_at": "2018-07-17T10:11:42.195828"
+    },
+    {
+      "id": 53,
+      "name": "Amazon Music Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201380010",
+      "updated_at": "2026-02-26T04:32:03.173319",
+      "created_at": "2018-07-17T10:11:42.170460"
+    },
+    {
+      "id": 56,
+      "name": "[DEPRECATED] Amazon GameCircle Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201487670",
+      "updated_at": "2026-02-26T04:39:59.571698",
+      "created_at": "2018-07-17T10:11:42.237500"
+    },
+    {
+      "id": 55,
+      "name": "Amazon Silk FAQs",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=200775270",
+      "updated_at": "2026-02-26T04:41:24.978196",
+      "created_at": "2018-07-17T10:11:42.217692"
+    },
+    {
+      "id": 1051,
+      "name": "EU-US and Swiss-US Privacy Shield",
+      "url": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380",
+      "updated_at": "2020-12-15T01:49:34.126044",
+      "created_at": "2019-02-25T23:02:26.815180"
+    },
+    {
+      "id": 6728,
+      "name": "Amazon Australia - Privacy Notice",
+      "url": "https://www.amazon.com.au/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy",
+      "updated_at": "2024-11-08T11:12:27.286047",
+      "created_at": "2021-06-05T12:34:14.707365"
+    },
+    {
+      "id": 41,
+      "name": "Saving Your Wi-Fi Passwords to Amazon FAQs",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201730860",
+      "updated_at": "2024-11-08T11:05:27.556655",
+      "created_at": "2018-07-17T10:11:41.917142"
+    },
+    {
+      "id": 37,
+      "name": "Conditions of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM",
+      "updated_at": "2026-02-26T04:21:41.596372",
+      "created_at": "2018-07-17T10:11:41.821544"
+    },
+    {
+      "id": 50,
+      "name": "Monthly Payments Terms & Conditions",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202095050",
+      "updated_at": "2026-02-26T04:24:47.561290",
+      "created_at": "2018-07-17T10:11:42.109242"
+    },
+    {
+      "id": 58,
+      "name": "Amazon Maps Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201544030",
+      "updated_at": "2026-02-26T04:28:22.556559",
+      "created_at": "2018-07-17T10:11:42.278491"
+    },
+    {
+      "id": 23459,
+      "name": "Generative AI Development Disclosure",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?ref_=hp_left_v4_sib&nodeId=TmGoGN3UbFaQ1CAph7",
+      "updated_at": "2026-02-26T04:33:12.090105",
+      "created_at": "2026-02-26T04:30:51.673789"
+    },
+    {
+      "id": 49,
+      "name": "Kindle Unlimited Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201556940",
+      "updated_at": "2026-02-26T04:34:19.737521",
+      "created_at": "2018-07-17T10:11:42.087394"
+    },
+    {
+      "id": 51,
+      "name": "[DEPRECATED] Limited-Time Special Offers Promotional Discount Terms & Conditions",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201339330",
+      "updated_at": "2026-02-26T04:35:00.854217",
+      "created_at": "2018-07-17T10:11:42.132677"
+    },
+    {
+      "id": 61,
+      "name": "Backup and Restore FAQ",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201604180",
+      "updated_at": "2026-02-26T04:42:14.040931",
+      "created_at": "2018-07-17T10:11:42.337110"
+    },
+    {
+      "id": 1192,
+      "name": "Location Services FAQ",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201604200",
+      "updated_at": "2026-02-26T04:42:52.938725",
+      "created_at": "2019-04-24T10:00:16.447225"
+    },
+    {
+      "id": 60,
+      "name": "Firefly FAQ",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201604140",
+      "updated_at": "2026-02-26T04:45:22.308519",
+      "created_at": "2018-07-17T10:11:42.317076"
+    },
+    {
+      "id": 44,
+      "name": "Kindle and Fire Tablet Terms",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=200699130",
+      "updated_at": "2026-02-26T04:43:42.809592",
+      "created_at": "2018-07-17T10:11:41.979371"
+    },
+    {
+      "id": 45,
+      "name": "[DEPRECATED] Kindle Personal Documents Distributor Terms of Use",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201124320",
+      "updated_at": "2026-02-26T04:44:30.511789",
+      "created_at": "2018-07-17T10:11:42.001348"
+    }
+  ],
+  "points": [
+    {
+      "id": 1122,
+      "title": "The service uses your personal data for advertising",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202075050",
+      "status": "approved",
+      "analysis": "Amazon uses your personal data and your behavior data for advertisement.",
+      "case": {
+        "id": 216,
+        "weight": 50,
+        "title": "Your personal data is used for advertising",
+        "localized_title": null,
+        "description": "Your interaction with the service and data you have shared with them may be gathered to create an advertising ID or profile to target ads on you, either on the website you were visiting or in third party websites.",
+        "updated_at": "2021-05-06T08:13:43.286762",
+        "created_at": "2018-01-16T15:26:10.380532",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 39,
+      "updated_at": "2026-02-26T04:23:50.563456",
+      "created_at": "2018-01-16T21:11:19.947881"
+    },
+    {
+      "id": 5929,
+      "title": "This service can share your personal information to third parties ",
+      "source": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 188,
+        "weight": 50,
+        "title": "This service gives your personal data to third parties involved in its operation",
+        "localized_title": null,
+        "description": "Your personal data is or may be given to third parties essential to the service’s operation. This could be an external spam detection service for an internet forum.",
+        "updated_at": "2021-03-11T17:16:34.893185",
+        "created_at": "2018-01-16T15:26:09.684316",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 1051,
+      "updated_at": "2023-07-11T06:35:32.728636",
+      "created_at": "2019-02-25T23:09:59.612397"
+    },
+    {
+      "id": 5930,
+      "title": "The service can delete your account without prior notice and without a reason",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201544030",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 201,
+        "weight": 50,
+        "title": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+        "localized_title": null,
+        "description": "At any time, your account can be terminated without explanation and without warning by the service. ",
+        "updated_at": "2024-04-11T15:32:51.319612",
+        "created_at": "2018-01-16T15:26:09.915249",
+        "topic_id": 47,
+        "classification": "bad"
+      },
+      "document_id": 58,
+      "updated_at": "2026-02-26T04:28:35.636474",
+      "created_at": "2019-02-26T06:58:17.497787"
+    },
+    {
+      "id": 10790,
+      "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 294,
+        "weight": 50,
+        "title": "Invalidity of any portion of the Terms of Service does not entail invalidity of its remainder",
+        "localized_title": null,
+        "description": "Should any portion of the Terms of Service be unenforceable or invalid, that portion will be enforced to the fullest extent permitted by applicable law and the remainder of the TOS will remain valid and enforceable.",
+        "updated_at": "2021-03-27T16:55:39.895228",
+        "created_at": "2018-08-26T23:10:29.004536",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 37,
+      "updated_at": "2026-02-26T04:21:53.897777",
+      "created_at": "2020-10-27T05:04:51.367029"
+    },
+    {
+      "id": 150419,
+      "title": "Third parties are involved in operating the service",
+      "source": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 207,
+        "weight": 50,
+        "title": "Third parties are involved in operating the service",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-01-21T23:25:01.924991",
+        "created_at": "2018-01-16T15:26:10.072322",
+        "topic_id": 48,
+        "classification": "neutral"
+      },
+      "document_id": 1051,
+      "updated_at": "2026-03-28T19:16:41.591728",
+      "created_at": "2026-01-21T19:03:12.427186"
+    },
+    {
+      "id": 706,
+      "title": "They may stop providing the service at any time",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088",
+      "status": "approved",
+      "analysis": "Amazon can cancel your account and remove content at any time.",
+      "case": {
+        "id": 203,
+        "weight": 50,
+        "title": "They may stop providing the service at any time",
+        "localized_title": null,
+        "description": "They may discontinue the services without prior notice, at any time, for any or no reason. They usually assume no liability for losses and damages resulting from this suspension.",
+        "updated_at": "2021-05-14T14:37:19.462795",
+        "created_at": "2018-01-16T15:26:09.944198",
+        "topic_id": 47,
+        "classification": "neutral"
+      },
+      "document_id": 37,
+      "updated_at": "2026-02-26T04:21:53.885467",
+      "created_at": "2018-01-16T15:26:58.305945"
+    },
+    {
+      "id": 5926,
+      "title": " Terms may be changed any time at their discretion, without notice to the user ",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 121,
+        "weight": 50,
+        "title": " Terms may be changed any time at their discretion, without notice to you ",
+        "localized_title": null,
+        "description": "The Agreements can be updated at any time, including in a way that negatively affects user rights, without notifying before or after the changes.",
+        "updated_at": "2021-05-06T08:45:26.936883",
+        "created_at": "2018-01-16T15:26:08.180238",
+        "topic_id": 46,
+        "classification": "bad"
+      },
+      "document_id": 37,
+      "updated_at": "2026-02-26T04:21:53.892298",
+      "created_at": "2019-02-25T22:41:48.697187"
+    },
+    {
+      "id": 10792,
+      "title": "Prohibits political discussions or campaigning",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088",
+      "status": "approved",
+      "analysis": "Full Quote: \"You may post reviews, comments, photos, videos, and other content. send e-cards and other communications. and submit suggestions, ideas, comments, questions, or other information, so long as the content is not illegal, obscene, threatening, defamatory, invasive of privacy, infringing of intellectual property rights (including publicity rights), or otherwise injurious to third parties or objectionable, and does not consist of or contain software viruses, political campaigning, commercial solicitation, chain letters, mass mailings, or any form of \"spam\" or unsolicited commercial electronic messages.\"",
+      "case": {
+        "id": 316,
+        "weight": 50,
+        "title": "Political discussions or campaining are prohibited",
+        "localized_title": null,
+        "description": "Political content in the form or pictures, discussions, or campaigning isn't allowed.",
+        "updated_at": "2021-05-06T08:20:56.999800",
+        "created_at": "2018-08-29T02:28:34.614375",
+        "topic_id": 52,
+        "classification": "neutral"
+      },
+      "document_id": 37,
+      "updated_at": "2026-02-26T04:21:53.902714",
+      "created_at": "2020-10-27T05:29:50.669527"
+    },
+    {
+      "id": 233162,
+      "title": "The service assumes no liability for any damages the user incurs",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 293,
+        "weight": 50,
+        "title": "The service assumes no liability for any damages the user incurs",
+        "localized_title": null,
+        "description": "The service assumes no liability for any damages the user incurs, including tangible (e.g. profits) and intangible losses (e.g. data), resulting from the use or inability to use the service or any other matter relating to the service.",
+        "updated_at": "2025-03-30T11:20:33.605027",
+        "created_at": "2018-08-26T22:31:46.138198",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 37,
+      "updated_at": "2026-03-28T19:15:58.790965",
+      "created_at": "2026-01-23T02:01:47.198860"
+    },
+    {
+      "id": 293047,
+      "title": "Information is gathered about you through third parties",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202075050",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 382,
+        "weight": 50,
+        "title": "Information is gathered about you through third parties",
+        "localized_title": null,
+        "description": "This Service may employ, either identifiable or non-identifiable, data collection from third party sources about you.",
+        "updated_at": "2021-05-06T08:29:07.413292",
+        "created_at": "2019-01-10T18:06:34.391114",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 39,
+      "updated_at": "2026-03-28T19:15:34.041196",
+      "created_at": "2026-01-26T14:43:54.291570"
+    },
+    {
+      "id": 144224,
+      "title": "Content you post may be edited by the service for any reason",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=508088",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 407,
+        "weight": 50,
+        "title": "Content you post may be edited by the service for any reason",
+        "localized_title": null,
+        "description": "This service can edit any content on the service for whatever the reason and at their sole discretion.",
+        "updated_at": "2021-05-06T08:17:36.547163",
+        "created_at": "2021-02-26T13:24:51.760842",
+        "topic_id": 47,
+        "classification": "blocker"
+      },
+      "document_id": 37,
+      "updated_at": "2026-05-18T18:24:41.577133",
+      "created_at": "2026-01-21T17:15:40.096734"
+    },
+    {
+      "id": 320699,
+      "title": "Your personal data is not sold",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 193,
+        "weight": 50,
+        "title": "Your personal data is not sold",
+        "localized_title": null,
+        "description": "This service makes an explicit promise not to sell \"personal data\" of users.",
+        "updated_at": "2021-02-08T02:39:01.657398",
+        "created_at": "2018-01-16T15:26:09.775334",
+        "topic_id": 41,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.219469",
+      "created_at": "2026-03-28T21:30:57.976035"
+    },
+    {
+      "id": 320707,
+      "title": "A free help desk is provided",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 232,
+        "weight": 50,
+        "title": "A free help desk is provided",
+        "localized_title": null,
+        "description": "The service can be easily contacted for questions or provides a support center at no extra cost.",
+        "updated_at": "2021-05-06T08:14:00.434758",
+        "created_at": "2018-01-16T15:26:10.703750",
+        "topic_id": 36,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.299691",
+      "created_at": "2026-03-28T21:37:18.601430"
+    },
+    {
+      "id": 320708,
+      "title": "You can opt out of promotional communications",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 223,
+        "weight": 50,
+        "title": "You can opt out of promotional communications",
+        "localized_title": null,
+        "description": "You can update your account preferences and/or easily unsubscribe of email/sms lists to stop receiving promotional communications.",
+        "updated_at": "2021-03-27T16:51:44.689443",
+        "created_at": "2018-01-16T15:26:10.532434",
+        "topic_id": 34,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.310541",
+      "created_at": "2026-03-28T21:49:54.861938"
+    },
+    {
+      "id": 320710,
+      "title": "Blocking first party cookies may limit your ability to use the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 375,
+        "weight": 50,
+        "title": "Blocking first-party cookies may limit your ability to use the service",
+        "localized_title": null,
+        "description": "Most browsers allow users to set preferences related to cookies storage. You may choose to block all cookies (including first-party cookies), but it may impact your use of this service and you may not be able to access some or any of the features provided.",
+        "updated_at": "2026-05-12T16:24:31.325353",
+        "created_at": "2018-10-21T10:14:30.867458",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.331077",
+      "created_at": "2026-03-28T21:51:01.903690"
+    },
+    {
+      "id": 176937,
+      "title": "Information is provided about security practices",
+      "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201730860",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 226,
+        "weight": 50,
+        "title": "Information is provided about security practices",
+        "localized_title": null,
+        "description": "It's important to know what security measures are taken to protect your data from unauthorized access. This case applies to the Agreements that precisely explain their security practices.",
+        "updated_at": "2021-05-06T08:01:23.191463",
+        "created_at": "2018-01-16T15:26:10.587540",
+        "topic_id": 50,
+        "classification": "good"
+      },
+      "document_id": 41,
+      "updated_at": "2026-03-28T18:33:12.490113",
+      "created_at": "2026-01-22T03:00:21.394401"
+    },
+    {
+      "id": 247919,
+      "title": "A complaint mechanism is provided for the handling of personal data",
+      "source": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 300,
+        "weight": 50,
+        "title": "A complaint mechanism is provided for the handling of personal data",
+        "localized_title": null,
+        "description": "The service provides users with contact information for an internal or external structure to lodge complaints. It also provides users with contact information for a higher data protection / privacy office in case the internal mechanism fails to satisfy the user.",
+        "updated_at": "2021-03-27T16:56:27.514538",
+        "created_at": "2018-08-27T03:20:39.589412",
+        "topic_id": 41,
+        "classification": "good"
+      },
+      "document_id": 1051,
+      "updated_at": "2026-03-28T18:33:53.026805",
+      "created_at": "2026-01-23T05:43:19.156413"
+    },
+    {
+      "id": 99790,
+      "title": "Your personal data may be disclosed to comply with government requests without notice to you",
+      "source": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 164,
+        "weight": 50,
+        "title": "Your personal data may be disclosed to comply with government requests without notice to you",
+        "localized_title": null,
+        "description": "If the Government governing the Terms requests personal data of a user of this service, they may not inform/notify the user while complying with the request.",
+        "updated_at": "2023-05-05T09:43:54.553344",
+        "created_at": "2018-01-16T15:26:09.194087",
+        "topic_id": 28,
+        "classification": "bad"
+      },
+      "document_id": 1051,
+      "updated_at": "2026-03-28T19:15:10.577433",
+      "created_at": "2025-05-01T15:38:02.709391"
+    },
+    {
+      "id": 320690,
+      "title": "First-party cookies are used",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 126,
+        "weight": 50,
+        "title": "First-party cookies are used",
+        "localized_title": null,
+        "description": "First-party cookies only belong to the domain of the service and not a third party.",
+        "updated_at": "2021-05-06T08:28:30.139694",
+        "created_at": "2018-01-16T15:26:08.311645",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.108998",
+      "created_at": "2026-03-28T21:26:32.982521"
+    },
+    {
+      "id": 320692,
+      "title": "Information is provided about how your personal data is used",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 227,
+        "weight": 50,
+        "title": "Information is provided about how your personal data is used",
+        "localized_title": null,
+        "description": "The Privacy Policy explains the purposes for which data is collected and the way it is processed, used and shared.",
+        "updated_at": "2021-05-06T08:00:39.315952",
+        "created_at": "2018-01-16T15:26:10.619333",
+        "topic_id": 36,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.132108",
+      "created_at": "2026-03-28T21:27:20.245023"
+    },
+    {
+      "id": 320693,
+      "title": "Your biometric data is collected",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 397,
+        "weight": 50,
+        "title": "Your biometric data is collected",
+        "localized_title": null,
+        "description": "This service can collect or use your biometric data. This includes but is not limited to facial recognition, fingerprints, and iris scans. Although this feature can sometimes be convenient to the user, providing this type of information to the service could open your personal data to being sold or stolen.",
+        "updated_at": "2020-10-24T03:11:59.592826",
+        "created_at": "2020-09-11T22:33:35.876997",
+        "topic_id": 56,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.143894",
+      "created_at": "2026-03-28T21:28:15.229489"
+    },
+    {
+      "id": 320694,
+      "title": "Your personal data is aggregated into statistics",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 190,
+        "weight": 50,
+        "title": "Your personal data is aggregated into statistics",
+        "localized_title": null,
+        "description": "Your personal data is used for statistics in a de-identified/aggregated form (i.e. not directly linked to a unique identity) to analyse trends, for research and for analytics.",
+        "updated_at": "2021-02-25T11:55:50.916941",
+        "created_at": "2018-01-16T15:26:09.717516",
+        "topic_id": 41,
+        "classification": "neutral"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.154580",
+      "created_at": "2026-03-28T21:28:41.583383"
+    },
+    {
+      "id": 320697,
+      "title": "Your personal data is used for advertising",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 216,
+        "weight": 50,
+        "title": "Your personal data is used for advertising",
+        "localized_title": null,
+        "description": "Your interaction with the service and data you have shared with them may be gathered to create an advertising ID or profile to target ads on you, either on the website you were visiting or in third party websites.",
+        "updated_at": "2021-05-06T08:13:43.286762",
+        "created_at": "2018-01-16T15:26:10.380532",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.195608",
+      "created_at": "2026-03-28T21:29:55.223303"
+    },
+    {
+      "id": 320695,
+      "title": "Your personal information is used for many different purposes",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 185,
+        "weight": 50,
+        "title": "Your personal information is used for many different purposes",
+        "localized_title": null,
+        "description": "Personal Data can be processed for many reasons, including non essential processing such as for advertising, marketing and analytics purposes.",
+        "updated_at": "2021-05-06T08:13:23.465634",
+        "created_at": "2018-01-16T15:26:09.649723",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.167806",
+      "created_at": "2026-03-28T21:28:54.344033"
+    },
+    {
+      "id": 320696,
+      "title": "Your provided identifiable information is actively checked by the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 492,
+        "weight": 50,
+        "title": "Your provided identifiable information is actively checked by the service",
+        "localized_title": null,
+        "description": "The service checks if the required identifiable information you've provided is correct, and may do so on a regular basis. The check measures could be analyzing your browser information and/or providing the identifiable information to a third-party or the authority, thus compromising your anonymity.",
+        "updated_at": "2021-05-28T09:51:31.306055",
+        "created_at": "2021-05-28T09:40:19.204027",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.182607",
+      "created_at": "2026-03-28T21:29:25.790107"
+    },
+    {
+      "id": 320700,
+      "title": "This service gives your personal data to third parties involved in its operation",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 188,
+        "weight": 50,
+        "title": "This service gives your personal data to third parties involved in its operation",
+        "localized_title": null,
+        "description": "Your personal data is or may be given to third parties essential to the service’s operation. This could be an external spam detection service for an internet forum.",
+        "updated_at": "2021-03-11T17:16:34.893185",
+        "created_at": "2018-01-16T15:26:09.684316",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.229960",
+      "created_at": "2026-03-28T21:31:32.626350"
+    },
+    {
+      "id": 320701,
+      "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 243,
+        "weight": 50,
+        "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+        "localized_title": null,
+        "description": "If the service gets acquired or is involved in a merger, bankruptcy, reorganisation or sale, your personal data may be transferred or sold.",
+        "updated_at": "2021-05-06T08:18:13.688385",
+        "created_at": "2018-08-08T06:24:47.607478",
+        "topic_id": 39,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.240131",
+      "created_at": "2026-03-28T21:32:17.310307"
+    },
+    {
+      "id": 320702,
+      "title": "Your personal data may be disclosed to comply with government requests without notice to you",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 164,
+        "weight": 50,
+        "title": "Your personal data may be disclosed to comply with government requests without notice to you",
+        "localized_title": null,
+        "description": "If the Government governing the Terms requests personal data of a user of this service, they may not inform/notify the user while complying with the request.",
+        "updated_at": "2023-05-05T09:43:54.553344",
+        "created_at": "2018-01-16T15:26:09.194087",
+        "topic_id": 28,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.250005",
+      "created_at": "2026-03-28T21:32:53.493361"
+    },
+    {
+      "id": 320703,
+      "title": "Information is provided about security practices",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 226,
+        "weight": 50,
+        "title": "Information is provided about security practices",
+        "localized_title": null,
+        "description": "It's important to know what security measures are taken to protect your data from unauthorized access. This case applies to the Agreements that precisely explain their security practices.",
+        "updated_at": "2021-05-06T08:01:23.191463",
+        "created_at": "2018-01-16T15:26:10.587540",
+        "topic_id": 50,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.259507",
+      "created_at": "2026-03-28T21:33:25.757626"
+    },
+    {
+      "id": 320704,
+      "title": "Your personal data may be used for marketing purposes",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 336,
+        "weight": 50,
+        "title": "Your personal data may be used for marketing purposes",
+        "localized_title": null,
+        "description": "The service may use your personal data for marketing, such as sending you personalised offerings.",
+        "updated_at": "2021-05-06T08:29:43.206779",
+        "created_at": "2018-10-14T10:41:58.905206",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.269116",
+      "created_at": "2026-03-28T21:34:32.787810"
+    },
+    {
+      "id": 320705,
+      "title": "Your personal data is used to employ targeted third-party advertising",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 220,
+        "weight": 50,
+        "title": "Your personal data is used to employ targeted third-party advertising",
+        "localized_title": null,
+        "description": "Your Personal Information is traded and shared with advertising companies to target ads on you, either on the website you were visiting or in third party websites. Your interaction with the service and data you have shared with them may be gathered to create an advertising ID or profile.",
+        "updated_at": "2021-05-06T08:29:30.145481",
+        "created_at": "2018-01-16T15:26:10.452350",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.279500",
+      "created_at": "2026-03-28T21:35:47.543901"
+    },
+    {
+      "id": 320706,
+      "title": "Third-party cookies are used for advertising",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 128,
+        "weight": 50,
+        "title": "Third-party cookies are used for advertising",
+        "localized_title": null,
+        "description": "The service's website sets third-party cookies (cookies that do not belong to their domain) for purposes not including statistics and analytics.",
+        "updated_at": "2021-05-06T08:27:20.175213",
+        "created_at": "2018-01-16T15:26:08.349479",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.289695",
+      "created_at": "2026-03-28T21:36:28.578321"
+    },
+    {
+      "id": 320709,
+      "title": "You can opt out of targeted advertising",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 219,
+        "weight": 50,
+        "title": "You can opt out of targeted advertising",
+        "localized_title": null,
+        "description": "The service employs your data to target ads to you, but you can opt-out of this interest-based advertising.",
+        "updated_at": "2021-03-27T16:51:25.883877",
+        "created_at": "2018-01-16T15:26:10.435599",
+        "topic_id": 57,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.320970",
+      "created_at": "2026-03-28T21:50:22.746270"
+    },
+    {
+      "id": 320713,
+      "title": "Your IP address is collected, which can be used to view your approximate location",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 399,
+        "weight": 50,
+        "title": "Your IP address is collected, which can be used to view your approximate location",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:11:11.748969",
+        "created_at": "2020-10-24T03:25:39.315313",
+        "topic_id": 56,
+        "classification": "neutral"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.360822",
+      "created_at": "2026-03-28T21:54:16.796700"
+    },
+    {
+      "id": 320711,
+      "title": "You can request access, correction and/or deletion of your data",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 195,
+        "weight": 50,
+        "title": "You can request access, correction and/or deletion of your data",
+        "localized_title": null,
+        "description": "Users have the right to access personal data hold by the Service, correct it and/or permanently delete it. This usually applies to Services GDPR compliants. ",
+        "updated_at": "2021-03-15T19:39:19.351488",
+        "created_at": "2018-01-16T15:26:09.802002",
+        "topic_id": 34,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.340961",
+      "created_at": "2026-03-28T21:52:23.612822"
+    },
+    {
+      "id": 320712,
+      "title": "The service reviews its privacy policy on a regular basis",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 301,
+        "weight": 50,
+        "title": "The service reviews its Privacy Policy on a regular basis",
+        "localized_title": null,
+        "description": "Users know the date the privacy policy was last updated and can thus infer the next time it will be reviewed. This gives users more certainty about how long they can trust the current policy to apply.",
+        "updated_at": "2026-04-23T05:57:10.875603",
+        "created_at": "2018-08-27T04:06:12.780745",
+        "topic_id": 46,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.350954",
+      "created_at": "2026-03-28T21:53:34.354496"
+    },
+    {
+      "id": 320714,
+      "title": "App required for this service requires broad device permissions",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 322,
+        "weight": 50,
+        "title": "App required for this service requires broad device permissions",
+        "localized_title": null,
+        "description": "The app of the service requires more device permissions than necessary. As a consequence it can compromise your privacy by accessing many functions and information from your device, such as precise location, contacts, device identifiers etc. ",
+        "updated_at": "2021-02-27T15:45:32.933193",
+        "created_at": "2018-08-29T11:00:24.358324",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.370538",
+      "created_at": "2026-03-28T21:55:28.527357"
+    },
+    {
+      "id": 320689,
+      "title": "Information is provided about what kind of information they collect",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 228,
+        "weight": 50,
+        "title": "Information is provided about what kind of personal information is collected",
+        "localized_title": null,
+        "description": "The Privacy Policy describes in detail the data collected through the website and through the services provided.",
+        "updated_at": "2026-04-24T03:22:27.415037",
+        "created_at": "2018-01-16T15:26:10.631312",
+        "topic_id": 36,
+        "classification": "good"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.098312",
+      "created_at": "2026-03-28T21:25:43.363097"
+    },
+    {
+      "id": 320691,
+      "title": "This service tracks you on other websites",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 129,
+        "weight": 50,
+        "title": "You may be tracked on other websites",
+        "localized_title": null,
+        "description": "The service may use tracking technologies in third-party websites to track your online activity while you aren't visiting their Site.\r\n",
+        "updated_at": "2026-04-22T21:47:52.645107",
+        "created_at": "2018-01-16T15:26:08.370367",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.119507",
+      "created_at": "2026-03-28T21:26:46.061055"
+    },
+    {
+      "id": 320698,
+      "title": "Your personal data is used to employ targeted third-party advertising",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 220,
+        "weight": 50,
+        "title": "Your personal data is used to employ targeted third-party advertising",
+        "localized_title": null,
+        "description": "Your Personal Information is traded and shared with advertising companies to target ads on you, either on the website you were visiting or in third party websites. Your interaction with the service and data you have shared with them may be gathered to create an advertising ID or profile.",
+        "updated_at": "2021-05-06T08:29:30.145481",
+        "created_at": "2018-01-16T15:26:10.452350",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 38,
+      "updated_at": "2026-05-18T11:55:05.208282",
+      "created_at": "2026-03-28T21:30:19.909807"
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "id": 8374,
+  "is_comprehensively_reviewed": true,
+  "name": "Perplexity AI",
+  "updated_at": "2026-04-07T22:49:19.730552",
+  "created_at": "2023-05-18T16:19:58.154142",
+  "slug": "perplexity-ai",
+  "rating": "D",
+  "urls": [
+    "perplexity.ai"
+  ],
+  "image": "https://s3.tosdr.org/logos/8374.png",
+  "documents": [
+    {
+      "id": 16261,
+      "name": "Terms of Service",
+      "url": "https://www.perplexity.ai/tos",
+      "updated_at": "2024-11-08T11:30:51.851576",
+      "created_at": "2023-05-18T16:20:22.850448"
+    },
+    {
+      "id": 16260,
+      "name": "Privacy Policy",
+      "url": "https://www.perplexity.ai/privacy",
+      "updated_at": "2024-11-08T11:42:08.220194",
+      "created_at": "2023-05-18T16:19:58.184093"
+    }
+  ],
+  "points": [
+    {
+      "id": 130198,
+      "title": "There is a date of the last update of the agreements",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "As seen at the top of the policy page the current version of the policy has been effective since February 05, 2026 as of April 2026.",
+      "case": {
+        "id": 331,
+        "weight": 50,
+        "title": "There is a date of the last update of the agreements",
+        "localized_title": null,
+        "description": "The given text has a date that allows to know when it was last updated.",
+        "updated_at": "2021-03-27T16:59:06.252181",
+        "created_at": "2018-09-15T15:08:09.700759",
+        "topic_id": 38,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T17:33:35.066597",
+      "created_at": "2025-10-24T20:08:56.003401"
+    },
+    {
+      "id": 129976,
+      "title": "The terms may be changed at any time, but you will receive notification of the changes",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": " “We may modify this Privacy Policy from time to time, in which case we will update the “Last Updated” date at the top of this Privacy Policy, If we make material changes to the way in which we use or disclose information we collect, we will use reasonable efforts to notify you (such as by emailing you at the last email address you provided us, by posting notice of such changes on the Services, or by other means consistent with applicable law) and will take additional steps as required by applicable law.”",
+      "case": {
+        "id": 122,
+        "weight": 50,
+        "title": "The terms may be changed at any time, but you will receive notification of the changes",
+        "localized_title": null,
+        "description": "The Terms may be updated without prior notice, but users will be notified of the changes at the moment they will start applying.",
+        "updated_at": "2021-05-07T16:23:11.148598",
+        "created_at": "2018-01-16T15:26:08.192931",
+        "topic_id": 46,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:43:04.289970",
+      "created_at": "2025-05-10T22:37:02.463178"
+    },
+    {
+      "id": 129977,
+      "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage.",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"By using any of the Services, you agree to the collection, use, and disclosure of your information as described in this Privacy Policy. If you do not agree to this Privacy Policy, please do not use or access the Services.\"",
+      "case": {
+        "id": 403,
+        "weight": 50,
+        "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+        "localized_title": null,
+        "description": "The Service infers your acceptance from your continued usage, instead of prompting you to read the new Terms and asking for direct consent. This doesn’t apply to services that have no way to seek consent from users through their contact details or an account.",
+        "updated_at": "2026-04-01T01:57:47.111082",
+        "created_at": "2020-12-30T03:17:35.286075",
+        "topic_id": 46,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:44:27.769693",
+      "created_at": "2025-05-10T22:38:13.840438"
+    },
+    {
+      "id": 129978,
+      "title": "Your personal data is used for automated decision-making, profiling or AI training",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"In addition to the specific uses described above, we may use any of the above information to provide you with and improve the Services (including our AI models) and to maintain our business relationship, including by enhancing the safety and security of our Services (e.g., troubleshooting, data analysis, testing, system maintenance, and reporting), providing customer support, sending service and other non-marketing communications, monitoring and analyzing trends, and conducting internal research and development.\"",
+      "case": {
+        "id": 504,
+        "weight": 50,
+        "title": "Your personal data is used for automated decision-making, profiling or AI training",
+        "localized_title": null,
+        "description": "Personal data or content you share with the service may be processed to make decisions by automated means without human involvement. This includes profiling, which is any form of automated processing of your information to analyse or predict things like your economic situation, health, personal preferences or interests; as well as Artificial Intelligence training.",
+        "updated_at": "2023-05-20T20:14:57.173997",
+        "created_at": "2023-05-20T20:14:57.173997",
+        "topic_id": 41,
+        "classification": "blocker"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:39:24.915626",
+      "created_at": "2025-05-10T22:45:14.111776"
+    },
+    {
+      "id": 129979,
+      "title": "Your personal data is aggregated into statistics",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"We use Usage Data in our legitimate interests to tailor features and content to you, run analytics and measure and better understand user interaction with the Services, and we may permit third parties to use Usage Data for such purposes.\"",
+      "case": {
+        "id": 190,
+        "weight": 50,
+        "title": "Your personal data is aggregated into statistics",
+        "localized_title": null,
+        "description": "Your personal data is used for statistics in a de-identified/aggregated form (i.e. not directly linked to a unique identity) to analyse trends, for research and for analytics.",
+        "updated_at": "2021-02-25T11:55:50.916941",
+        "created_at": "2018-01-16T15:26:09.717516",
+        "topic_id": 41,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:41:18.157680",
+      "created_at": "2025-05-10T22:48:33.065041"
+    },
+    {
+      "id": 129981,
+      "title": "You can delete your content from this service",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"Right to Delete.  You may have a right to request that we delete personal information we maintain about you.\"",
+      "case": {
+        "id": 175,
+        "weight": 50,
+        "title": "You can delete your content from this service",
+        "localized_title": null,
+        "description": "You can ask the service to remove your content at any time, and it's deleted within a reasonable time.",
+        "updated_at": "2021-02-27T14:23:56.238878",
+        "created_at": "2018-01-16T15:26:09.452580",
+        "topic_id": 45,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:41:28.759170",
+      "created_at": "2025-05-10T22:58:04.976293"
+    },
+    {
+      "id": 129983,
+      "title": "Your IP address is collected, which can be used to view your approximate location",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"Device information, such as device type, operating system, unique device identifier, and internet protocol (IP) address.\"",
+      "case": {
+        "id": 399,
+        "weight": 50,
+        "title": "Your IP address is collected, which can be used to view your approximate location",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:11:11.748969",
+        "created_at": "2020-10-24T03:25:39.315313",
+        "topic_id": 56,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:39:17.978477",
+      "created_at": "2025-05-10T23:04:55.630702"
+    },
+    {
+      "id": 129982,
+      "title": "This service may collect, use, and share location data",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"We and certain third parties also automatically collect certain information about your interaction with the Services (“Usage Data”) through the use of cookies, pixels, tags and other tracking technologies (“Tracking Technologies”). Usage Data includes:\r\n\r\nDevice information, such as device type, operating system, unique device identifier, and internet protocol (IP) address.\r\n\r\nLocation information, such as approximate location.\"",
+      "case": {
+        "id": 373,
+        "weight": 50,
+        "title": "Location data may be collected, used and/or shared",
+        "localized_title": null,
+        "description": "Location-based information is collected and may be used and/or shared with third parties for purposes not directly related to the services provided (i.e. the Service doesn't rely on the use or share of location data to function properly).",
+        "updated_at": "2026-04-22T21:50:24.507177",
+        "created_at": "2018-10-21T09:37:52.750314",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:38:42.051211",
+      "created_at": "2025-05-10T23:03:50.431238"
+    },
+    {
+      "id": 129980,
+      "title": "Many different types of personal data are collected",
+      "source": "https://www.perplexity.ai/fr/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "\"When you use or access the Services, we collect certain categories of information about you from a variety of sources.\"\r\n\"Basic contact details, such as name, address, phone number, and email (“Contact Information”).\"\r\n\"Payment information, such as credit or debit card information and billing address, which we collect using a third party payment processor (“Payment Information”).\"\r\n\"Applicant details, such as information included in your resume or CV, references, and job history (“Applicant Information”).\"\r\n\"Your input and output, such as questions, prompts and other content that you input, upload or submit to the Services, and the output that you create, and any collections or pages that you generate using the Services (“Service Interaction Information”).\"\r\n\"We and certain third parties also automatically collect certain information about your interaction with the Services (“Usage Data”) through the use of cookies, pixels, tags and other tracking technologies (“Tracking Technologies”). Usage Data includes:\r\n\r\nDevice information, such as device type, operating system, unique device identifier, and internet protocol (IP) address.\r\n\r\nLocation information, such as approximate location.\r\n\r\nOther information regarding your interaction with the Services, such as browser type, log data, date and time stamps, clickstream data, interactions with marketing emails, and ad impressions.\"\r\n",
+      "case": {
+        "id": 376,
+        "weight": 50,
+        "title": "Many different types of personal data are collected",
+        "localized_title": null,
+        "description": "The service collects different kinds of personal data, such as name, demographic information, postal address, biometric data, device information, IDs, contacts, call logs...",
+        "updated_at": "2021-05-06T08:08:55.809152",
+        "created_at": "2018-10-23T23:28:53.357252",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2025-10-15T19:42:19.599998",
+      "created_at": "2025-05-10T22:53:02.055002"
+    },
+    {
+      "id": 130184,
+      "title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header.",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "As stated: in the policy: \"Your browser settings may allow you to transmit a ‘do not track’ signal. Like many websites, our website is not designed to respond to such signals\"",
+      "case": {
+        "id": 233,
+        "weight": 50,
+        "title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header",
+        "localized_title": null,
+        "description": "Even though the Do Not Track (DNT) header was not implemented perfectly, services should not track users whose browsers send a DNT header.",
+        "updated_at": "2026-04-04T07:22:52.842699",
+        "created_at": "2018-06-26T12:04:59.070418",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T06:58:37.343119",
+      "created_at": "2025-10-24T19:10:11.136993"
+    },
+    {
+      "id": 130186,
+      "title": "Your personal information is used for many different purposes",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "Is is stated that your data (including personal data) may be used for: Service Improvements(Including AI models), business relation, safety and security, troubleshotting, data anlalysis, testing, system maintenance, reporting, customer support, service and non-marketing communications, monitoring and analysing trends, enforce terms of service, internal R&D, law and any legal obligations and protecting the services' rights, employee's rights and other users' rights.\r\n\r\nAs stated here: \"In addition to the specific uses described above, we may use any of the above information to provide you with and improve the Services (including our AI models) and to maintain our business relationship, including by enhancing the safety and security of our Services (e.g., troubleshooting, data analysis, testing, system maintenance, and reporting), providing customer support, sending service and other non-marketing communications, monitoring and analyzing trends, and conducting internal research and development. We may also use the information to comply with applicable legal obligations, enforce any applicable terms of service, and protect the Services, our rights, and the rights of our employees, users or other individuals.\"",
+      "case": {
+        "id": 185,
+        "weight": 50,
+        "title": "Your personal information is used for many different purposes",
+        "localized_title": null,
+        "description": "Personal Data can be processed for many reasons, including non essential processing such as for advertising, marketing and analytics purposes.",
+        "updated_at": "2021-05-06T08:13:23.465634",
+        "created_at": "2018-01-16T15:26:09.649723",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T06:58:02.985389",
+      "created_at": "2025-10-24T19:20:15.874311"
+    },
+    {
+      "id": 130189,
+      "title": "This service is only available to users 13 years or older, or a regions minimum age if different",
+      "source": "https://www.perplexity.ai/hub/legal/terms-of-service",
+      "status": "approved",
+      "analysis": "Children under the age of 13 are not permitted to use the Services, or in the case of a region where the minimum age for processing personal information differs, such different age",
+      "case": {
+        "id": 152,
+        "weight": 50,
+        "title": "This service is only available to users over a certain age",
+        "localized_title": null,
+        "description": "The Services are intended for users who are at least a certain age. If you are younger than the age required then you are prohibited from using the Service.",
+        "updated_at": "2021-03-27T16:41:50.594690",
+        "created_at": "2018-01-16T15:26:08.952429",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T16:40:44.526906",
+      "created_at": "2025-10-24T19:32:58.214653"
+    },
+    {
+      "id": 130190,
+      "title": "Eligible minors over 13 must have the authorization of their legal guardians to use the service",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "As stated in section 1.2 of the ToS; \"Minors under the age of majority in their jurisdiction but that are at least 13 years of age are only permitted to use the Services if the minor’s parent or guardian accepts these Terms on the minor’s behalf prior to use of the Services\"",
+      "case": {
+        "id": 486,
+        "weight": 50,
+        "title": "Minors must have the authorization of their legal guardians to use the service",
+        "localized_title": null,
+        "description": "Minors must have the authorization of their legal guardians to use the services. The legal guardians are responsible for the use of the service by the minor.",
+        "updated_at": "2021-05-08T12:37:09.382832",
+        "created_at": "2021-05-08T12:37:09.382832",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T16:45:19.751041",
+      "created_at": "2025-10-24T19:35:04.882922"
+    },
+    {
+      "id": 130191,
+      "title": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "We retain your information for as long as is reasonably necessary for the purposes specified in this Privacy Policy. When determining the length of time to retain your information, we consider various criteria, including whether we need the information to continue to provide you the Services, resolve a dispute, enforce our contractual agreements, prevent harm, promote safety, security and integrity, or protect ourselves, including our rights, property or products.",
+      "case": {
+        "id": 303,
+        "weight": 50,
+        "title": "The data retention period is kept to the minimum necessary for fulfilling its purposes",
+        "localized_title": null,
+        "description": "The service will remove personal data from its systems once it is no longer required. Depending on the type of information and the reason it was collected, data retention periods will vary.",
+        "updated_at": "2021-05-06T08:07:14.388141",
+        "created_at": "2018-08-27T05:14:18.155888",
+        "topic_id": 45,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T06:56:54.706089",
+      "created_at": "2025-10-24T19:43:55.315161"
+    },
+    {
+      "id": 130192,
+      "title": "Blocking first party cookies may limit your ability to use the service",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "As stated in section 3 of the policy; \"you may block or delete our cookies from your browser or limit cross-site tracking; however, blocking or deleting cookies may cause some of the Services, including certain features and general functionality, to work incorrectly\"",
+      "case": {
+        "id": 375,
+        "weight": 50,
+        "title": "Blocking first-party cookies may limit your ability to use the service",
+        "localized_title": null,
+        "description": "Most browsers allow users to set preferences related to cookies storage. You may choose to block all cookies (including first-party cookies), but it may impact your use of this service and you may not be able to access some or any of the features provided.",
+        "updated_at": "2026-05-12T16:24:31.325353",
+        "created_at": "2018-10-21T10:14:30.867458",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T16:41:02.184564",
+      "created_at": "2025-10-24T19:47:52.433462"
+    },
+    {
+      "id": 130193,
+      "title": "Information is provided about what kind of information they collect",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "Section 2 of the privacy policy provides a list of all the kinds of information collected based on these 3 groups: 'Information You Provide to Us', 'Information Collected Automatically' and 'Information Collected From Other Sources'. ",
+      "case": {
+        "id": 228,
+        "weight": 50,
+        "title": "Information is provided about what kind of personal information is collected",
+        "localized_title": null,
+        "description": "The Privacy Policy describes in detail the data collected through the website and through the services provided.",
+        "updated_at": "2026-04-24T03:22:27.415037",
+        "created_at": "2018-01-16T15:26:10.631312",
+        "topic_id": 36,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-07T22:48:48.957880",
+      "created_at": "2025-10-24T19:50:51.313644"
+    },
+    {
+      "id": 130196,
+      "title": "The service claims to be GDPR compliant for European users",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "The service doesn't state GDPR compliance directly, but it is implied (as section 11's 'Your Rights and Choices) and backed up with mentions of protocols that are common to the GDPR in section 10, like the 'DPF' (Data Privacy Framework) and compliance with European DPA's (Data Protection Authorities)",
+      "case": {
+        "id": 481,
+        "weight": 50,
+        "title": "The service claims to be GDPR compliant for European users",
+        "localized_title": null,
+        "description": "The service has a different behavior towards users protected by the GDPR.",
+        "updated_at": "2021-05-02T12:49:40.815109",
+        "created_at": "2021-05-02T12:49:40.815109",
+        "topic_id": 44,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-07T22:47:34.405805",
+      "created_at": "2025-10-24T20:03:40.674447"
+    },
+    {
+      "id": 130187,
+      "title": "You can request access, correction and/or deletion of your data, depending on where you live",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "Under section 11 of the policy it is stated that depending of residence in EU, UK, LA etc. \"you may have the ability to perform the actions listed below, however, in certain cases the service may decline your request as permitted by law.\"\r\n\r\n- Right to Access / Know.\r\n- Right to Delete.\r\n- Right to Correct.\r\n- Right of Portability.\r\n- Restriction of Processing. \r\n- Objection. You may have the right to object to our processing of personal information.\r\n- Withdrawal of Consent. (the withdrawal of consent does not affect the lawfulness processed data before its withdrawal)\r\n\r\n",
+      "case": {
+        "id": 195,
+        "weight": 50,
+        "title": "You can request access, correction and/or deletion of your data",
+        "localized_title": null,
+        "description": "Users have the right to access personal data hold by the Service, correct it and/or permanently delete it. This usually applies to Services GDPR compliants. ",
+        "updated_at": "2021-03-15T19:39:19.351488",
+        "created_at": "2018-01-16T15:26:09.802002",
+        "topic_id": 34,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-07T22:49:02.227227",
+      "created_at": "2025-10-24T19:27:24.302373"
+    },
+    {
+      "id": 130183,
+      "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage.",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "It is stated that under section 1 in the privacy policy that: \"If you do not agree to any updates to this Privacy Policy, please do not continue using or accessing the Services.\" which implies that it is the users responsibility to stop using the product after any updates. Additionally, no checkbox or 'agreement' is required for the use of this service, as agreement is implied on use.",
+      "case": {
+        "id": 403,
+        "weight": 50,
+        "title": "Instead of asking directly, this Service will assume your consent to changes of terms merely from your usage",
+        "localized_title": null,
+        "description": "The Service infers your acceptance from your continued usage, instead of prompting you to read the new Terms and asking for direct consent. This doesn’t apply to services that have no way to seek consent from users through their contact details or an account.",
+        "updated_at": "2026-04-01T01:57:47.111082",
+        "created_at": "2020-12-30T03:17:35.286075",
+        "topic_id": 46,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T16:39:35.580872",
+      "created_at": "2025-10-24T19:08:12.513427"
+    },
+    {
+      "id": 130185,
+      "title": "Third-party cookies are used for advertising",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "It is stated that under the subheading 'Information Collected From Other Sources' that: \"Information we receive from consumer marketing databases or other data enrichment companies, which we use in our legitimate interests to better customize advertising and marketing to you (“Advertising Information”).\"",
+      "case": {
+        "id": 128,
+        "weight": 50,
+        "title": "Third-party cookies are used for advertising",
+        "localized_title": null,
+        "description": "The service's website sets third-party cookies (cookies that do not belong to their domain) for purposes not including statistics and analytics.",
+        "updated_at": "2021-05-06T08:27:20.175213",
+        "created_at": "2018-01-16T15:26:08.349479",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T06:59:03.996141",
+      "created_at": "2025-10-24T19:12:51.967870"
+    },
+    {
+      "id": 130188,
+      "title": "You can opt out of promotional communications",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "As stated in the end of section 11 of the privacy policy; \"You may choose to stop receiving personalized advertising or marketing promotions from us when using the Services by contacting us at our email address\" at support@perplexity.ai (as of April 2026)",
+      "case": {
+        "id": 223,
+        "weight": 50,
+        "title": "You can opt out of promotional communications",
+        "localized_title": null,
+        "description": "You can update your account preferences and/or easily unsubscribe of email/sms lists to stop receiving promotional communications.",
+        "updated_at": "2021-03-27T16:51:44.689443",
+        "created_at": "2018-01-16T15:26:10.532434",
+        "topic_id": 34,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T16:39:18.467317",
+      "created_at": "2025-10-24T19:29:27.484920"
+    },
+    {
+      "id": 321311,
+      "title": "Your data is processed and stored in a country that is less friendly to user privacy protection",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "In section 10 of the policy it is stated that \"we have servers for the Service in the US\" but that the service can \"transfer [any] of your personal information to third parties (if any), which may include the cross-border transfer of your information to any country or region where we have databases or affiliates\"",
+      "case": {
+        "id": 411,
+        "weight": 50,
+        "title": "Your data is processed and stored in a country that is less friendly to user privacy protection",
+        "localized_title": null,
+        "description": "This case means that user data is not anywhere in the world, but somewhere where it is more likely to be obtained and used by government and/or possible data analysts.",
+        "updated_at": "2021-03-11T17:58:41.719187",
+        "created_at": "2021-03-11T17:58:28.661818",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-05T17:33:23.808946",
+      "created_at": "2026-04-05T17:16:11.784387"
+    },
+    {
+      "id": 130194,
+      "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+      "source": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "status": "approved",
+      "analysis": "Is is stated in section 4 of the policy under 'Business Transactions' that the service will \"share personal information with a prospective buyer, seller, new owner, or other relevant third party as necessary while negotiating or in relation to a change of corporate control such as a restructuring, merger, asset sale or purchase, bankruptcy or other business transaction or re-organization. We do this in our legitimate interest to run a successful and compliant business, and as required by applicable law.\"",
+      "case": {
+        "id": 243,
+        "weight": 50,
+        "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+        "localized_title": null,
+        "description": "If the service gets acquired or is involved in a merger, bankruptcy, reorganisation or sale, your personal data may be transferred or sold.",
+        "updated_at": "2021-05-06T08:18:13.688385",
+        "created_at": "2018-08-08T06:24:47.607478",
+        "topic_id": 39,
+        "classification": "bad"
+      },
+      "document_id": null,
+      "updated_at": "2026-04-07T22:47:45.163930",
+      "created_at": "2025-10-24T19:52:36.042735"
+    }
+  ]
+}
