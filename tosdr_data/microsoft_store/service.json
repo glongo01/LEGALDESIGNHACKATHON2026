@@ -1,0 +1,290 @@
+{
+  "id": 202,
+  "is_comprehensively_reviewed": false,
+  "name": "Microsoft Store",
+  "updated_at": "2023-07-10T22:00:49.377691",
+  "created_at": "2018-01-16T15:26:05.874692",
+  "slug": "microsoft_store",
+  "rating": "D",
+  "urls": [
+    "microsoft.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/202.png",
+  "documents": [
+    {
+      "id": 454,
+      "name": "Privacy Statement",
+      "url": "https://privacy.microsoft.com/en-us/privacystatement#",
+      "updated_at": "2020-12-14T19:21:30.926681",
+      "created_at": "2018-08-29T13:58:02.121261"
+    },
+    {
+      "id": 455,
+      "name": "Terms of Use",
+      "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "updated_at": "2020-12-14T19:21:57.568413",
+      "created_at": "2018-08-29T13:58:24.136412"
+    },
+    {
+      "id": 559,
+      "name": "Terms of Sale",
+      "url": "https://www.microsoft.com/en-ca/store/b/terms-of-sale",
+      "updated_at": "2024-11-08T11:06:08.994556",
+      "created_at": "2018-09-22T22:39:51.030155"
+    }
+  ],
+  "points": [
+    {
+      "id": 15368,
+      "title": "You maintain ownership of your data",
+      "source": "https://www.microsoft.com/en-ca/store/b/terms-of-sale",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 183,
+        "weight": 50,
+        "title": "You maintain ownership of your content",
+        "localized_title": null,
+        "description": "This service does not claim ownership over user-generated content or materials, and the user doesn't need to waive any moral rights by posting owned content.",
+        "updated_at": "2021-02-27T11:57:10.726037",
+        "created_at": "2018-01-16T15:26:09.611656",
+        "topic_id": 27,
+        "classification": "good"
+      },
+      "document_id": 559,
+      "updated_at": "2023-07-11T06:33:37.098509",
+      "created_at": "2021-02-01T13:14:02.827287"
+    },
+    {
+      "id": 15367,
+      "title": "This service receives your percise location through GPS coordinates",
+      "source": "https://privacy.microsoft.com/en-us/privacystatement#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 400,
+        "weight": 50,
+        "title": "This service receives your precise location through GPS coordinates",
+        "localized_title": null,
+        "description": "Unless the service relies on Geo Location, this case is to be assigned to points that don't need your GPS coordinates to function properly.",
+        "updated_at": "2021-02-18T10:56:40.735475",
+        "created_at": "2020-10-24T03:32:35.365968",
+        "topic_id": 56,
+        "classification": "bad"
+      },
+      "document_id": 454,
+      "updated_at": "2023-07-11T06:33:37.790409",
+      "created_at": "2021-02-01T13:13:39.966342"
+    },
+    {
+      "id": 16619,
+      "title": "There is a date of the last update of the agreements",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 331,
+        "weight": 50,
+        "title": "There is a date of the last update of the agreements",
+        "localized_title": null,
+        "description": "The given text has a date that allows to know when it was last updated.",
+        "updated_at": "2021-03-27T16:59:06.252181",
+        "created_at": "2018-09-15T15:08:09.700759",
+        "topic_id": 38,
+        "classification": "neutral"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:09:18.183429",
+      "created_at": "2021-02-16T07:48:51.199500"
+    },
+    {
+      "id": 16620,
+      "title": " Terms may be changed any time at their discretion, without notice to the user ",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 121,
+        "weight": 50,
+        "title": " Terms may be changed any time at their discretion, without notice to you ",
+        "localized_title": null,
+        "description": "The Agreements can be updated at any time, including in a way that negatively affects user rights, without notifying before or after the changes.",
+        "updated_at": "2021-05-06T08:45:26.936883",
+        "created_at": "2018-01-16T15:26:08.180238",
+        "topic_id": 46,
+        "classification": "bad"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:09:18.267259",
+      "created_at": "2021-02-16T07:50:08.638220"
+    },
+    {
+      "id": 16621,
+      "title": "This service is only available for use individually and non-commercially.",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 143,
+        "weight": 50,
+        "title": "This service is only available for use individually and non-commercially",
+        "localized_title": null,
+        "description": "Users can't use the Service for commercial purposes (unless the Service consents): it is only for personal, individual purposes.",
+        "updated_at": "2026-04-04T07:23:29.016960",
+        "created_at": "2018-01-16T15:26:08.727572",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:09:18.704598",
+      "created_at": "2021-02-16T07:51:00.364164"
+    },
+    {
+      "id": 16622,
+      "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 148,
+        "weight": 50,
+        "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+        "localized_title": null,
+        "description": "You are responsible for protecting the confidentiality of your password and for maintaining the security of your account. Any activity occurring under your account is your responsibility, whether authorized by you or not. ",
+        "updated_at": "2021-03-27T16:40:43.393615",
+        "created_at": "2018-01-16T15:26:08.835939",
+        "topic_id": 50,
+        "classification": "neutral"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:09:19.775055",
+      "created_at": "2021-02-16T08:06:37.814927"
+    },
+    {
+      "id": 16623,
+      "title": "Users shall not interfere with another person's enjoyment of the service",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Full Text: \"You may not use the Services in any manner that could damage, disable, overburden, or impair any Microsoft server, or the network(s) connected to any Microsoft server, or interfere with any other party's use and enjoyment of any Services\"",
+      "case": {
+        "id": 285,
+        "weight": 50,
+        "title": "You shall not interfere with another person's enjoyment of the service",
+        "localized_title": null,
+        "description": "Users are asked not to interfere with another person't enjoyment in using the service.\r\nHowever, this statement is very vague and open to interpretation by the service itself.",
+        "updated_at": "2021-05-06T08:40:39.091694",
+        "created_at": "2018-08-24T05:31:18.691665",
+        "topic_id": 52,
+        "classification": "bad"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:09:20.126053",
+      "created_at": "2021-02-16T08:10:37.894011"
+    },
+    {
+      "id": 15365,
+      "title": "This service gathers information about you through third parties",
+      "source": "https://privacy.microsoft.com/en-us/privacystatement#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 382,
+        "weight": 50,
+        "title": "Information is gathered about you through third parties",
+        "localized_title": null,
+        "description": "This Service may employ, either identifiable or non-identifiable, data collection from third party sources about you.",
+        "updated_at": "2021-05-06T08:29:07.413292",
+        "created_at": "2019-01-10T18:06:34.391114",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 454,
+      "updated_at": "2023-07-11T10:12:20.623701",
+      "created_at": "2021-02-01T13:11:57.815865"
+    },
+    {
+      "id": 15363,
+      "title": "The service can delete specific content without reason and may do it without prior notice",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 202,
+        "weight": 50,
+        "title": "Specific content can be deleted without reason and may be removed without prior notice",
+        "localized_title": null,
+        "description": " This service can delete specific content. Usually they will claim they reserve the right to do it at their sole discretion, which is legalese for saying they won't give a specific reason. If the terms say they will not notify you, it shall be included in the quote but if it does not explicitly say they will give you a notice, it can be reasonably inferred that they can do it without telling you.",
+        "updated_at": "2021-05-06T08:16:55.066703",
+        "created_at": "2018-01-16T15:26:09.934111",
+        "topic_id": 47,
+        "classification": "blocker"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:12:17.951305",
+      "created_at": "2021-02-01T13:11:04.018597"
+    },
+    {
+      "id": 15364,
+      "title": "The service can delete your account without prior notice and without a reason",
+      "source": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 201,
+        "weight": 50,
+        "title": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+        "localized_title": null,
+        "description": "At any time, your account can be terminated without explanation and without warning by the service. ",
+        "updated_at": "2024-04-11T15:32:51.319612",
+        "created_at": "2018-01-16T15:26:09.915249",
+        "topic_id": 47,
+        "classification": "bad"
+      },
+      "document_id": 455,
+      "updated_at": "2023-07-11T10:12:20.711441",
+      "created_at": "2021-02-01T13:11:22.070563"
+    },
+    {
+      "id": 15366,
+      "title": "Many third parties are involved in operating the service",
+      "source": "https://privacy.microsoft.com/en-us/privacystatement#",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 208,
+        "weight": 50,
+        "title": "Many third parties are involved in operating the service",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2018-07-11T08:34:24.680438",
+        "created_at": "2018-01-16T15:26:10.085781",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 454,
+      "updated_at": "2023-07-11T10:12:20.523993",
+      "created_at": "2021-02-01T13:12:54.206802"
+    },
+    {
+      "id": 145872,
+      "title": "They may stop providing the service at any time",
+      "source": "https://www.microsoft.com/en-ca/store/b/terms-of-sale",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 203,
+        "weight": 50,
+        "title": "They may stop providing the service at any time",
+        "localized_title": null,
+        "description": "They may discontinue the services without prior notice, at any time, for any or no reason. They usually assume no liability for losses and damages resulting from this suspension.",
+        "updated_at": "2021-05-14T14:37:19.462795",
+        "created_at": "2018-01-16T15:26:09.944198",
+        "topic_id": 47,
+        "classification": "neutral"
+      },
+      "document_id": 559,
+      "updated_at": "2026-04-25T13:27:22.026522",
+      "created_at": "2026-01-21T17:47:50.448419"
+    }
+  ]
+}

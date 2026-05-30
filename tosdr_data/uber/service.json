@@ -1,0 +1,691 @@
+{
+  "id": 252,
+  "is_comprehensively_reviewed": true,
+  "name": "Uber",
+  "updated_at": "2023-07-10T22:00:51.421914",
+  "created_at": "2018-01-16T15:26:06.924351",
+  "slug": "uber",
+  "rating": "E",
+  "urls": [
+    "uber.com",
+    "postmates.com",
+    "ubereats.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/252.png",
+  "documents": [
+    {
+      "id": 354,
+      "name": "Privacy Policy",
+      "url": "https://privacy.uber.com/",
+      "updated_at": "2020-12-14T15:52:35.069150",
+      "created_at": "2018-08-24T11:03:52.877972"
+    },
+    {
+      "id": 353,
+      "name": "Terms of Service",
+      "url": "https://www.uber.com/legal/terms/us/",
+      "updated_at": "2020-12-14T15:52:25.492658",
+      "created_at": "2018-08-24T11:03:48.361533"
+    },
+    {
+      "id": 538,
+      "name": "Copyright policy - US",
+      "url": "https://www.uber.com/legal/en/document/?country=united-states&lang=en&name=report-copyright-infringement",
+      "updated_at": "2024-11-08T11:13:31.211581",
+      "created_at": "2018-09-15T22:17:20.128120"
+    }
+  ],
+  "points": [
+    {
+      "id": 1463,
+      "title": "The service can delete your account without prior notice and without a reason",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "At any time, your account can be terminated without explanation and without warning by the service. ",
+      "case": {
+        "id": 201,
+        "weight": 50,
+        "title": "Your account can be deleted or permanently suspended without prior notice and without a reason",
+        "localized_title": null,
+        "description": "At any time, your account can be terminated without explanation and without warning by the service. ",
+        "updated_at": "2024-04-11T15:32:51.319612",
+        "created_at": "2018-01-16T15:26:09.915249",
+        "topic_id": 47,
+        "classification": "bad"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T06:33:01.287035",
+      "created_at": "2018-05-15T09:11:49.931888"
+    },
+    {
+      "id": 18654,
+      "title": "This service collects your IP address, which can be used to view your approximate location",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 399,
+        "weight": 50,
+        "title": "Your IP address is collected, which can be used to view your approximate location",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:11:11.748969",
+        "created_at": "2020-10-24T03:25:39.315313",
+        "topic_id": 56,
+        "classification": "neutral"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:11:32.564875",
+      "created_at": "2021-04-12T08:15:50.676566"
+    },
+    {
+      "id": 18653,
+      "title": "There is a date of the last update of the agreements",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 331,
+        "weight": 50,
+        "title": "There is a date of the last update of the agreements",
+        "localized_title": null,
+        "description": "The given text has a date that allows to know when it was last updated.",
+        "updated_at": "2021-03-27T16:59:06.252181",
+        "created_at": "2018-09-15T15:08:09.700759",
+        "topic_id": 38,
+        "classification": "neutral"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:11:32.656017",
+      "created_at": "2021-04-12T08:14:57.147830"
+    },
+    {
+      "id": 18656,
+      "title": "Your biometric data is collected",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 397,
+        "weight": 50,
+        "title": "Your biometric data is collected",
+        "localized_title": null,
+        "description": "This service can collect or use your biometric data. This includes but is not limited to facial recognition, fingerprints, and iris scans. Although this feature can sometimes be convenient to the user, providing this type of information to the service could open your personal data to being sold or stolen.",
+        "updated_at": "2020-10-24T03:11:59.592826",
+        "created_at": "2020-09-11T22:33:35.876997",
+        "topic_id": 56,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:11:43.369361",
+      "created_at": "2021-04-12T08:22:23.434619"
+    },
+    {
+      "id": 18665,
+      "title": "The service can intervene in user disputes",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 276,
+        "weight": 50,
+        "title": "The service can intervene in user disputes",
+        "localized_title": null,
+        "description": "If you have a dispute with another user on this service, they can review the issue and intervene. However, they don't have an obligation to do so.\r\n\r\n",
+        "updated_at": "2018-08-16T14:20:48.892529",
+        "created_at": "2018-08-16T14:20:48.892529",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:11:46.353967",
+      "created_at": "2021-04-12T08:43:41.845882"
+    },
+    {
+      "id": 18670,
+      "title": "This service is only available to users over a certain age",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 152,
+        "weight": 50,
+        "title": "This service is only available to users over a certain age",
+        "localized_title": null,
+        "description": "The Services are intended for users who are at least a certain age. If you are younger than the age required then you are prohibited from using the Service.",
+        "updated_at": "2021-03-27T16:41:50.594690",
+        "created_at": "2018-01-16T15:26:08.952429",
+        "topic_id": 31,
+        "classification": "neutral"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T10:11:52.653081",
+      "created_at": "2021-04-12T09:01:43.256886"
+    },
+    {
+      "id": 18669,
+      "title": "You must create an account to use this service",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 230,
+        "weight": 50,
+        "title": "You must create an account to use this service",
+        "localized_title": null,
+        "description": "You must provide the service with your information in order to use it",
+        "updated_at": "2021-05-14T14:37:23.623179",
+        "created_at": "2018-01-16T15:26:10.674031",
+        "topic_id": 36,
+        "classification": "neutral"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T10:12:14.134190",
+      "created_at": "2021-04-12T09:01:07.810526"
+    },
+    {
+      "id": 18668,
+      "title": "Users should revisit the terms periodically, although in case of material changes, the service will notify",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 329,
+        "weight": 50,
+        "title": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+        "localized_title": null,
+        "description": "The service may update the Terms without notice, but if they significantly change the agreements in a manner that importantly and/or negatively affects the way the service is used, users will be notified.",
+        "updated_at": "2021-05-06T08:45:04.837282",
+        "created_at": "2018-09-10T12:21:49.956070",
+        "topic_id": 46,
+        "classification": "neutral"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:14:37.054385",
+      "created_at": "2021-04-12T08:54:23.832518"
+    },
+    {
+      "id": 18662,
+      "title": "This service tracks you on other websites",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 129,
+        "weight": 50,
+        "title": "You may be tracked on other websites",
+        "localized_title": null,
+        "description": "The service may use tracking technologies in third-party websites to track your online activity while you aren't visiting their Site.\r\n",
+        "updated_at": "2026-04-22T21:47:52.645107",
+        "created_at": "2018-01-16T15:26:08.370367",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:14:35.682802",
+      "created_at": "2021-04-12T08:38:21.441173"
+    },
+    {
+      "id": 18664,
+      "title": "Private messages can be read",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 239,
+        "weight": 50,
+        "title": "Private messages can be read",
+        "localized_title": null,
+        "description": "The Service is able to access, scan, review or read all user communications, including private messages, which may contain personal or sensitive data.",
+        "updated_at": "2021-05-31T21:12:36.233269",
+        "created_at": "2018-07-22T09:27:23.303262",
+        "topic_id": 41,
+        "classification": "blocker"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:14:36.105212",
+      "created_at": "2021-04-12T08:43:14.525129"
+    },
+    {
+      "id": 18666,
+      "title": "Your profile is combined across various products",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 326,
+        "weight": 50,
+        "title": "Your profile is combined across various products",
+        "localized_title": null,
+        "description": "When using multiple services from one same company, they can combine these (unrelated) information sources about you to build up a single richer user profile about you.",
+        "updated_at": "2018-08-31T13:16:23.785562",
+        "created_at": "2018-08-31T13:15:57.978585",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:14:36.192931",
+      "created_at": "2021-04-12T08:46:38.663908"
+    },
+    {
+      "id": 18661,
+      "title": "Third-party cookies are used for statistics",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 325,
+        "weight": 50,
+        "title": "Third-party cookies are used for statistics",
+        "localized_title": null,
+        "description": "For instance, Google Analytics, rather than self-hosted (first-party) statistics software.",
+        "updated_at": "2021-03-27T16:58:36.867072",
+        "created_at": "2018-08-31T12:09:15.853779",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:14:36.283085",
+      "created_at": "2021-04-12T08:38:06.896014"
+    },
+    {
+      "id": 20147,
+      "title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 323,
+        "weight": 50,
+        "title": "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+        "localized_title": null,
+        "description": "Tracking technologies (such as web beacons, tracking pixels...) are employed on users and/or the service assigns a unique ID to a browser or device to track its behaviour.",
+        "updated_at": "2021-05-06T08:12:43.922005",
+        "created_at": "2018-08-29T11:07:14.686490",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:33.733526",
+      "created_at": "2021-05-09T21:05:19.047072"
+    },
+    {
+      "id": 20148,
+      "title": "This service shares your personal data with third parties that are not involved in its operation",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 166,
+        "weight": 50,
+        "title": "This service shares your personal data with third parties that are not essential to its operation",
+        "localized_title": null,
+        "description": "Your personal data is or may be given to third parties nonessential to the service’s operation. This could be a business partner that receives your data to provide targeted advertisements.",
+        "updated_at": "2021-07-02T15:20:09.009467",
+        "created_at": "2018-01-16T15:26:09.231802",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:33.817129",
+      "created_at": "2021-05-09T21:06:35.850691"
+    },
+    {
+      "id": 20162,
+      "title": "Information is provided about how your personal data is used",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 227,
+        "weight": 50,
+        "title": "Information is provided about how your personal data is used",
+        "localized_title": null,
+        "description": "The Privacy Policy explains the purposes for which data is collected and the way it is processed, used and shared.",
+        "updated_at": "2021-05-06T08:00:39.315952",
+        "created_at": "2018-01-16T15:26:10.619333",
+        "topic_id": 36,
+        "classification": "good"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:34.437379",
+      "created_at": "2021-05-09T21:16:44.304760"
+    },
+    {
+      "id": 20158,
+      "title": "Your data may be processed and stored anywhere in the world",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 187,
+        "weight": 50,
+        "title": "Your data may be processed and stored anywhere in the world",
+        "localized_title": null,
+        "description": "Your data is stored all over the world, including in countries where data protection rules may differ from the ones of the service's jurisdiction or those of your country jurisdiction.",
+        "updated_at": "2021-03-27T16:49:08.698243",
+        "created_at": "2018-01-16T15:26:09.675651",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:34.708773",
+      "created_at": "2021-05-09T21:14:07.761814"
+    },
+    {
+      "id": 20160,
+      "title": "Many different types of personal data are collected",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 376,
+        "weight": 50,
+        "title": "Many different types of personal data are collected",
+        "localized_title": null,
+        "description": "The service collects different kinds of personal data, such as name, demographic information, postal address, biometric data, device information, IDs, contacts, call logs...",
+        "updated_at": "2021-05-06T08:08:55.809152",
+        "created_at": "2018-10-23T23:28:53.357252",
+        "topic_id": 41,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:34.785717",
+      "created_at": "2021-05-09T21:14:42.637505"
+    },
+    {
+      "id": 20149,
+      "title": "This service gives your personal data to third parties involved in its operation",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 188,
+        "weight": 50,
+        "title": "This service gives your personal data to third parties involved in its operation",
+        "localized_title": null,
+        "description": "Your personal data is or may be given to third parties essential to the service’s operation. This could be an external spam detection service for an internet forum.",
+        "updated_at": "2021-03-11T17:16:34.893185",
+        "created_at": "2018-01-16T15:26:09.684316",
+        "topic_id": 48,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:34.866841",
+      "created_at": "2021-05-09T21:06:56.995299"
+    },
+    {
+      "id": 20152,
+      "title": "Sensitive data is collected and shared to target advertising",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Marketing communications based on political opinions.",
+      "case": {
+        "id": 487,
+        "weight": 50,
+        "title": "Sensitive data is collected and shared to target advertising",
+        "localized_title": null,
+        "description": "Sensitive data refers to information requiring special protection, such as health data, political and religious beliefs, ethnic origins, sexual life and financial information. The service collects and shares this data with third parties for advertising or marketing.",
+        "updated_at": "2021-05-08T12:40:24.840855",
+        "created_at": "2021-05-08T12:40:24.840855",
+        "topic_id": 57,
+        "classification": "blocker"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:35.023280",
+      "created_at": "2021-05-09T21:08:10.114896"
+    },
+    {
+      "id": 20151,
+      "title": "Your personal data is used for advertising",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 216,
+        "weight": 50,
+        "title": "Your personal data is used for advertising",
+        "localized_title": null,
+        "description": "Your interaction with the service and data you have shared with them may be gathered to create an advertising ID or profile to target ads on you, either on the website you were visiting or in third party websites.",
+        "updated_at": "2021-05-06T08:13:43.286762",
+        "created_at": "2018-01-16T15:26:10.380532",
+        "topic_id": 57,
+        "classification": "bad"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:35.102006",
+      "created_at": "2021-05-09T21:07:41.943942"
+    },
+    {
+      "id": 20155,
+      "title": "The service claims to be CCPA compliant for California users",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 482,
+        "weight": 50,
+        "title": "The service claims to be CCPA compliant for California users",
+        "localized_title": null,
+        "description": "The service has a different behavior towards users protected by the California Consumer Privacy Act.",
+        "updated_at": "2021-05-02T18:27:16.534781",
+        "created_at": "2021-05-02T12:54:56.791488",
+        "topic_id": 44,
+        "classification": "good"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:35.911724",
+      "created_at": "2021-05-09T21:10:44.412672"
+    },
+    {
+      "id": 20154,
+      "title": "The service claims to be LGPD compliant for Brazilian users",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 483,
+        "weight": 50,
+        "title": "The service claims to be LGPD compliant for Brazilian users",
+        "localized_title": null,
+        "description": "The service has a different behavior towards users protected by the Lei Geral de Proteção de Dados Pessoais.",
+        "updated_at": "2021-05-02T18:29:13.376533",
+        "created_at": "2021-05-02T18:29:13.376533",
+        "topic_id": 44,
+        "classification": "good"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T04:47:35.990479",
+      "created_at": "2021-05-09T21:10:14.633945"
+    },
+    {
+      "id": 20221,
+      "title": "The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection (California, USA)",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 241,
+        "weight": 50,
+        "title": "The court of law governing the terms is in a jurisdiction that is friendlier to user privacy protection",
+        "localized_title": null,
+        "description": "The Terms are governed by the applicable laws of a jurisdiction known for protecting citizens privacy with strong data regulations. Usually contributors will need to explain in the Analysis view of each point linked to this Case why the jurisdiction is friendly to user privacy protection.",
+        "updated_at": "2026-03-24T17:55:35.299055",
+        "created_at": "2018-08-08T06:09:52.829613",
+        "topic_id": 44,
+        "classification": "good"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T04:48:03.327681",
+      "created_at": "2021-05-10T11:37:55.566572"
+    },
+    {
+      "id": 20222,
+      "title": "You are forced into binding arbitration in case of disputes",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 339,
+        "weight": 50,
+        "title": "You are forced into binding arbitration in case of disputes",
+        "localized_title": null,
+        "description": "This service forces users to use their own contracted arbitrator and forces users to waive their rights to jury trial.",
+        "updated_at": "2021-05-06T08:30:14.831800",
+        "created_at": "2018-10-18T11:37:47.416869",
+        "topic_id": 42,
+        "classification": "bad"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T04:47:41.918138",
+      "created_at": "2021-05-10T11:39:00.548836"
+    },
+    {
+      "id": 1460,
+      "title": "You have the right to request lower Charges from Third Party Providers",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "\"...you retain the right to request lower Charges from a Third Party Provider for services or goods received by you from such Third Party Provider at the time you receive such services or goods, and Charges you incur will be owed to the Third Party Provider. Uber will respond accordingly to any request from a Third Party Provider to modify the Charges for a particular service or good.\"",
+      "case": {
+        "id": 309,
+        "weight": 50,
+        "title": "You have the right to request lower charges from third-party providers",
+        "localized_title": null,
+        "description": "For a service that allows you to buy goods or services from a third party (for instance, an e-commerce platform), the service allows buyers to request a lower price from the seller.",
+        "updated_at": "2026-04-23T05:56:52.032187",
+        "created_at": "2018-08-27T10:35:04.874643",
+        "topic_id": 34,
+        "classification": "neutral"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T06:34:04.727252",
+      "created_at": "2018-05-15T09:11:49.810561"
+    },
+    {
+      "id": 1256,
+      "title": "Uber can transfer the TOS to affiliates and successors without your consent",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "Uber can transfer the TOS to affiliates and successors without your consent.",
+      "case": {
+        "id": 243,
+        "weight": 50,
+        "title": "Your personal data may be sold or otherwise transferred as part of a bankruptcy proceeding or other type of financial transaction",
+        "localized_title": null,
+        "description": "If the service gets acquired or is involved in a merger, bankruptcy, reorganisation or sale, your personal data may be transferred or sold.",
+        "updated_at": "2021-05-06T08:18:13.688385",
+        "created_at": "2018-08-08T06:24:47.607478",
+        "topic_id": 39,
+        "classification": "bad"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T10:02:49.726209",
+      "created_at": "2018-05-15T09:11:42.351428"
+    },
+    {
+      "id": 18657,
+      "title": "Your personal data is aggregated into statistics",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 190,
+        "weight": 50,
+        "title": "Your personal data is aggregated into statistics",
+        "localized_title": null,
+        "description": "Your personal data is used for statistics in a de-identified/aggregated form (i.e. not directly linked to a unique identity) to analyse trends, for research and for analytics.",
+        "updated_at": "2021-02-25T11:55:50.916941",
+        "created_at": "2018-01-16T15:26:09.717516",
+        "topic_id": 41,
+        "classification": "neutral"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:11:49.551865",
+      "created_at": "2021-04-12T08:25:26.777298"
+    },
+    {
+      "id": 18667,
+      "title": "You can request access, correction and/or deletion of your data",
+      "source": "https://privacy.uber.com/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 195,
+        "weight": 50,
+        "title": "You can request access, correction and/or deletion of your data",
+        "localized_title": null,
+        "description": "Users have the right to access personal data hold by the Service, correct it and/or permanently delete it. This usually applies to Services GDPR compliants. ",
+        "updated_at": "2021-03-15T19:39:19.351488",
+        "created_at": "2018-01-16T15:26:09.802002",
+        "topic_id": 34,
+        "classification": "good"
+      },
+      "document_id": 354,
+      "updated_at": "2023-07-11T10:14:36.463287",
+      "created_at": "2021-04-12T08:51:27.149107"
+    },
+    {
+      "id": 1580,
+      "title": "The service provides information about its attitude towards ethical, social or political problems or controversies",
+      "source": "https://www.uber.com/de/legal/other/",
+      "status": "approved",
+      "analysis": "Uber offers a wide variety of additional policies to show their position in certain social and political fields.",
+      "case": {
+        "id": 332,
+        "weight": 50,
+        "title": "This service offers a symbolic but nonbinding statement about a matter of opinion, ethics, society, or politics",
+        "localized_title": null,
+        "description": "If a service expresses a worldview antithetical to the user’s, that is a good signal that they should not use the service. Or conversely, if the service expresses an uncommonly-held belief that the user agrees with and thinks is relevant to the service-user relationship and/or important, they may wish to use that to choose between otherwise comparable services.",
+        "updated_at": "2021-03-11T17:33:05.170600",
+        "created_at": "2018-09-17T17:20:22.937299",
+        "topic_id": 31,
+        "classification": "good"
+      },
+      "document_id": null,
+      "updated_at": "2018-09-18T07:42:03.680620",
+      "created_at": "2018-05-15T09:11:54.996911"
+    },
+    {
+      "id": 1472,
+      "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "[Neutral]  Uber does not guarantee that their Services will work with any particular hardware or devices, and states the disclaimer that their Services may be subject to malfunctions and delays inherent with the use of the Internet and electronic communications.",
+      "case": {
+        "id": 287,
+        "weight": 50,
+        "title": "The service provider makes no warranty regarding uninterrupted, timely, secure or error-free service",
+        "localized_title": null,
+        "description": "The service provider expressly does not claim to provide uninterrupted, timely, secure or error-free service.",
+        "updated_at": "2023-04-03T18:58:37.030294",
+        "created_at": "2018-08-25T23:51:23.964727",
+        "topic_id": 32,
+        "classification": "neutral"
+      },
+      "document_id": 353,
+      "updated_at": "2023-07-11T06:34:07.002293",
+      "created_at": "2018-05-15T09:11:50.326322"
+    },
+    {
+      "id": 161635,
+      "title": "You must provide your legal name, pseudonyms are not allowed",
+      "source": "https://www.uber.com/legal/terms/us/",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 214,
+        "weight": 50,
+        "title": "You must provide your legal name, pseudonyms are not allowed",
+        "localized_title": null,
+        "description": "You must provide your legal name and pseudonyms aren't allowed. This case doesn't apply to Services for which transparency regarding users identities is relevant for their purposes.",
+        "updated_at": "2021-02-25T18:48:05.605459",
+        "created_at": "2018-01-16T15:26:10.305929",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 353,
+      "updated_at": "2026-05-14T06:14:56.510023",
+      "created_at": "2026-01-21T22:18:38.386912"
+    }
+  ]
+}

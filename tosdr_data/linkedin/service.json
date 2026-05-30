@@ -1,0 +1,279 @@
+{
+  "id": 193,
+  "is_comprehensively_reviewed": false,
+  "name": "LinkedIn",
+  "updated_at": "2026-05-27T03:00:00.214795",
+  "created_at": "2018-01-16T15:26:05.701380",
+  "slug": "linkedin",
+  "rating": "D",
+  "urls": [
+    "linkedin.com",
+    "lynda.com",
+    "licdn.com",
+    "snap.licdn.com"
+  ],
+  "image": "https://s3.tosdr.org/logos/193.png",
+  "documents": [
+    {
+      "id": 1045,
+      "name": "California Online Privacy Protection Act Notice",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1340485/",
+      "updated_at": "2026-03-05T00:20:29.274021",
+      "created_at": "2019-02-23T01:18:53.831459"
+    },
+    {
+      "id": 1044,
+      "name": "Cookie Policy",
+      "url": "https://www.linkedin.com/legal/cookie-policy",
+      "updated_at": "2026-03-05T00:18:01.245284",
+      "created_at": "2019-02-23T00:37:40.039850"
+    },
+    {
+      "id": 63,
+      "name": "User Agreement",
+      "url": "https://www.linkedin.com/legal/user-agreement",
+      "updated_at": "2026-03-05T00:16:55.867814",
+      "created_at": "2018-07-17T10:11:42.407130"
+    },
+    {
+      "id": 62,
+      "name": "Privacy Policy",
+      "url": "https://www.linkedin.com/legal/privacy-policy",
+      "updated_at": "2026-03-05T00:16:23.667667",
+      "created_at": "2018-07-17T10:11:42.378853"
+    },
+    {
+      "id": 23470,
+      "name": "Copyright Policy",
+      "url": "https://www.linkedin.com/legal/copyright-policy",
+      "updated_at": "2026-03-05T00:19:19.783766",
+      "created_at": "2026-03-05T00:19:19.783766"
+    },
+    {
+      "id": 23471,
+      "name": "Spam",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1338787/",
+      "updated_at": "2026-03-05T00:22:04.828924",
+      "created_at": "2026-03-05T00:22:04.828924"
+    },
+    {
+      "id": 23472,
+      "name": "Professional Community Policies",
+      "url": "https://www.linkedin.com/legal/professional-community-policies",
+      "updated_at": "2026-03-05T00:23:40.635530",
+      "created_at": "2026-03-05T00:23:40.635530"
+    }
+  ],
+  "points": [
+    {
+      "id": 20655,
+      "title": "Tracking pixels are used in service-to-user communication",
+      "source": "https://www.linkedin.com/legal/cookie-policy",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 217,
+        "weight": 50,
+        "title": "Tracking pixels are used in service-to-user communication",
+        "localized_title": null,
+        "description": "The service tracks the user count or some actions of the user; this is usually used for statistics. For example, emails sent by a service can contain a pixel tag, which is a small, clear image that can tell them whether or not you have opened an email and what your IP address is.",
+        "updated_at": "2019-09-28T21:12:42.211513",
+        "created_at": "2018-01-16T15:26:10.392302",
+        "topic_id": 25,
+        "classification": "bad"
+      },
+      "document_id": 1044,
+      "updated_at": "2026-03-05T00:18:07.658347",
+      "created_at": "2021-05-15T21:40:20.365503"
+    },
+    {
+      "id": 35873,
+      "title": "First-party cookies are used",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 126,
+        "weight": 50,
+        "title": "First-party cookies are used",
+        "localized_title": null,
+        "description": "First-party cookies only belong to the domain of the service and not a third party.",
+        "updated_at": "2021-05-06T08:28:30.139694",
+        "created_at": "2018-01-16T15:26:08.311645",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": 62,
+      "updated_at": "2024-01-06T23:35:00.724786",
+      "created_at": "2024-01-06T23:33:51.871157"
+    },
+    {
+      "id": 35874,
+      "title": "This service receives your precise location through GPS coordinates",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 400,
+        "weight": 50,
+        "title": "This service receives your precise location through GPS coordinates",
+        "localized_title": null,
+        "description": "Unless the service relies on Geo Location, this case is to be assigned to points that don't need your GPS coordinates to function properly.",
+        "updated_at": "2021-02-18T10:56:40.735475",
+        "created_at": "2020-10-24T03:32:35.365968",
+        "topic_id": 56,
+        "classification": "bad"
+      },
+      "document_id": 62,
+      "updated_at": "2024-01-06T23:35:14.731633",
+      "created_at": "2024-01-06T23:34:44.494488"
+    },
+    {
+      "id": 35875,
+      "title": "You must provide your legal name, pseudonyms are not allowed",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 214,
+        "weight": 50,
+        "title": "You must provide your legal name, pseudonyms are not allowed",
+        "localized_title": null,
+        "description": "You must provide your legal name and pseudonyms aren't allowed. This case doesn't apply to Services for which transparency regarding users identities is relevant for their purposes.",
+        "updated_at": "2021-02-25T18:48:05.605459",
+        "created_at": "2018-01-16T15:26:10.305929",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 63,
+      "updated_at": "2024-01-06T23:36:32.322693",
+      "created_at": "2024-01-06T23:36:05.480370"
+    },
+    {
+      "id": 35877,
+      "title": "Blocking first party cookies may limit your ability to use the service",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 375,
+        "weight": 50,
+        "title": "Blocking first-party cookies may limit your ability to use the service",
+        "localized_title": null,
+        "description": "Most browsers allow users to set preferences related to cookies storage. You may choose to block all cookies (including first-party cookies), but it may impact your use of this service and you may not be able to access some or any of the features provided.",
+        "updated_at": "2026-05-12T16:24:31.325353",
+        "created_at": "2018-10-21T10:14:30.867458",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": 1044,
+      "updated_at": "2024-01-07T11:23:24.553003",
+      "created_at": "2024-01-06T23:38:15.517986"
+    },
+    {
+      "id": 5891,
+      "title": "This service ignores the Do Not Track (DNT) header and tracks users anyway even if they set this header.",
+      "source": "https://www.linkedin.com/help/linkedin/answer/68763",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 233,
+        "weight": 50,
+        "title": "Do Not Track (DNT) headers are ignored and you are tracked anyway even if you set this header",
+        "localized_title": null,
+        "description": "Even though the Do Not Track (DNT) header was not implemented perfectly, services should not track users whose browsers send a DNT header.",
+        "updated_at": "2026-04-04T07:22:52.842699",
+        "created_at": "2018-06-26T12:04:59.070418",
+        "topic_id": 25,
+        "classification": "neutral"
+      },
+      "document_id": 1045,
+      "updated_at": "2026-03-05T00:20:34.208724",
+      "created_at": "2019-02-23T01:21:20.549278"
+    },
+    {
+      "id": 318964,
+      "title": "You must provide your legal name, pseudonyms are not allowed",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 214,
+        "weight": 50,
+        "title": "You must provide your legal name, pseudonyms are not allowed",
+        "localized_title": null,
+        "description": "You must provide your legal name and pseudonyms aren't allowed. This case doesn't apply to Services for which transparency regarding users identities is relevant for their purposes.",
+        "updated_at": "2021-02-25T18:48:05.605459",
+        "created_at": "2018-01-16T15:26:10.305929",
+        "topic_id": 26,
+        "classification": "bad"
+      },
+      "document_id": 63,
+      "updated_at": "2026-05-26T09:57:18.994796",
+      "created_at": "2026-03-05T01:55:39.013003"
+    },
+    {
+      "id": 323709,
+      "title": "You are informed about the risk of publishing personal info online",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 231,
+        "weight": 50,
+        "title": "You are informed about the risk of publishing personal info online",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:37:31.235093",
+        "created_at": "2018-01-16T15:26:10.686705",
+        "topic_id": 36,
+        "classification": "good"
+      },
+      "document_id": 62,
+      "updated_at": "2026-05-10T04:16:38.292438",
+      "created_at": "2026-05-09T23:22:35.923754"
+    },
+    {
+      "id": 323712,
+      "title": "You can opt out of targeted advertising",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 219,
+        "weight": 50,
+        "title": "You can opt out of targeted advertising",
+        "localized_title": null,
+        "description": "The service employs your data to target ads to you, but you can opt-out of this interest-based advertising.",
+        "updated_at": "2021-03-27T16:51:25.883877",
+        "created_at": "2018-01-16T15:26:10.435599",
+        "topic_id": 57,
+        "classification": "good"
+      },
+      "document_id": 62,
+      "updated_at": "2026-05-10T04:15:52.443140",
+      "created_at": "2026-05-09T23:31:11.168294"
+    },
+    {
+      "id": 323719,
+      "title": "The service will resist legal requests for your information where reasonably possible",
+      "source": null,
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 305,
+        "weight": 50,
+        "title": "The service will resist legal requests for your information where reasonably possible",
+        "localized_title": null,
+        "description": "The service will attempt to protect user information to a great extent, even so far as stating that they will only follow legal requirements to disclose user information in circumstances where this cannot be reasonably resisted.",
+        "updated_at": "2021-05-06T08:44:18.937551",
+        "created_at": "2018-08-27T05:47:31.015760",
+        "topic_id": 28,
+        "classification": "good"
+      },
+      "document_id": 62,
+      "updated_at": "2026-05-15T03:10:45.872065",
+      "created_at": "2026-05-10T00:30:43.984017"
+    }
+  ]
+}

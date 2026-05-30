@@ -1,0 +1,177 @@
+{
+  "id": 225,
+  "is_comprehensively_reviewed": false,
+  "name": "Spotify",
+  "updated_at": "2026-03-17T12:19:51.167052",
+  "created_at": "2018-01-16T15:26:06.332058",
+  "slug": "spotify",
+  "rating": "C",
+  "urls": [
+    "spotify.com",
+    "spotifyforvendors.com",
+    "spotifyjobs.com",
+    "scdn.co",
+    "spoti.fi",
+    "spotifycdn.com",
+    "spotifycdn.net"
+  ],
+  "image": "https://s3.tosdr.org/logos/225.png",
+  "documents": [
+    {
+      "id": 67,
+      "name": "Spotify Terms of Use",
+      "url": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "updated_at": "2026-03-03T21:14:17.805598",
+      "created_at": "2018-07-17T10:11:42.596575"
+    },
+    {
+      "id": 6268,
+      "name": "[DEPRECATED] Voice Controls",
+      "url": "https://www.spotify.com/us/legal/voice-controls/",
+      "updated_at": "2026-03-03T21:09:10.582667",
+      "created_at": "2021-05-24T09:00:39.148096"
+    },
+    {
+      "id": 1844,
+      "name": "[DEPRECATED] Spotify Terms and Conditions of Use (Feb, 2019)",
+      "url": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "updated_at": "2026-03-03T21:09:56.737480",
+      "created_at": "2019-08-27T21:10:40.624650"
+    },
+    {
+      "id": 23465,
+      "name": "Spotify Intellectual Property Policy",
+      "url": "https://www.spotify.com/us/legal/intellectual-property-policy/",
+      "updated_at": "2026-03-03T21:11:05.859442",
+      "created_at": "2026-03-03T21:11:05.859442"
+    },
+    {
+      "id": 23466,
+      "name": "Spotify User Guidelines",
+      "url": "https://www.spotify.com/us/legal/user-guidelines/",
+      "updated_at": "2026-03-03T21:11:44.890770",
+      "created_at": "2026-03-03T21:11:44.890770"
+    },
+    {
+      "id": 23467,
+      "name": "Spotify Paid Subscription Terms and Conditions",
+      "url": "https://www.spotify.com/us/legal/paid-subscription-terms/",
+      "updated_at": "2026-03-03T21:12:50.565880",
+      "created_at": "2026-03-03T21:12:50.565880"
+    },
+    {
+      "id": 66,
+      "name": "Privacy Policy",
+      "url": "https://www.spotify.com/us/legal/privacy-policy/",
+      "updated_at": "2026-03-03T21:01:56.050287",
+      "created_at": "2018-07-17T10:11:42.563804"
+    }
+  ],
+  "points": [
+    {
+      "id": 12757,
+      "title": "This service does not guarantee that it or the products obtained through it meet the users' expectations or requirements",
+      "source": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "status": "approved",
+      "analysis": "Generated through the annotate view",
+      "case": {
+        "id": 290,
+        "weight": 50,
+        "title": "This service does not guarantee that it or the products obtained through it meet your expectations or requirements",
+        "localized_title": null,
+        "description": "This service provider informs its users that the services, information, products, or other materials provided on its website may not meet the users' expectations or requirements.",
+        "updated_at": "2021-05-14T14:36:47.627981",
+        "created_at": "2018-08-26T04:11:17.888842",
+        "topic_id": 32,
+        "classification": "neutral"
+      },
+      "document_id": 67,
+      "updated_at": "2026-03-03T21:10:03.727961",
+      "created_at": "2020-12-15T03:45:44.983483"
+    },
+    {
+      "id": 149715,
+      "title": "Your account can be suspended for several reasons",
+      "source": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 205,
+        "weight": 50,
+        "title": "Your account can be suspended for several reasons",
+        "localized_title": null,
+        "description": "",
+        "updated_at": "2021-05-06T08:05:24.939122",
+        "created_at": "2018-01-16T15:26:09.988104",
+        "topic_id": 47,
+        "classification": "neutral"
+      },
+      "document_id": 67,
+      "updated_at": "2026-03-03T22:44:43.839379",
+      "created_at": "2026-01-21T18:50:03.265088"
+    },
+    {
+      "id": 115119,
+      "title": "You maintain ownership of your content",
+      "source": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 183,
+        "weight": 50,
+        "title": "You maintain ownership of your content",
+        "localized_title": null,
+        "description": "This service does not claim ownership over user-generated content or materials, and the user doesn't need to waive any moral rights by posting owned content.",
+        "updated_at": "2021-02-27T11:57:10.726037",
+        "created_at": "2018-01-16T15:26:09.611656",
+        "topic_id": 27,
+        "classification": "good"
+      },
+      "document_id": 67,
+      "updated_at": "2026-03-03T22:37:03.795667",
+      "created_at": "2025-05-02T17:06:49.002325"
+    },
+    {
+      "id": 109953,
+      "title": "You have the right to leave this service at any time",
+      "source": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 170,
+        "weight": 50,
+        "title": "You have the right to leave this service at any time",
+        "localized_title": null,
+        "description": "You can stop using the service and/or cancel or delete your account at any time for any reason. Moreover, the termination is reasonably fast and simple.",
+        "updated_at": "2021-07-25T10:37:45.140006",
+        "created_at": "2018-01-16T15:26:09.347811",
+        "topic_id": 45,
+        "classification": "good"
+      },
+      "document_id": 67,
+      "updated_at": "2026-03-03T22:37:21.312992",
+      "created_at": "2025-05-02T01:07:15.912746"
+    },
+    {
+      "id": 83684,
+      "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+      "source": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "status": "approved",
+      "analysis": "Created by Docbot version v3",
+      "case": {
+        "id": 148,
+        "weight": 50,
+        "title": "You are responsible for maintaining the security of your account and for the activities on your account",
+        "localized_title": null,
+        "description": "You are responsible for protecting the confidentiality of your password and for maintaining the security of your account. Any activity occurring under your account is your responsibility, whether authorized by you or not. ",
+        "updated_at": "2021-03-27T16:40:43.393615",
+        "created_at": "2018-01-16T15:26:08.835939",
+        "topic_id": 50,
+        "classification": "neutral"
+      },
+      "document_id": 67,
+      "updated_at": "2026-03-03T22:44:32.577455",
+      "created_at": "2025-04-30T19:13:10.448613"
+    }
+  ]
+}
