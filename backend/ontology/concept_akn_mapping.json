@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "description": "LEXIA concept-to-AKN mapping — shared interface between ontology, LLM extractor, KG, and frontend",
+    "schema_version": "1.0",
+    "aia_akn_base": "/akn/eu/act/regulation/2024-06-13/1689/eng@/!main",
+    "gdpr_akn_base": "/akn/eu/act/regulation/2016-04-27/679/eng@/!main",
+    "aia_celex": "32024R1689",
+    "gdpr_celex": "32016R0679",
+    "eurlex_base": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:"
+  },
+  "concepts": {
+    "right_explanation": {
+      "category": "right",
+      "label": "Right to Explanation",
+      "label_child": "You can ask WHY",
+      "description": "You have the right to obtain a clear and meaningful explanation of any decision taken by a deployer based on the output of a high-risk AI system that significantly affects you. (Art. 86 EU AI Act)",
+      "description_child": "If this AI makes a decision about you, you can ask a real person to explain why — in a way you understand!",
+      "concept": "explanation",
+      "akn_refs": [
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_IX__sec_4__art_86__para_1",
+          "article": "Article 86(1)",
+          "relevance": "primary",
+          "text": "Any affected person subject to a decision which is taken by the deployer on the basis of the output from a high-risk AI system listed in Annex III, with the exception of systems listed under point 2 thereof, and which produces legal effects or similarly significantly affects that person in a way that they consider to have an adverse impact on their health, safety or fundamental rights shall have the right to obtain from the deployer clear and meaningful explanations of the role of the AI system in the decision-making procedure and the main elements of the decision taken.",
+          "highlight_start": 0,
+          "highlight_end": 421,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_IX__sec_4__art_86__para_1"
+        },
+        {
+          "regulation": "GDPR",
+          "celex": "32016R0679",
+          "eid": "chp_III__sec_4__art_22__para_3",
+          "article": "Article 22(3) GDPR",
+          "relevance": "secondary",
+          "text": "In the cases referred to in points (a) and (c) of paragraph 2, the data controller shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+          "highlight_start": 0,
+          "highlight_end": 334,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679#chp_III__sec_4__art_22__para_3"
+        }
+      ]
+    },
+    "right_human_oversight": {
+      "category": "right",
+      "label": "Right to Human Oversight",
+      "label_child": "A real person checks the robot",
+      "description": "Significant decisions cannot be made by the AI alone. A human must be able to review, override, or stop the system at any time. (Art. 14 EU AI Act)",
+      "description_child": "A grown-up is always allowed to check the robot's work and say 'no' if it's wrong.",
+      "concept": "oversight",
+      "akn_refs": [
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_III__sec_2__art_14__para_1",
+          "article": "Article 14(1)",
+          "relevance": "primary",
+          "text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+          "highlight_start": 0,
+          "highlight_end": 223,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_III__sec_2__art_14__para_1"
+        }
+      ]
+    },
+    "right_ai_transparency": {
+      "category": "right",
+      "label": "Right to Know It's AI",
+      "label_child": "You should be told it's a robot",
+      "description": "You must be clearly informed when you are interacting with an AI system rather than a human, unless it is obvious from context. (Art. 50 EU AI Act)",
+      "description_child": "The robot has to tell you it's a robot, not a real person!",
+      "concept": "transparency",
+      "akn_refs": [
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_IV__art_50__para_1",
+          "article": "Article 50(1)",
+          "relevance": "primary",
+          "text": "Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use.",
+          "highlight_start": 0,
+          "highlight_end": 406,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_IV__art_50__para_1"
+        }
+      ]
+    },
+    "right_complaint": {
+      "category": "right",
+      "label": "Right to Lodge a Complaint",
+      "label_child": "You can report a problem",
+      "description": "You have the right to submit a complaint to a national market surveillance authority if you believe an AI system has caused you harm. (Art. 85 EU AI Act)",
+      "description_child": "If the robot does something wrong to you, you can tell the government and they have to listen!",
+      "concept": "complaint",
+      "akn_refs": [
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_IX__sec_4__art_85__para_1",
+          "article": "Article 85(1)",
+          "relevance": "primary",
+          "text": "Without prejudice to other administrative or judicial remedies, any natural or legal person having grounds to consider that there has been an infringement of the provisions of this Regulation may submit complaints to the relevant market surveillance authority.",
+          "highlight_start": 0,
+          "highlight_end": 258,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_IX__sec_4__art_85__para_1"
+        }
+      ]
+    },
+    "right_erasure": {
+      "category": "right",
+      "label": "Right to Erasure",
+      "label_child": "You can ask them to delete your data",
+      "description": "You have the right to request erasure of your personal data processed by AI systems when it is no longer necessary or consent is withdrawn. (GDPR Art. 17)",
+      "description_child": "You can ask the robot to forget everything about you — and they must say yes!",
+      "concept": "erasure",
+      "akn_refs": [
+        {
+          "regulation": "GDPR",
+          "celex": "32016R0679",
+          "eid": "chp_III__sec_3__art_17__para_1",
+          "article": "Article 17(1) GDPR",
+          "relevance": "primary",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies.",
+          "highlight_start": 0,
+          "highlight_end": 267,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679#chp_III__sec_3__art_17__para_1"
+        }
+      ]
+    },
+    "right_contest": {
+      "category": "right",
+      "label": "Right to Contest AI Decisions",
+      "label_child": "You can disagree with the robot's choice",
+      "description": "You have the right to human intervention and to contest decisions based on automated processing or AI profiling. (GDPR Art. 22, AI Act Art. 14)",
+      "description_child": "If the robot decides something about you that you think is wrong, a real person must be allowed to change it!",
+      "concept": "decision",
+      "akn_refs": [
+        {
+          "regulation": "GDPR",
+          "celex": "32016R0679",
+          "eid": "chp_III__sec_4__art_22__para_3",
+          "article": "Article 22(3) GDPR",
+          "relevance": "primary",
+          "text": "In the cases referred to in points (a) and (c) of paragraph 2, the data controller shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+          "highlight_start": 0,
+          "highlight_end": 334,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679#chp_III__sec_4__art_22__para_3"
+        },
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_III__sec_2__art_14__para_3",
+          "article": "Article 14(3)",
+          "relevance": "secondary",
+          "text": "Human oversight measures shall be commensurate with the risks, the level of autonomy and the context of use of the high-risk AI system.",
+          "highlight_start": 0,
+          "highlight_end": 134,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_III__sec_2__art_14__para_3"
+        }
+      ]
+    },
+    "no_ai_disclosure": {
+      "category": "risk",
+      "label": "No AI Interaction Disclosure",
+      "label_child": "They don't say it's a robot",
+      "description": "The service does not clearly inform users they are interacting with an AI system. This directly violates Art. 50(1) EU AI Act transparency obligations.",
+      "description_child": "This robot is not telling you it's a robot. That's against the rules!",
+      "concept": "transparency",
+      "severity_default": "critical",
+      "akn_refs": [
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_IV__art_50__para_1",
+          "article": "Article 50(1)",
+          "relevance": "primary",
+          "text": "Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use.",
+          "highlight_start": 0,
+          "highlight_end": 406,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_IV__art_50__para_1"
+        }
+      ]
+    },
+    "training_on_user_data": {
+      "category": "risk",
+      "label": "Your Data Trains This AI",
+      "label_child": "This AI learns from what you say",
+      "description": "Your conversations or personal data may be used to train future AI models. This triggers transparency and data governance obligations under Art. 13 and Art. 10 EU AI Act.",
+      "description_child": "What you type here might be used to teach the AI new things. Ask a grown-up if that's OK!",
+      "concept": "training",
+      "severity_default": "high",
+      "akn_refs": [
+        {
+          "regulation": "AI Act",
+          "celex": "32024R1689",
+          "eid": "chp_III__sec_2__art_13__para_1",
+          "article": "Article 13(1)",
+          "relevance": "primary",
+          "text": "High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system's output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.",
+          "highlight_start": 0,
+          "highlight_end": 382,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689#chp_III__sec_2__art_13__para_1"
+        }
+      ]
+    },
+    "profiling": {
+      "category": "risk",
+      "label": "Automated Profiling of Users",
+      "label_child": "The robot builds a picture of who you are",
+      "description": "The service uses automated profiling to analyse your behaviour, preferences, or characteristics. GDPR Art. 22 gives you rights against solely automated decisions based on this profiling.",
+      "description_child": "The robot is watching what you do and making a file about you. A real person should be in charge of important choices!",
+      "concept": "emotion",
+      "severity_default": "high",
+      "akn_refs": [
+        {
+          "regulation": "GDPR",
+          "celex": "32016R0679",
+          "eid": "chp_III__sec_4__art_22__para_1",
+          "article": "Article 22(1) GDPR",
+          "relevance": "primary",
+          "text": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+          "highlight_start": 0,
+          "highlight_end": 222,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679#chp_III__sec_4__art_22__para_1"
+        }
+      ]
+    },
+    "third_party_sharing": {
+      "category": "risk",
+      "label": "Data Shared with Third Parties",
+      "label_child": "They give your information to others",
+      "description": "Your personal data or usage data is shared with third-party companies for advertising, analytics, or other purposes without clear opt-out mechanisms.",
+      "description_child": "This company tells other companies about you. You should be able to say NO to that!",
+      "concept": "decision",
+      "severity_default": "medium",
+      "akn_refs": [
+        {
+          "regulation": "GDPR",
+          "celex": "32016R0679",
+          "eid": "chp_III__sec_3__art_17__para_1",
+          "article": "Article 17(1) GDPR",
+          "relevance": "primary",
+          "text": "The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies.",
+          "highlight_start": 0,
+          "highlight_end": 267,
+          "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679#chp_III__sec_3__art_17__para_1"
+        }
+      ]
+    }
+  }
+}

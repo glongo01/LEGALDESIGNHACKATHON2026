@@ -1,0 +1,1447 @@
+{
+  "metadata": {
+    "source_regulation": "Regulation (EU) 2024/1689 — AI Act",
+    "akn_base": "/akn/eu/act/regulation/2024-06-13/1689/eng@/!main",
+    "vair_version": "0.1",
+    "vair_uri": "https://w3id.org/vair",
+    "dpv_ai_uri": "https://w3id.org/dpv/ai",
+    "paper_source": "DOI: 10.2139/ssrn.6386080",
+    "generated_by": "AI Act AKN XML parser + VAIR/DPV-AI ontology mapping",
+    "total_entries": 27,
+    "risks_count": 21,
+    "rights_count": 6,
+    "schema_version": "5.0",
+    "gdpr_akn_base": "/akn/eu/act/regulation/2016-04-27/679/eng@/!main",
+    "aia_akn_base": "/akn/eu/act/regulation/2024-06-13/1689/eng@/!main"
+  },
+  "entries": [
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Manipulation of Behaviour",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Manipulation of Behaviour",
+      "tag": "subliminal_manipulation",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person targeted by AI-driven manipulation or deceptive techniques",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [
+        "vair:DialogueManagement",
+        "vair:NaturalLanguageGeneration",
+        "vair:SentimentAnalysis"
+      ],
+      "vair_risk_source": [
+        "vair:LackOfTransparency",
+        "vair:InsufficientInstruction"
+      ],
+      "vair_consequence": [
+        "vair:Bias"
+      ],
+      "vair_impact": [
+        "vair:DistortionInHumanBehaviour",
+        "vair:PsychologicalHarm",
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:HumanBehaviour",
+        "vair:PsychologicalHealth"
+      ],
+      "vair_control": [
+        "vair:EliminationControl"
+      ],
+      "definition": "AI systems that deploy subliminal techniques beyond a person's consciousness, or purposefully manipulative or deceptive techniques, materially distorting behaviour and causing or reasonably likely to cause significant harm.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_a"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_human_oversight",
+        "right_explanation"
+      ],
+      "legal_source": "Art. 5(1)(a) AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Exploitation of Vulnerability",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Exploitation of Vulnerability",
+      "tag": "vulnerability_exploitation",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "vulnerable person — aged person, person with disability, person in difficult socioeconomic situation",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Child",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [
+        "vair:SentimentAnalysis",
+        "vair:EmotionRecognition",
+        "vair:Profiling"
+      ],
+      "vair_risk_source": [
+        "vair:LackOfTransparency",
+        "vair:InsufficientInstruction"
+      ],
+      "vair_consequence": [
+        "vair:Bias"
+      ],
+      "vair_impact": [
+        "vair:PsychologicalHarm",
+        "vair:DistortionInHumanBehaviour",
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:PsychologicalHealth"
+      ],
+      "vair_control": [
+        "vair:EliminationControl"
+      ],
+      "definition": "AI systems exploiting vulnerabilities of persons due to age, disability, or specific social/economic situation, materially distorting behaviour in a manner causing or likely to cause significant harm.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_b"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(b) AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Social Scoring",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Social Scoring",
+      "tag": "social_scoring",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "citizen, public service user, any person subject to social evaluation",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:Assessment",
+        "vair:AssessingPersonalityTraits",
+        "vair:MakingPrediction"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:PatternRecognition",
+        "vair:SentimentAnalysis"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTrainingData",
+        "vair:InputDataRiskSource"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:DistortionInHumanBehaviour",
+        "vair:PsychologicalHarm",
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:HumanBehaviour"
+      ],
+      "vair_control": [
+        "vair:EliminationControl"
+      ],
+      "definition": "AI systems evaluating or classifying persons over time based on social behaviour or personal characteristics, producing social scores leading to detrimental or unjustified treatment unrelated to the original data context.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_c"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(c) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:Assessment (https://w3id.org/vair#Assessment)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Individual Criminal Risk Assessment",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Individual Criminal Risk Assessment",
+      "tag": "predictive_policing_individual",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "suspect, accused person, potential criminal offender",
+        "vair_subject": [
+          "vair:Suspect",
+          "vair:Perpetrator",
+          "vair:Victim",
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:IndividualRiskAssessment",
+        "vair:AssessingPeopleRelatedRisk",
+        "vair:AssessingRiskOfOffending",
+        "vair:AssessingRiskOfReoffending",
+        "vair:AssessingRiskForPotentialVictimsOfCriminalOffences",
+        "vair:PredictingRecidivism",
+        "vair:AssessingPersonalityTraits"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:PersonalityTraitsAnalysis",
+        "vair:PatternRecognition"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTestData",
+        "vair:ErroneousInputData",
+        "vair:WrongDataSetDesignChoice"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:PsychologicalHarm",
+        "vair:DistortionInHumanBehaviour",
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:PsychologicalHealth"
+      ],
+      "vair_control": [
+        "vair:EliminationControl",
+        "vair:MitigationControl",
+        "vair:OperationalControl"
+      ],
+      "definition": "AI systems making risk assessments of natural persons to assess the likelihood of offending or re-offending, or of becoming a crime victim, based solely on profiling or personality assessment.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_d"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(d) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:IndividualRiskAssessment (https://w3id.org/vair#IndividualRiskAssessment); vair:AssessingPeopleRelatedRisk (https://w3id.org/vair#AssessingPeopleRelatedRisk)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Emotion Recognition in Workplace and Education",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Emotion Recognition in Workplace and Education",
+      "tag": "emotion_recognition_work_edu",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "worker, employee, student",
+        "vair_subject": [
+          "vair:Employee",
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:EvaluatingEmployeeBehaviour",
+        "vair:Assessment",
+        "vair:MonitoringEmployeeBehaviour"
+      ],
+      "vair_capability": [
+        "vair:EmotionRecognition",
+        "vair:FaceRecognition",
+        "vair:ComputerVision",
+        "vair:SentimentAnalysis"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTrainingData",
+        "vair:InsufficientHumanOversightMeasure"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:PsychologicalHarm",
+        "vair:WorkplaceImpact",
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:PsychologicalHealth"
+      ],
+      "vair_control": [
+        "vair:EliminationControl"
+      ],
+      "definition": "AI systems that infer or infer emotional states of natural persons in workplaces and educational institutions, subject only to narrow exceptions for safety or medical purposes.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_e"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(e) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:Identifying (https://w3id.org/vair#Identifying)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Biometric Categorisation for Protected Characteristics",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Biometric Categorisation for Protected Characteristics",
+      "tag": "biometric_categorisation_sensitive",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person identifiable from biometric data — race, political opinion, religious belief, sexual orientation, trade union membership",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:BiometricCategorisation",
+        "vair:AssessingPersonalityTraits"
+      ],
+      "vair_capability": [
+        "vair:BiometricIdentification",
+        "vair:FaceRecognition",
+        "vair:Profiling",
+        "vair:ComputerVision"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:InputDataRiskSource",
+        "vair:UnrepresentativeTrainingData"
+      ],
+      "vair_consequence": [
+        "vair:Bias"
+      ],
+      "vair_impact": [
+        "vair:DistortionInHumanBehaviour",
+        "vair:PsychologicalHarm",
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:EliminationControl"
+      ],
+      "definition": "AI systems that categorise persons from biometric data to infer or deduce sensitive protected attributes.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_f"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_erasure",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(f) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:RemoteIdentificationOfPeople (https://w3id.org/vair#RemoteIdentificationOfPeople)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Untargeted Facial Image Scraping",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Untargeted Facial Image Scraping",
+      "tag": "facial_scraping_database",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person whose facial image appears online or in CCTV footage",
+        "vair_subject": [
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:RemoteIdentificationOfPeople"
+      ],
+      "vair_capability": [
+        "vair:FaceRecognition",
+        "vair:RemoteBiometricIdentification",
+        "vair:ImageRecognition",
+        "vair:ComputerVision"
+      ],
+      "vair_risk_source": [
+        "vair:InputDataRiskSource",
+        "vair:ErrorInDataCollection",
+        "vair:DataPoisoning"
+      ],
+      "vair_consequence": [
+        "vair:DecreasedSecurity"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:PsychologicalHarm"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:EliminationControl"
+      ],
+      "definition": "AI systems creating or expanding facial recognition databases through the untargeted scraping of facial images from the internet or CCTV footage.",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_g"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_erasure",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(g) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:RemoteIdentificationOfPeople (https://w3id.org/vair#RemoteIdentificationOfPeople); vair:Identifying (https://w3id.org/vair#Identifying)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Unacceptable Risk — Real-Time Remote Biometric Identification in Public Spaces",
+      "risk_level": "Unacceptable Risk",
+      "risk": "Real-Time Remote Biometric Identification in Public Spaces",
+      "tag": "realtime_biometric_id_public",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person present in publicly accessible spaces; suspect; law enforcement officer",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Suspect",
+          "vair:Passenger"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:RemoteIdentificationOfPeople",
+        "vair:DetectingCriminalOffences",
+        "vair:InvestigatingCriminalOffences"
+      ],
+      "vair_capability": [
+        "vair:RemoteBiometricIdentification",
+        "vair:FaceRecognition",
+        "vair:ComputerVision",
+        "vair:ActionRecognition"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:ErroneousInputData",
+        "vair:UnrepresentativeTrainingData"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:PsychologicalHarm",
+        "vair:DistortionInHumanBehaviour"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:EliminationControl",
+        "vair:OperationalControl"
+      ],
+      "definition": "Use of real-time remote biometric identification systems in publicly accessible spaces for law enforcement purposes, subject to narrow enumerated exceptions (targeted victim search, imminent threat prevention, serious crime identification).",
+      "link_to_text_AIa": [
+        "#chp_II__art_5__para_1__list_1__point_h"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_human_oversight",
+        "right_explanation",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 5(1)(h) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:RemoteIdentificationOfPeople (https://w3id.org/vair#RemoteIdentificationOfPeople)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Biometric Identification and Categorisation",
+      "risk_level": "High Risk",
+      "risk": "Biometric Identification and Categorisation",
+      "tag": "high_risk_biometrics",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person subject to biometric identification, law enforcement officer, deployer",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Suspect"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:RemoteIdentificationOfPeople",
+        "vair:BiometricCategorisation"
+      ],
+      "vair_capability": [
+        "vair:RemoteBiometricIdentification",
+        "vair:BiometricIdentification",
+        "vair:FaceRecognition",
+        "vair:ComputerVision"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTestData",
+        "vair:LowAccuracy"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:TechnicalControl",
+        "vair:OrganisationalControl"
+      ],
+      "definition": "AI systems for real-time and post-remote biometric identification of natural persons (Annex III, point 1), including face recognition and gait recognition.",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_erasure",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 1 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:RemoteIdentificationOfPeople (https://w3id.org/vair#RemoteIdentificationOfPeople)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Critical Infrastructure Safety",
+      "risk_level": "High Risk",
+      "risk": "Critical Infrastructure Safety",
+      "tag": "high_risk_critical_infra",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "general public, critical infrastructure operator, essential service user",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:ControllingSafety",
+        "vair:Operating",
+        "vair:Managing"
+      ],
+      "vair_capability": [
+        "vair:PatternRecognition",
+        "vair:ActionRecognition",
+        "vair:ObjectRecognition"
+      ],
+      "vair_risk_source": [
+        "vair:LowRobustness",
+        "vair:SystemVulnerability",
+        "vair:Cyberattack",
+        "vair:LowAccuracy"
+      ],
+      "vair_consequence": [
+        "vair:DecreasedRobustness",
+        "vair:DecreasedSecurity"
+      ],
+      "vair_impact": [
+        "vair:Death",
+        "vair:PhysicalInjury",
+        "vair:DisruptionOfCriticalInfrastructureOperation"
+      ],
+      "vair_area_of_impact": [
+        "vair:Health",
+        "vair:PhysicalHealth"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:TechnicalControl",
+        "vair:DetectionControl"
+      ],
+      "definition": "AI systems used as safety components in management of critical infrastructure: energy, water, gas, heating, road traffic, maritime, rail (Annex III, point 2).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_human_oversight",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 2 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:ControllingSafety (https://w3id.org/vair#ControllingSafety); vair:Operating (https://w3id.org/vair#Operating)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Education and Vocational Training",
+      "risk_level": "High Risk",
+      "risk": "Education and Vocational Training",
+      "tag": "high_risk_education",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "student, candidate, pupil, person seeking vocational training",
+        "vair_subject": [
+          "vair:EducationalInstitutionApplicant",
+          "vair:NaturalPerson",
+          "vair:Child"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:DeterminingAccessToEducation",
+        "vair:AssessingAdmissionTest",
+        "vair:Assessment"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:PatternRecognition",
+        "vair:NaturalLanguageGeneration"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTrainingData",
+        "vair:WrongDataSetDesignChoice"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:PsychologicalHarm"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:OrganisationalControl",
+        "vair:TechnicalControl"
+      ],
+      "definition": "AI systems determining access to education and vocational training, assessing learning outcomes, monitoring educational processes, assigning students (Annex III, point 3).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 3 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:DeterminingAccessToEducation (https://w3id.org/vair#DeterminingAccessToEducation); vair:Assessment (https://w3id.org/vair#Assessment)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Employment and Workers Management",
+      "risk_level": "High Risk",
+      "risk": "Employment and Workers Management",
+      "tag": "high_risk_employment",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "worker, employee, job seeker, candidate for employment",
+        "vair_subject": [
+          "vair:Employee",
+          "vair:JobApplicant",
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:EvaluatingEmployeeBehaviour",
+        "vair:MonitoringEmployeeBehaviour",
+        "vair:JobProfileMatching",
+        "vair:Assessment"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:SentimentAnalysis",
+        "vair:PatternRecognition",
+        "vair:EmotionRecognition"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTestData",
+        "vair:InsufficientHumanOversightMeasure"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WorkplaceImpact",
+        "vair:WellbeingImpact",
+        "vair:PsychologicalHarm"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:TechnicalControl",
+        "vair:OrganisationalControl"
+      ],
+      "definition": "AI systems for recruitment, screening, promotion/dismissal decisions, task allocation, performance monitoring, and behavioural evaluation of workers (Annex III, point 4).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_human_oversight",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 4 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:Assessment (https://w3id.org/vair#Assessment); vair:Managing (https://w3id.org/vair#Managing)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Access to Essential Private Services and Public Benefits",
+      "risk_level": "High Risk",
+      "risk": "Access to Essential Private Services and Public Benefits",
+      "tag": "high_risk_essential_services",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "citizen, consumer, benefit claimant, insurance holder, loan applicant",
+        "vair_subject": [
+          "vair:PublicServicesApplicant",
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:AssessingCreditworthiness",
+        "vair:DeterminingCreditScore",
+        "vair:AllocationOfSocialBenefits",
+        "vair:HealthInsuranceRiskAssessment",
+        "vair:LifeInsuranceRiskAssessment",
+        "vair:InsurancePricing"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:PatternRecognition"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:ErroneousInputData",
+        "vair:UnrepresentativeTrainingData"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:OrganisationalControl",
+        "vair:TechnicalControl"
+      ],
+      "definition": "AI systems evaluating creditworthiness, scoring for credit, determining eligibility for public assistance, setting insurance premiums, and making decisions on health or life insurance risk (Annex III, point 5).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 5 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:InsurancePricing (https://w3id.org/vair#InsurancePricing); vair:DecisionMaking (https://w3id.org/vair#DecisionMaking)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Law Enforcement",
+      "risk_level": "High Risk",
+      "risk": "Law Enforcement",
+      "tag": "high_risk_law_enforcement",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "suspect, accused person, crime victim, person subject to criminal profiling",
+        "vair_subject": [
+          "vair:Suspect",
+          "vair:Victim",
+          "vair:Perpetrator",
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:IndividualRiskAssessment",
+        "vair:AssessingPeopleRelatedRisk",
+        "vair:DetectingCriminalOffences",
+        "vair:InvestigatingCriminalOffences",
+        "vair:ProsecutingCriminalOffences",
+        "vair:PredictingOccurrenceOfCriminalOffence",
+        "vair:AssessingPastCriminalBehaviour"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:EmotionRecognition",
+        "vair:LieDetection",
+        "vair:FaceRecognition",
+        "vair:SpeakerRecognition"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTestData",
+        "vair:LowAccuracy",
+        "vair:InsufficientHumanOversightMeasure"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:PsychologicalHarm",
+        "vair:WellbeingImpact",
+        "vair:DistortionInHumanBehaviour"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:PsychologicalHealth"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:TechnicalControl",
+        "vair:OperationalControl"
+      ],
+      "definition": "AI systems used by law enforcement for individual risk assessment, polygraphs, detecting emotional states, predicting criminal offences, criminal profiling, and crime analytics (Annex III, point 6).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_human_oversight",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 6 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:IndividualRiskAssessment (https://w3id.org/vair#IndividualRiskAssessment); vair:AssessingPeopleRelatedRisk (https://w3id.org/vair#AssessingPeopleRelatedRisk)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Migration, Asylum, Border Control",
+      "risk_level": "High Risk",
+      "risk": "Migration, Asylum, Border Control",
+      "tag": "high_risk_migration",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "migrant, asylum seeker, refugee, stateless person, visa applicant",
+        "vair_subject": [
+          "vair:AsylumSeeker",
+          "vair:VisaApplicant",
+          "vair:ResidencePermitApplicant",
+          "vair:CitizenshipApplicant",
+          "vair:Passenger",
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:AssessingImmigrationEligibility",
+        "vair:AssessingRiskOfIrregularImmigration",
+        "vair:AssessingSecurityRisk",
+        "vair:ExaminingApplication",
+        "vair:RemoteIdentificationOfPeople"
+      ],
+      "vair_capability": [
+        "vair:Profiling",
+        "vair:PatternRecognition",
+        "vair:RemoteBiometricIdentification"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:ErroneousInputData",
+        "vair:UnrepresentativeTrainingData"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:PsychologicalHarm"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:OrganisationalControl"
+      ],
+      "definition": "AI systems for individual risk assessment of irregular migration or security risks, automated examination of applications for asylum, visa, and residence permits, and detecting persons at borders (Annex III, point 7).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_human_oversight",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 7 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:ExaminingApplication (https://w3id.org/vair#ExaminingApplication); vair:Assessment (https://w3id.org/vair#Assessment)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — Administration of Justice and Democratic Processes",
+      "risk_level": "High Risk",
+      "risk": "Administration of Justice and Democratic Processes",
+      "tag": "high_risk_justice",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "litigant, accused person, party to administrative proceedings, voter, candidate",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Suspect"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [
+        "vair:Assessment",
+        "vair:MakingPrediction"
+      ],
+      "vair_capability": [
+        "vair:QuestionAnswering",
+        "vair:InformationRetrieval",
+        "vair:NaturalLanguageGeneration",
+        "vair:AutomaticSummarisation"
+      ],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:InputDataRiskSource",
+        "vair:LackOfTransparency",
+        "vair:InsufficientHumanOversightMeasure"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:PsychologicalHarm"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:OperationalControl"
+      ],
+      "definition": "AI systems assisting judicial authorities in researching and interpreting facts and the law, applying law to concrete facts, and AI used in electoral processes (Annex III, point 8).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_1__art_6__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_human_oversight",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 6(2) + Annex III, pt. 8 AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:DecisionMaking (https://w3id.org/vair#DecisionMaking)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "High Risk — General-Purpose AI with Systemic Risk",
+      "risk_level": "High Risk",
+      "risk": "General-Purpose AI with Systemic Risk",
+      "tag": "gpai_systemic_risk",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person affected by downstream AI applications; downstream provider; deployer",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [],
+      "vair_risk_source": [
+        "vair:TrainingDataRiskSource",
+        "vair:SystemVulnerability",
+        "vair:Cyberattack",
+        "vair:AdversarialAttack",
+        "vair:ModelEvasion",
+        "vair:LowRobustness"
+      ],
+      "vair_consequence": [
+        "vair:DecreasedRobustness",
+        "vair:DecreasedSecurity",
+        "vair:Bias"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:DistortionInHumanBehaviour",
+        "vair:DisruptionOfCriticalInfrastructureOperation"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight",
+        "vair:Health"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:OrganisationalControl",
+        "vair:TechnicalControl"
+      ],
+      "definition": "General-purpose AI models with systemic risk (GPAI-SR) as defined in Art. 51: models trained with more than 10^25 FLOPs or designated by the Commission due to high-impact capabilities. Subject to enhanced obligations under Art. 55.",
+      "link_to_text_AIa": [
+        "#chp_V__sec_1__art_51"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_human_oversight",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 51–55 AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Technical Risk — Inaccuracy and Performance Degradation",
+      "risk_level": "Technical Risk",
+      "risk": "Inaccuracy and Performance Degradation",
+      "tag": "inaccuracy_performance",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person affected by incorrect AI output; provider; deployer",
+        "vair_subject": [
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [],
+      "vair_risk_source": [
+        "vair:LowAccuracy",
+        "vair:LowRobustness",
+        "vair:ValidationDataRiskSource",
+        "vair:TestDataRiskSource",
+        "vair:InaccurateRecommendation"
+      ],
+      "vair_consequence": [
+        "vair:DegradedAccuracy",
+        "vair:DecreasedRobustness"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:TechnicalControl",
+        "vair:DetectionControl"
+      ],
+      "definition": "Risk of high-risk AI systems failing to achieve required levels of accuracy, robustness, and cybersecurity, leading to discriminatory or harmful outputs (Art. 15 AI Act).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_15__para_1"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_human_oversight",
+        "right_explanation",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 15 AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Technical Risk — Lack of Transparency and Explainability",
+      "risk_level": "Technical Risk",
+      "risk": "Lack of Transparency and Explainability",
+      "tag": "lack_transparency",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person affected by a high-risk AI decision; deployer",
+        "vair_subject": [
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [],
+      "vair_risk_source": [
+        "vair:LackOfTransparency",
+        "vair:InsufficientInstruction"
+      ],
+      "vair_consequence": [
+        "vair:DecreasedSecurity"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:DistortionInHumanBehaviour"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:TechnicalControl",
+        "vair:OrganisationalControl"
+      ],
+      "definition": "Risk arising when high-risk AI systems do not provide sufficient information for deployers and affected persons to understand the system's functioning and the basis for its output (Art. 13 AI Act).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_13__para_1"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_chatbot_disclosure"
+      ],
+      "legal_source": "Art. 13 AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Technical Risk — Insufficient Human Oversight",
+      "risk_level": "Technical Risk",
+      "risk": "Insufficient Human Oversight",
+      "tag": "insufficient_human_oversight",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "deployer, natural person responsible for human oversight, affected person",
+        "vair_subject": [
+          "vair:NaturalPerson"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [],
+      "vair_risk_source": [
+        "vair:InsufficientHumanOversightMeasure",
+        "vair:StaffIncompetence",
+        "vair:InsufficientInstruction"
+      ],
+      "vair_consequence": [
+        "vair:DecreasedRobustness"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:OperationalControl",
+        "vair:TechnicalControl",
+        "vair:OrganisationalControl"
+      ],
+      "definition": "Risk arising when effective human oversight over the outputs and functioning of high-risk AI systems is not possible, preventing detection, correction, or override of the system (Art. 14 AI Act).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_14__para_1"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_human_oversight",
+        "right_explanation"
+      ],
+      "legal_source": "Art. 14 AI Act (Regulation 2024/1689)",
+      "ontology_source": "dpv-ai:HumanOversight (https://w3id.org/dpv/ai#HumanOversight)",
+      "other_source": null
+    },
+    {
+      "category": "risk",
+      "type": "Technical Risk — Data Quality and Bias",
+      "risk_level": "Technical Risk",
+      "risk": "Data Quality and Bias",
+      "tag": "data_bias",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person belonging to a group underrepresented or misrepresented in training data; provider; auditor",
+        "vair_subject": [
+          "vair:NaturalPerson",
+          "vair:Group"
+        ]
+      },
+      "icon": "placeholder.png",
+      "vair_purpose": [],
+      "vair_capability": [],
+      "vair_risk_source": [
+        "vair:BiasedTrainingData",
+        "vair:UnrepresentativeTrainingData",
+        "vair:BiasedTestData",
+        "vair:UnrepresentativeTestData",
+        "vair:ErrorInDataCollection",
+        "vair:ErrorInDataPrepration",
+        "vair:WrongDataSetDesignChoice"
+      ],
+      "vair_consequence": [
+        "vair:Bias",
+        "vair:DegradedAccuracy"
+      ],
+      "vair_impact": [
+        "vair:WellbeingImpact",
+        "vair:DistortionInHumanBehaviour"
+      ],
+      "vair_area_of_impact": [
+        "vair:FundamentalRight"
+      ],
+      "vair_control": [
+        "vair:MitigationControl",
+        "vair:TechnicalControl",
+        "vair:DetectionControl"
+      ],
+      "definition": "Risk arising from biased, incomplete, or unrepresentative training data leading to discriminatory, inaccurate, or unsafe outputs. Includes biased training data, erroneous test data, and unrepresentative datasets (VAIR: BiasedTrainingData, UnrepresentativeTestData).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_10__para_2"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "right_explanation",
+        "right_contest",
+        "right_complaint"
+      ],
+      "legal_source": "Art. 10(2)–(4) AI Act (Regulation 2024/1689)",
+      "ontology_source": "vair:BiasedTrainingData (https://w3id.org/vair#BiasedTrainingData); vair:UnrepresentativeTestData (https://w3id.org/vair#UnrepresentativeTestData)",
+      "other_source": null
+    },
+    {
+      "category": "right",
+      "type": "Oversight Right — Right to Human Oversight and Contestability",
+      "tag": "right_human_oversight",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "any person affected by a high-risk AI system decision; deployer responsible for oversight measures"
+      },
+      "icon": "placeholder.png",
+      "definition": "High-risk AI systems shall be designed to enable effective oversight by natural persons, including the ability to understand the system, intervene, override, interrupt, or stop its operation. The results of AI must be 'contestable and correctable by humans' where fundamental rights are at stake. Providers must incorporate real-time warning mechanisms and override functions before market placement.",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_14__para_1"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "insufficient_human_oversight",
+        "high_risk_employment",
+        "high_risk_law_enforcement",
+        "high_risk_justice",
+        "high_risk_migration",
+        "gpai_systemic_risk"
+      ],
+      "legal_source": "Art. 14 AI Act (Regulation 2024/1689)",
+      "ontology_source": "dpv-ai:HumanOversight (https://w3id.org/dpv/ai#HumanOversight)",
+      "other_source": "DOI: 10.2139/ssrn.6386080"
+    },
+    {
+      "category": "right",
+      "type": "Procedural Right — Right to Explanation of AI-Based Individual Decision",
+      "tag": "right_explanation",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "affected person subject to an individual decision based on high-risk AI output; employee, job applicant, benefit claimant, student, accused person"
+      },
+      "icon": "placeholder.png",
+      "definition": "Any affected person subject to a significant individual decision taken by a deployer on the basis of a high-risk AI system's output has the right to obtain a clear explanation of the principal reasons for that decision, allowing them to understand and contest it (Art. 86 AI Act). This right is grounded also in GDPR Art. 22(3) for automated decision-making.",
+      "link_to_text_AIa": [
+        "#chp_IX__sec_4__art_86__para_1"
+      ],
+      "link_to_text_GDPR": [
+        "#chp_III__sec_4__art_22__para_3"
+      ],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "lack_transparency",
+        "inaccuracy_performance",
+        "high_risk_employment",
+        "high_risk_education",
+        "high_risk_essential_services",
+        "high_risk_law_enforcement",
+        "high_risk_justice"
+      ],
+      "legal_source": "Art. 86 AI Act (Regulation 2024/1689); GDPR Art. 22(3)",
+      "ontology_source": null,
+      "other_source": "DOI: 10.2139/ssrn.6386080"
+    },
+    {
+      "category": "right",
+      "type": "Transparency Right — Right to Chatbot Disclosure",
+      "tag": "right_chatbot_disclosure",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "user interacting with an AI chatbot or conversational agent; person exposed to AI-generated synthetic content"
+      },
+      "icon": "placeholder.png",
+      "definition": "Persons interacting directly with AI systems have the right to be informed that they are interacting with an AI, unless this is obvious from context. Providers of chatbots and conversational AI systems must design them to disclose their artificial nature at the start of interaction (Art. 50(1) AI Act). Note: the user-provided reference is Art. 52(4); the AKN anchor is Art. 50.",
+      "link_to_text_AIa": [
+        "#chp_IV__art_50__para_1"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "subliminal_manipulation",
+        "lack_transparency"
+      ],
+      "legal_source": "Art. 50(1) AI Act (Regulation 2024/1689) [referred to as Art. 52(4) in some drafts]",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "right",
+      "type": "Data Right — Right to Erasure (Right to be Forgotten)",
+      "tag": "right_erasure",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "data subject whose personal data is processed by an AI system; person whose biometric data or facial image has been scraped or stored"
+      },
+      "icon": "placeholder.png",
+      "definition": "Data subjects have the right to obtain the erasure of personal data processed by AI systems where the data is no longer necessary, consent is withdrawn, there is no legitimate basis, or where data was unlawfully collected — as in the case of facial scraping or biometric categorisation databases. This right operates in conjunction with AI Act obligations on data governance (Art. 10 AI Act).",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_10__para_1"
+      ],
+      "link_to_text_GDPR": [
+        "#chp_III__sec_3__art_17__para_1"
+      ],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "facial_scraping_database",
+        "biometric_categorisation_sensitive",
+        "high_risk_biometrics",
+        "data_bias"
+      ],
+      "legal_source": "GDPR Art. 17; Art. 10 AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": null
+    },
+    {
+      "category": "right",
+      "type": "Procedural Right — Right to Contest Automated Decisions",
+      "tag": "right_contest",
+      "subject": {
+        "category": "Natural Person",
+        "specific": "data subject subject to automated decision-making; person affected by AI profiling; job applicant, loan applicant, benefit claimant"
+      },
+      "icon": "placeholder.png",
+      "definition": "Data subjects subject to automated individual decision-making have the right to obtain human intervention, express their point of view, and contest the decision. Under GDPR Art. 22(3), controllers must implement suitable measures to safeguard this right. The AI Act's human oversight requirement (Art. 14) operationalises this right at the technical design level.",
+      "link_to_text_AIa": [
+        "#chp_III__sec_2__art_14__para_3"
+      ],
+      "link_to_text_GDPR": [
+        "#chp_III__sec_4__art_22__para_3"
+      ],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "social_scoring",
+        "predictive_policing_individual",
+        "high_risk_employment",
+        "high_risk_education",
+        "high_risk_essential_services",
+        "data_bias",
+        "right_human_oversight"
+      ],
+      "legal_source": "GDPR Art. 22(3); Art. 14(3) AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": "DOI: 10.2139/ssrn.6386080"
+    },
+    {
+      "category": "right",
+      "type": "Procedural Right — Right to Lodge a Complaint",
+      "tag": "right_complaint",
+      "subject": {
+        "category": "Natural Person; Legal Person",
+        "specific": "any natural or legal person who considers themselves harmed by an AI system; affected citizen, consumer, worker, job applicant, data subject"
+      },
+      "icon": "placeholder.png",
+      "definition": "Any natural or legal person having grounds to believe that a high-risk AI system has caused harm has the right to lodge a complaint with the national market surveillance authority (Art. 85 AI Act). Each Member State must designate national competent authorities and make their contact information publicly available so that affected persons can directly access complaint mechanisms and remedies (Art. 70(6) AI Act).",
+      "link_to_text_AIa": [
+        "#chp_IX__sec_4__art_85__para_1",
+        "#chp_VII__sec_2__art_70__para_6"
+      ],
+      "link_to_text_GDPR": [],
+      "link_to_text_Other": [],
+      "internal_ref": [
+        "subliminal_manipulation",
+        "vulnerability_exploitation",
+        "social_scoring",
+        "predictive_policing_individual",
+        "realtime_biometric_id_public",
+        "high_risk_biometrics",
+        "high_risk_employment",
+        "high_risk_essential_services",
+        "high_risk_law_enforcement",
+        "high_risk_migration",
+        "inaccuracy_performance"
+      ],
+      "legal_source": "Art. 85 AI Act (Regulation 2024/1689); Art. 70(6) AI Act (Regulation 2024/1689)",
+      "ontology_source": null,
+      "other_source": "DOI: 10.2139/ssrn.6386080"
+    }
+  ]
+}
