@@ -6,7 +6,7 @@ The extension reads a platform's Terms of Service, maps it against the EU AI Act
 
 ## Architecture
 
-![LEXIA System Architecture](LEXIA_diagram.png)
+![LEXIA System Architecture](lexia_diagram_OKOK.png)
 
 ```
 Browser Extension (popup.html / popup.js)
