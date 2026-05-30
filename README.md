@@ -6,9 +6,11 @@ The extension reads a platform's Terms of Service, maps it against the EU AI Act
 
 ## Architecture
 
+![LEXIA System Architecture](LEXIA_diagram.png)
+
 ```
 Browser Extension (popup.html / popup.js)
-        │  chrome.storage.local
+        │  chrome.storage.local + auto-notification banner
         │
    background.js  ──── GET /api/site/{domain} ────▶  Flask API (port 5050)
                                                            │
@@ -17,11 +19,11 @@ Browser Extension (popup.html / popup.js)
                                               run_pipeline.py
                                            ┌──────┴──────────────┐
                                      tos_scraper           tos_extractor
-                                     (ToSDR API /           (Azure OpenAI
-                                      web scrape)            gpt-4o)
+                                     (ToSDR corpus /         (Azure OpenAI
+                                      web scrape)             o4-mini)
                                            │                     │
                                     wikidata_client        concept_akn_mapping.json
-                                    (SPARQL)                     │
+                                    (SPARQL → AIRO)          (10 concept IDs)
                                                            kg_builder.py
                                                       (AKN XML → triples)
                                                            │
@@ -29,76 +31,89 @@ Browser Extension (popup.html / popup.js)
                                                   32016R0679.xml (GDPR)
 ```
 
-## Setup
+## Screenshots
 
-### 1. Environment variables
+| Adult mode | Child-friendly mode |
+|---|---|
+| ![Adult mode](Screenshot%202026-05-30%20alle%2021.16.32.png) | ![Child mode](Screenshot%202026-05-30%20alle%2021.16.56.png) |
+
+## Quick install
+
+> The full step-by-step guide is at [`extension/install.html`](extension/install.html) — open it in your browser.
+
+**1. Set environment variables**
 
 ```bash
 export AZURE_OPENAI_ENDPOINT="https://<your-resource>.openai.azure.com/"
 export AZURE_OPENAI_KEY="<your-api-key>"
 ```
 
-### 2. Install dependencies (Python ≥ 3.11)
+**2. Install Python dependencies (Python ≥ 3.11)**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Pre-process the 5 platforms
+**3. Pre-process the 5 platforms**
 
 ```bash
 python backend/run_pipeline.py
 ```
 
-This scrapes ToS pages, calls Azure OpenAI, queries Wikidata, computes semaphore scores, and saves results to `backend/data/platforms/`.
+Scrapes ToS, calls Azure OpenAI o4-mini, queries Wikidata, computes semaphore scores. Results saved to `backend/data/platforms/`. Skip this step if the JSON files are already present.
 
-### 4. Start the API server
+**4. Start the API server**
 
 ```bash
 python backend/api/app.py
 ```
 
-API runs on `http://localhost:5050`. Endpoints:
-- `GET /api/health` — lists available platforms
-- `GET /api/site/<domain>` — returns compliance data
-- `GET /api/concepts` — returns the full concept mapping
+Runs on `http://localhost:5050`. Keep this terminal open while using the extension.
 
-### 5. Load the extension in Chrome
+**5. Load the extension in Chrome / Opera**
 
-1. Open `chrome://extensions`
-2. Enable **Developer mode**
+1. Go to `chrome://extensions`
+2. Enable **Developer mode** (toggle, top-right)
 3. Click **Load unpacked**
-4. Select the `extension/` folder
+4. Select the `extension/` folder inside this repo
 
-### 6. Load the extension in Safari
+The LEXIA icon appears in the toolbar. Visit any supported site — a notification slides in automatically on your first visit of the day.
 
-The extension uses Chrome Manifest V3, which Safari 16+ supports natively via the Safari Web Extension wrapper. A helper script is provided:
+**6. Load the extension in Safari**
 
 ```bash
 bash extension/convert_to_safari.sh
 ```
 
-This requires Xcode installed. The script runs `xcrun safari-web-extension-converter`, which generates an Xcode project. Open it, build the Mac app, then enable the extension in **Safari → Settings → Extensions → LEXIA**.
+Requires full Xcode. Opens an Xcode project — build it, then enable LEXIA in **Safari → Settings → Extensions**.
 
-## Pre-processed platforms
+## Supported sites
 
-| Platform | Domain | Semaphore | Score | Rights | Risks detected |
-|---|---|---|---|---|---|
-| ChatGPT | openai.com | 🔴 red | 0 | 6 | 2 |
-| X / Twitter | twitter.com | 🔴 red | 0 | 6 | 2 |
-| Klarna | klarna.com | 🔴 red | 0 | 6 | 3 |
-| Claude | anthropic.com | 🔴 red | 0 | 6 | 4 |
-| Facebook | facebook.com | 🔴 red | 37 | 6 | 2 |
+| Platform | Domain | Aliases resolved |
+|---|---|---|
+| ChatGPT / OpenAI | openai.com | chatgpt.com, chat.openai.com |
+| X / Twitter | twitter.com | x.com |
+| Klarna | klarna.com | — |
+| Claude / Anthropic | anthropic.com | claude.ai, claude.com |
+| Facebook / Meta | facebook.com | instagram.com, messenger.com |
 
-**Finding:** all five major AI platforms score red. None explicitly grant EU AI Act rights (right to explanation, human oversight, AI transparency, complaint) in their Terms of Service or Privacy Policy — the regulation is new and compliance transparency is still lacking.
+## Results
 
-*(Scores computed live from scraped privacy policies — re-run the pipeline to refresh.)*
+| Platform | Semaphore | Score | Risks detected | AI Act rights granted |
+|---|---|---|---|---|
+| ChatGPT (openai.com) | 🔴 Red | 20/100 | 2 | 0 / 6 |
+| X / Twitter | 🔴 Red | 11/100 | 2 | 0 / 6 |
+| Klarna | 🔴 Red | 22/100 | 2 | 0 / 6 |
+| Claude (anthropic.com) | 🔴 Red | 0/100 | 3 | 0 / 6 |
+| Facebook | 🔴 Red | 35/100 | 1 | 0 / 6 |
+
+All five platforms score red. None explicitly grants EU AI Act rights in its Privacy Policy — the regulation is in force since August 2024 but compliance documentation has not caught up.
 
 ## Ontology sources
 
 | Ontology | URI | Use |
 |---|---|---|
-| AIRO | https://w3id.org/airo | Risk levels, high-risk system types |
+| AIRO | https://w3id.org/airo | Risk levels, system types |
 | DPV EU-AIAct | https://w3id.org/dpv/legal/eu/aiact | System types, roles, compliance |
 | DPV EU-Rights | https://w3id.org/dpv/legal/eu/rights | Fundamental rights (CFREU) |
 | VAIR | https://w3id.org/vair | Risk vocabulary |
@@ -106,7 +121,11 @@ This requires Xcode installed. The script runs `xcrun safari-web-extension-conve
 
 ## Legal texts
 
-- **EU AI Act** — Regulation (EU) 2024/1689, AKN: `32024R1689`
-- **GDPR** — Regulation (EU) 2016/679, AKN: `32016R0679`
+- **EU AI Act** — Regulation (EU) 2024/1689 — AKN: `32024R1689`
+- **GDPR** — Regulation (EU) 2016/679 — AKN: `32016R0679`
 
-EUR-Lex base: `https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:`
+EUR-Lex: `https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:`
+
+## License
+
+CC-BY 4.0 International
