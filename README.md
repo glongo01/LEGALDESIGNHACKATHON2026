@@ -33,7 +33,7 @@ Browser Extension (popup.html / popup.js)
 
 ## Demo
 
-https://github.com/glongo01/LEGALDESIGNHACKATHON2026/raw/main/Video%20Demo.mov
+<video src="Video Demo.mov" controls width="100%"></video>
 
 ## Screenshots
 
