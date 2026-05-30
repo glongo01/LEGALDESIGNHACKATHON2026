@@ -31,6 +31,10 @@ Browser Extension (popup.html / popup.js)
                                                   32016R0679.xml (GDPR)
 ```
 
+## Demo
+
+https://github.com/glongo01/LEGALDESIGNHACKATHON2026/raw/main/Video%20Demo.mov
+
 ## Screenshots
 
 | Adult mode | Child-friendly mode |
