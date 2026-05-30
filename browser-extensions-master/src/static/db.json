@@ -1,98 +1,578 @@
 [
   {
-    "id": "openai",
-    "name": "OpenAI (ChatGPT)",
-    "url": "openai.com,chat.openai.com,chatgpt.com",
-    "rating": "yellow",
+    "id": "airbnb",
+    "name": "Airbnb",
+    "url": "airbnb.com,abnb.me",
+    "rating": "green",
     "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "ChatGPT is disclosed as an AI system in the product interface.", "type": "right", "classification": "explicit" },
-      { "concept": "SyntheticContent", "article": "Art. 50(2) AIA", "summary": "DALL-E/image outputs are not consistently labelled as AI-generated in ToS.", "type": "right", "classification": "background" },
-      { "concept": "RightToExplanation", "article": "Art. 86 AIA", "summary": "No right to explanation for automated decisions is granted in the ToS.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "google",
-    "name": "Google",
-    "url": "google.com,google.de,google.fr,google.co.uk,gmail.com,youtube.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "Gemini is disclosed as an AI assistant in the product interface.", "type": "right", "classification": "explicit" },
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Privacy policy references automated decisions in ad targeting but no right to contest is granted.", "type": "right", "classification": "background" },
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "Google's AI principles page provides general transparency but not Art. 50-compliant disclosure per service.", "type": "right", "classification": "implicit" }
-    ]
-  },
-  {
-    "id": "microsoft",
-    "name": "Microsoft",
-    "url": "microsoft.com,bing.com,office.com,linkedin.com,github.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "Copilot and Bing Chat are labelled as AI-powered.", "type": "right", "classification": "explicit" },
-      { "concept": "HumanOversight", "article": "Art. 14 AIA", "summary": "Responsible AI policy commits to human review for high-stakes Copilot outputs.", "type": "right", "classification": "implicit" },
-      { "concept": "RightToExplanation", "article": "Art. 86 AIA", "summary": "No per-decision explanation right is specified in the ToS.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "facebook",
-    "name": "Meta (Facebook / Instagram)",
-    "url": "facebook.com,instagram.com,meta.com,threads.net",
-    "rating": "red",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Algorithmic feed ranking and ad targeting are automated decisions with significant effects — no right to contest is granted.", "type": "right", "classification": "background" },
-      { "concept": "BiometricSystem", "article": "Art. 5(1)(g) AIA", "summary": "Meta previously used facial recognition for photo tagging in the EU (discontinued 2021, but infrastructure remains).", "type": "prohibition", "classification": "background" },
-      { "concept": "ProhibitedPractice", "article": "Art. 5(1)(a) AIA", "summary": "Algorithmic micro-targeting exploiting emotional states has been documented in internal Meta research.", "type": "prohibition", "classification": "implicit" }
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy explicitly grants users the right to challenge automated decisions restricting platform access by contacting support.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request deletion of their personal information in certain jurisdictions.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses the use of automated tools for content translation and states limitations on their accuracy, implying transparency about AI usage.",
+        "type": "right",
+        "classification": "implicit"
+      }
     ]
   },
   {
     "id": "amazon",
     "name": "Amazon",
-    "url": "amazon.com,amazon.de,amazon.co.uk,amazon.fr,amazon.es,amazon.it,aws.amazon.com",
-    "rating": "yellow",
+    "url": "amazon.com,amazon.com.au,amazon.de,amazon.co.uk,amazon.nl,amazon.pl,amazon.sa,amazon.sg,amazon.se,amazon.com.tr,amazon.ae,amazon.co.jp,amazon.es,amazon.in,amazon.ca,amazon.fr,amazon.it,amazon.com.br,amazon.cn,amazon.com.mx,amzn.to,amazontrust.com,amazongames.com",
+    "rating": "red",
+    "findings": []
+  },
+  {
+    "id": "anthropic_pbc",
+    "name": "Anthropic, PBC",
+    "url": "anthropic.com,claude.ai",
+    "rating": "green",
     "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Product recommendations and pricing are automated; no right to contest is mentioned.", "type": "right", "classification": "background" },
-      { "concept": "HighRiskAI", "article": "Annex III AIA", "summary": "Amazon Rekognition (facial recognition) is used in law enforcement contexts — Annex III high-risk.", "type": "prohibition", "classification": "implicit" }
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses that the services use AI and large language models with limitations in accuracy, reliability, and safety.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request deletion of their personal data collected via services, subject to exceptions.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy explicitly states that users have the right to lodge complaints with supervisory authorities, including EU ones.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy grants users the right to request a review of decisions made solely based on automated processing.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "HumanOversight",
+        "article": "Art. 14 AIA",
+        "summary": "The policy describes using algorithmic and human review for content moderation, implying human oversight over AI-assisted decisions.",
+        "type": "right",
+        "classification": "implicit"
+      }
     ]
   },
   {
     "id": "apple",
-    "name": "Apple",
-    "url": "apple.com,icloud.com",
+    "name": "Apple Services",
+    "url": "apple.com,shazam.com,webkit.org,cdn-apple.com,apple.news",
     "rating": "green",
     "findings": [
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "App Store guidelines require apps using AI to disclose this. Apple Intelligence is labelled in system UI.", "type": "right", "classification": "explicit" },
-      { "concept": "HumanOversight", "article": "Art. 14 AIA", "summary": "On-device processing and human review for App Store AI submissions are documented.", "type": "right", "classification": "explicit" },
-      { "concept": "RightToContest", "article": "GDPR Art. 22(3)", "summary": "Apple provides an appeal path for automated App Store rejections.", "type": "right", "classification": "explicit" }
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy grants users the ability to delete shared photos, videos, comments, albums, and files from iCloud storage at any time.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy informs users of their right to lodge a complaint with the applicable regulator regarding privacy rights.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses use of foundational AI models trained on publicly crawled web data via Applebot, with limitations on personal data usage and no profiling.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy explicitly provides opportunity for human review on any significant automated decisions using algorithms or profiling.",
+        "type": "right",
+        "classification": "explicit"
+      }
+    ]
+  },
+  {
+    "id": "booking-com",
+    "name": "Booking.com",
+    "url": "booking.com",
+    "rating": "yellow",
+    "findings": [
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses the use of algorithms for personalized ranking and lists key parameters influencing results, implying transparency about AI usage.",
+        "type": "right",
+        "classification": "implicit"
+      }
+    ]
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.AI",
+    "url": "character.ai,beta.character.ai",
+    "rating": "green",
+    "findings": [
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy acknowledges users' ability to request deletion of their information, which may limit service access, aligning with the right to erasure.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy explicitly states that users have the right to lodge a complaint with the relevant supervisory authority.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy describes AI limitations including unpredictability, inaccuracy, and potential offensiveness, fulfilling disclosure duties.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "ChatbotDisclosure",
+        "article": "Art. 52(1) AIA",
+        "summary": "The policy explicitly references interactions with 'automated AI character' and 'AI-generated chats', informing users of AI involvement.",
+        "type": "right",
+        "classification": "background"
+      }
+    ]
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "url": "discord.com,discord.gg,discord.co,discordapp.io,discord.dev,discord.new,discord.media,discord.design,discordapp.com,discordapp.net,dis.gd,discord.gift,discordstatus.com,discordcdn.com,airhorn.solutions,airhornbot.com,bigbeans.solutions,watchanimeattheoffice.com",
+    "rating": "green",
+    "findings": [
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy recognizes users' legal right to delete their personal information and processes such requests.",
+        "type": "right",
+        "classification": "explicit"
+      }
+    ]
+  },
+  {
+    "id": "experian",
+    "name": "Experian",
+    "url": "experian.com",
+    "rating": "yellow",
+    "findings": []
+  },
+  {
+    "id": "facebook",
+    "name": "Facebook",
+    "url": "facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,facebookcorewwwi.onion,messenger.com,fb.com,fbcdn.net,facebook.net,atdmt.com,lrcdn.net,atdmt.com,atlassolutions.com,accountkit.com,meta.com",
+    "rating": "red",
+    "findings": [
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request deletion of their personal information associated with AIs, subject to exceptions.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy describes collecting data from interactions with AI at Meta, disclosing AI usage in products and data practices.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "ChatbotDisclosure",
+        "article": "Art. 52(1) AIA",
+        "summary": "The policy references user chats and interactions with AI at Meta, indicating disclosure of AI system interactions.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "HumanOversight",
+        "article": "Art. 14 AIA",
+        "summary": "Policy describes manual human review supplementing automated processing of user information.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "FacialRecognition",
+        "article": "Art. 5(1)(h) AIA",
+        "summary": "The policy describes using facial recognition technology for account verification and face analysis for detecting impersonation, implying biometric identification practices.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy grants users the option to request review of content removal decisions, implying contestation of potentially automated moderation outcomes.",
+        "type": "right",
+        "classification": "explicit"
+      }
+    ]
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "url": "google.com,google.co.in,google.co.jp,google.de,google.co.uk,google.com.br,google.fr,google.ru,google.it,google.com.hk,google.es,google.ca,google.com.mx,google.com.tr,google.com.au,google.com.tw,google.pl,google.co.id,google.com.ar,google.com.ua,google.com.pk,google.co.th,google.com.sa,google.com.eg,google.nl,google.co.ve,google.co.za,google.gr,google.com.ph,google.se,google.com.sg,google.be,google.az,google.co.ao,google.com.co,google.co.kr,google.at,google.com.vn,google.cn,google.com.ng,google.cz,google.ch,google.no,google.ro,google.com.pe,google.pt,google.cl,google.ae,google.ie,google.dk,google.dz,google.hu,google.fi,google.co.il,google.sk,google.kz,google.com.kw,google.co.nz,google.lk,google.bg,google.by,google.com.do,google.com.ly,google.rs,google.com.mm,google.hr,google.com.ec,google.tn,google.com.my,google.lt,google.tm,google.iq,google.si,google.com.af,google.com.gt,google.lv,google.com.pr,google.com.gh,google.com.bd,google.com.cu,google.jo,google.com.lb,google.com.sv,google.ee,google.com.bh,google.ba,google.com.uy,google.co.ma,google.cm,google.tt,google.com.kh,google.com.py,google.com.np,google.com.cy,google.com.ni,google.com.et,google.cd,google.hn,google.ge,google.am,google.lu,google.com.qa,google.co.mz,google.co.bw,google.mg,google.sn,google.com.pg,google.cg,google.com.bn,google.com.tj,google.ht,google.co.zm,google.co.ke,google.al,google.bf,google.mu,google.co.cr,google.la,google.mn,google.com.bo,google.org,google.com.jm,google.co.tz,google.com.na,google.ml,google.com.mt,google.is,google.bj,google.co.ug,google.rw,google.com.om,google.ci,google.bs,google.td,google.ps,google.com.gi,google.com.pa,google.com.sl,google.co.uz,google.md,google.bi,google.sr,google.cat,google.so,google.bt,google.je,google.gy,google.me,google.co.zw,google.gp,google.tg,google.co.ls,google.as,google.com.bz,google.cf,google.mv,google.ad,google.li,google.cv,google.mk,google.com.vc,google.com.ag,google.gl,google.ne,google.mw,google.ws,google.kg,google.gm,google.to,google.com.sb,google.com.tn,google.ga,google.tl,google.im,google.com.fj,google.dj,google.ac,google.com.iq,google.vg,google.dm,google.sc,google.com.pt,google.com.cn,google.st,google.ng,google.com.ai,google.ki,google.vu,google.sm,google.jp,google.om,google.co.vi,google.gg,google.fm,google.hk,google.co.ck,google.tk,google.co,google.in,google.co.je,google.com.ve,google.tw,google.us,google.ua,google.de.com,google.ms,google.com.by,google.nr,google.br.com,google.sh,google.hk.com,google.kr,maps.google.com,gmail.google.com,pki.goog,alooma.com,thinkwithgoogle.com,blogger.com,x.company,crashlytics.com,translate.goog,opensource.google,nest.com,home.nest.com,googlesource.com,teachfromanywhere.google,about.google,googleusercontent.com,withgoogle.com,csfirst.withgoogle.com,chrome.com,developer.chrome.com,mail.google.com",
+    "rating": "green",
+    "findings": [
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly states users can delete their information, granting the right to erasure.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy describes using machine learning for age determination, disclosing AI usage to users as part of transparency obligations.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy informs users they can contact local data protection authorities with concerns about their rights.",
+        "type": "right",
+        "classification": "explicit"
+      }
+    ]
+  },
+  {
+    "id": "klarna",
+    "name": "Klarna",
+    "url": "klarna.com,app.klarna.com",
+    "rating": "yellow",
+    "findings": []
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "linkedin.com,lynda.com,licdn.com,snap.licdn.com",
+    "rating": "red",
+    "findings": [
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses the use of AI bots for scanning messages and facilitating tasks like scheduling and summarizing, implying transparency about AI usage.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "ChatbotDisclosure",
+        "article": "Art. 52(1) AIA",
+        "summary": "The policy informs users they may interact with AI features that automate content generation, even if not always labeled as AI.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "SocialScoring",
+        "article": "Art. 5(1)(c) AIA",
+        "summary": "The policy describes a 'social selling index' score based on personal account activity shared with employers, implying evaluation of social behavior for potential detrimental treatment.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request erasure or deletion of their personal data when no longer necessary.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy references additional user rights to redress and appeal decisions impacting them, aligning with contesting automated processing.",
+        "type": "right",
+        "classification": "background"
+      }
+    ]
+  },
+  {
+    "id": "microsoft_store",
+    "name": "Microsoft Store",
+    "url": "microsoft.com",
+    "rating": "yellow",
+    "findings": []
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "midjourney.com",
+    "rating": "green",
+    "findings": [
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses AI usage in generating assets and explicitly notes limitations in performance and suitability.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants European users the right to request deletion of their personal data.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "ChatbotDisclosure",
+        "article": "Art. 52(1) AIA",
+        "summary": "The policy informs users that they are interacting with an AI system for generating assets from prompts.",
+        "type": "right",
+        "classification": "implicit"
+      }
     ]
   },
   {
     "id": "netflix",
     "name": "Netflix",
-    "url": "netflix.com",
+    "url": "netflix.com,netflix.net,netflix.ca,nflxext.com,nflximg.net,nflximg.com,nflxsearch.net,nflxso.net,nflxvideo.net,netflixinvestor.com,netflixdnstest0.com,netflixdnstest1.com,netflixdnstest2.com,netflixdnstest3.com,netflixdnstest4.com,netflixdnstest5.com,netflixdnstest6.com,netflixdnstest7.com,netflixdnstest8.com,netflixdnstest9.com,netflixdnstest10.com",
     "rating": "yellow",
+    "findings": []
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "openai.com,labs.openai.com,beta.openai.com,chat.openai.com,chatgpt.com",
+    "rating": "green",
     "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Personalised recommendations are driven by automated profiling; ToS does not grant a right to contest.", "type": "right", "classification": "background" },
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "No explicit disclosure that AI is used for content recommendation decisions.", "type": "right", "classification": "background" }
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy describes ChatGPT's functioning and limitations on factual accuracy, implying disclosure of AI capabilities and limitations.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to delete their personal information, corresponding to the right to erasure.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy explicitly grants users the right to lodge a complaint with their local supervisory authority if an issue is not adequately addressed.",
+        "type": "right",
+        "classification": "explicit"
+      }
     ]
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "url": "paypal.com,paypal-corp.com,paypal.me,paypalobjects.com,paypal-gifts.com,paypal-communication.com,epl.paypal-communication.com",
+    "rating": "red",
+    "findings": [
+      {
+        "concept": "RightToExplanation",
+        "article": "Art. 86 AIA + GDPR Art. 22(3)",
+        "summary": "The policy instructs users on how to request information about account limitations, holds, or reserves based on automated risk assessments, implying a right to explanation for significant decisions.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy provides notice of account limitations and grants users an opportunity to request restoration by providing information for review.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "Policy discloses use of AI, automated decision-making, purposes like risk assessment, and limitations for agentic AI.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Profiling",
+        "article": "Art. 5(1)(d) AIA",
+        "summary": "Describes profiling techniques for predictive assessments of criminal risks like money laundering and fraud.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "ChatbotDisclosure",
+        "article": "Art. 52(1) AIA",
+        "summary": "Policy informs users they interact with Agentic AI Tools, which are AI systems accessing personal information.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "Policy explicitly states users' right to lodge a complaint with a supervisory authority if a privacy request is denied.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to delete their personal information through account settings or requests, with legal exceptions.",
+        "type": "right",
+        "classification": "explicit"
+      }
+    ]
+  },
+  {
+    "id": "perplexity-ai",
+    "name": "Perplexity AI",
+    "url": "perplexity.ai",
+    "rating": "yellow",
+    "findings": []
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "url": "reddit.com,reddithelp.com,redditinc.com,redditgifts.com,redditblog.com,redditforbusiness.com",
+    "rating": "green",
+    "findings": [
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request account deletion, aligning with the right to erasure of personal data.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy references using user content to train AI models, disclosing AI usage practices.",
+        "type": "right",
+        "classification": "background"
+      }
+    ]
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "url": "revolut.com",
+    "rating": "green",
+    "findings": [
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy grants users the right to request manual human review of automated decisions made about them.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request deletion of their personal data under specified conditions.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy explicitly informs users they can complain to local data protection authorities about handling of personal data.",
+        "type": "right",
+        "classification": "explicit"
+      }
+    ]
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "url": "snapchat.com,sc-cdn.net,sc-corp.net,sc-gw.com,sc-jpl.com,sc-prod.net,sc-static.net,snapads.com,snap-dev.net,snapkit.com",
+    "rating": "red",
+    "findings": []
   },
   {
     "id": "spotify",
     "name": "Spotify",
-    "url": "spotify.com",
-    "rating": "yellow",
+    "url": "spotify.com,spotifyforvendors.com,spotifyjobs.com,scdn.co,spoti.fi,spotifycdn.com,spotifycdn.net",
+    "rating": "green",
     "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Discover Weekly and algorithmic playlists use automated profiling; no contest right stated.", "type": "right", "classification": "background" },
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "No per-feature AI disclosure as required by Art. 50 AIA.", "type": "right", "classification": "background" }
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request deletion of their personal data, with specified methods and exceptions.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy states users' right not to be subject to significant automated decision-making including profiling, aligning with contestation rights.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy references the use of AI and machine learning models for developing features and personalization, disclosing AI usage.",
+        "type": "right",
+        "classification": "background"
+      }
     ]
   },
   {
-    "id": "twitter",
-    "name": "X / Twitter",
-    "url": "twitter.com,x.com",
-    "rating": "red",
+    "id": "synthesia",
+    "name": "Synthesia",
+    "url": "synthesia.io",
+    "rating": "green",
     "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Grok AI recommendations and feed ranking have significant effects; no right to explanation or contest.", "type": "right", "classification": "background" },
-      { "concept": "ProhibitedPractice", "article": "Art. 5(1)(a) AIA", "summary": "Algorithmic amplification of emotionally provocative content has been documented; possible manipulation of behaviour.", "type": "prohibition", "classification": "implicit" },
-      { "concept": "BiometricSystem", "article": "Art. 5(1)(g) AIA", "summary": "X collects biometric data (face/voice) for premium verification — potential biometric categorisation risk.", "type": "prohibition", "classification": "implicit" }
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request erasure of their personal data when no longer needed or consent withdrawn.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToExplanation",
+        "article": "Art. 86 AIA + GDPR Art. 22(3)",
+        "summary": "The policy grants users the right to be notified about automated decision-making and profiling, including logic, significance, and consequences.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy grants users the right to object to profiling in automated decision-making under certain circumstances.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy informs users of their right to lodge a complaint with the Information Commissioner's Office if data processing infringes GDPR.",
+        "type": "right",
+        "classification": "explicit"
+      }
     ]
   },
   {
@@ -101,185 +581,113 @@
     "url": "tiktok.com",
     "rating": "red",
     "findings": [
-      { "concept": "ProhibitedPractice", "article": "Art. 5(1)(b) AIA", "summary": "Documented exploitation of psychological vulnerabilities (dopamine loops, infinite scroll) to maximise engagement.", "type": "prohibition", "classification": "implicit" },
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "For You Page is entirely algorithm-driven with significant behavioural effects; no right to contest.", "type": "right", "classification": "background" },
-      { "concept": "BiometricSystem", "article": "Art. 5(1)(g) AIA", "summary": "Facial feature and voice data collected for effects and search — biometric categorisation risk.", "type": "prohibition", "classification": "implicit" }
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly grants users the right to request deletion of their personal data collected by the platform.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy grants users the right to object to and stop automated individual decisions, including profiling, implying human review.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "LodgeComplaint",
+        "article": "Art. 85 AIA",
+        "summary": "The policy grants users the right to lodge complaints with the National Privacy Commission regarding data privacy issues.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "SocialScoring",
+        "article": "Art. 5(1)(c) AIA",
+        "summary": "The policy describes evaluating users based on social behavior like likes, follows, and engagement to personalize the For You Feed, implying social scoring.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Profiling",
+        "article": "Art. 5(1)(d) AIA",
+        "summary": "Scanning and analyzing user messages to prevent and detect crime implies prohibited predictive profiling for criminal offences.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The policy discloses the use of automated systems for content analysis and personalization, implying transparency about AI usage and capabilities.",
+        "type": "right",
+        "classification": "implicit"
+      }
     ]
   },
   {
-    "id": "snapchat",
-    "name": "Snapchat",
-    "url": "snapchat.com,snap.com",
-    "rating": "yellow",
+    "id": "twitter",
+    "name": "X (Twitter)",
+    "url": "twitter.com,blog.twitter.com,analytics.twitter.com,tweetdeck.twitter.com,ads-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,x.com",
+    "rating": "green",
     "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "My AI chatbot is disclosed as an AI system in the app.", "type": "right", "classification": "explicit" },
-      { "concept": "BiometricSystem", "article": "Art. 5(1)(g) AIA", "summary": "AR lenses process biometric facial data in real time — risk of biometric categorisation.", "type": "prohibition", "classification": "implicit" }
+      {
+        "concept": "Transparency",
+        "article": "Art. 50 AIA",
+        "summary": "The terms describe AI usage through references to user inputs, prompts, outputs, and content recommendations based on engagement factors.",
+        "type": "right",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy confirms compliance with user deletion requests after identity verification, thereby granting the right to erasure of personal data.",
+        "type": "right",
+        "classification": "explicit"
+      }
     ]
   },
   {
     "id": "uber",
     "name": "Uber",
-    "url": "uber.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Driver deactivation and pricing are automated decisions with significant employment effects.", "type": "right", "classification": "background" },
-      { "concept": "HighRiskAI", "article": "Annex III AIA", "summary": "AI used in employment/worker management context — Annex III high-risk category.", "type": "prohibition", "classification": "implicit" },
-      { "concept": "RightToExplanation", "article": "Art. 86 AIA", "summary": "No right to explanation for automated driver deactivation decisions is stated in ToS.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "airbnb",
-    "name": "Airbnb",
-    "url": "airbnb.com,airbnb.de,airbnb.co.uk",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Search ranking and host/guest matching are automated; no right to contest stated.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "booking",
-    "name": "Booking.com",
-    "url": "booking.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Personalised pricing and recommendation algorithms used; no right to contest mentioned.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "paypal",
-    "name": "PayPal",
-    "url": "paypal.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Fraud detection and payment approvals are automated decisions with financial effects.", "type": "right", "classification": "background" },
-      { "concept": "HighRiskAI", "article": "Annex III AIA", "summary": "AI-based credit/payment risk decisions fall under Annex III high-risk (creditworthiness).", "type": "prohibition", "classification": "implicit" },
-      { "concept": "RightToContest", "article": "GDPR Art. 22(3)", "summary": "PayPal ToS provides a dispute process but not an explicit contest-the-algorithm right.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "reddit",
-    "name": "Reddit",
-    "url": "reddit.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Post ranking and spam detection are automated; no right to contest.", "type": "right", "classification": "background" },
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "No disclosure of AI usage in moderation or feed ranking.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "discord",
-    "name": "Discord",
-    "url": "discord.com,discord.gg",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "AI moderation and spam detection have significant effects on user access; no contest right.", "type": "right", "classification": "background" },
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "Clyde AI assistant was disclosed as AI but has been retired; new AI features lack explicit disclosure.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "zoom",
-    "name": "Zoom",
-    "url": "zoom.us,zoom.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "SyntheticContent", "article": "Art. 50(2) AIA", "summary": "AI-generated meeting summaries and virtual backgrounds are not consistently labelled as AI-generated.", "type": "right", "classification": "background" },
-      { "concept": "BiometricSystem", "article": "Art. 5(1)(g) AIA", "summary": "Zoom processes biometric facial data for virtual backgrounds and attention tracking.", "type": "prohibition", "classification": "background" }
-    ]
-  },
-  {
-    "id": "anthropic",
-    "name": "Anthropic (Claude)",
-    "url": "anthropic.com,claude.ai",
-    "rating": "green",
-    "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "Claude is explicitly disclosed as an AI system throughout the interface and ToS.", "type": "right", "classification": "explicit" },
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "Usage policy and model card provide detailed transparency about Claude's capabilities and limitations.", "type": "right", "classification": "explicit" },
-      { "concept": "HumanOversight", "article": "Art. 14 AIA", "summary": "Anthropic's responsible scaling policy commits to human oversight at every capability level.", "type": "right", "classification": "explicit" }
-    ]
-  },
-  {
-    "id": "character-ai",
-    "name": "Character.AI",
-    "url": "character.ai",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "AI persona characters may not consistently disclose they are AI — particularly concerning for minors.", "type": "right", "classification": "background" },
-      { "concept": "ProhibitedPractice", "article": "Art. 5(1)(b) AIA", "summary": "Emotional attachment features targeting minors and vulnerable users may constitute exploitation of psychological vulnerabilities.", "type": "prohibition", "classification": "implicit" }
-    ]
-  },
-  {
-    "id": "perplexity",
-    "name": "Perplexity AI",
-    "url": "perplexity.ai",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "Perplexity is clearly disclosed as an AI-powered search assistant.", "type": "right", "classification": "explicit" },
-      { "concept": "SyntheticContent", "article": "Art. 50(2) AIA", "summary": "AI-generated answers are not consistently watermarked or labelled per Art. 50(2) requirements.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "synthesia",
-    "name": "Synthesia",
-    "url": "synthesia.io",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "SyntheticContent", "article": "Art. 50(2) AIA", "summary": "Synthesia's ToS requires users to disclose AI-generated video content but does not mandate machine-readable watermarks.", "type": "right", "classification": "implicit" },
-      { "concept": "BiometricSystem", "article": "Art. 5(1)(g) AIA", "summary": "AI avatar creation from real person likeness — potential biometric categorisation from facial data.", "type": "prohibition", "classification": "background" }
-    ]
-  },
-  {
-    "id": "revolut",
-    "name": "Revolut",
-    "url": "revolut.com",
+    "url": "uber.com,postmates.com,ubereats.com",
     "rating": "red",
     "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Automated fraud detection can freeze accounts without human review — significant financial effect.", "type": "right", "classification": "background" },
-      { "concept": "HighRiskAI", "article": "Annex III AIA", "summary": "Creditworthiness and AML risk scoring are Annex III high-risk AI applications.", "type": "prohibition", "classification": "implicit" },
-      { "concept": "RightToExplanation", "article": "Art. 86 AIA", "summary": "No right to explanation for automated account freezes or credit decisions is specified in ToS.", "type": "right", "classification": "background" }
+      {
+        "concept": "FacialRecognition",
+        "article": "Art. 5(1)(h) AIA",
+        "summary": "The policy describes using facial recognition on submitted photos for identity verification, implying biometric identification practices.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "RightToContest",
+        "article": "GDPR Art. 22(3)",
+        "summary": "The policy explicitly instructs users to contact customer support to object to automated deactivations and fee adjustments, providing human review.",
+        "type": "right",
+        "classification": "explicit"
+      },
+      {
+        "concept": "SocialScoring",
+        "article": "Art. 5(1)(c) AIA",
+        "summary": "The policy describes evaluating users based on ratings and feedback for compliance with guidelines, leading to deactivation as detrimental treatment.",
+        "type": "prohibition",
+        "classification": "implicit"
+      },
+      {
+        "concept": "Erasure",
+        "article": "GDPR Art. 17",
+        "summary": "The policy explicitly allows users to request deletion of their accounts and data, subject to legal exceptions, granting the right to erasure.",
+        "type": "right",
+        "classification": "explicit"
+      }
     ]
   },
   {
-    "id": "experian",
-    "name": "Experian",
-    "url": "experian.com,experian.co.uk,experian.de",
-    "rating": "red",
-    "findings": [
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Credit scores are automated decisions with major legal and financial effects.", "type": "right", "classification": "background" },
-      { "concept": "HighRiskAI", "article": "Annex III AIA", "summary": "Credit scoring is explicitly listed in Annex III as a high-risk AI application.", "type": "prohibition", "classification": "explicit" },
-      { "concept": "RightToContest", "article": "GDPR Art. 22(3)", "summary": "Credit dispute process exists but is not framed as a right to contest automated AI decisions.", "type": "right", "classification": "background" },
-      { "concept": "RightToExplanation", "article": "Art. 86 AIA", "summary": "No meaningful explanation of scoring model is provided to the data subject.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "workday",
-    "name": "Workday",
-    "url": "workday.com",
-    "rating": "red",
-    "findings": [
-      { "concept": "HighRiskAI", "article": "Annex III AIA", "summary": "AI-based recruitment and HR decisions (CVscreening, performance scoring) are Annex III high-risk.", "type": "prohibition", "classification": "explicit" },
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "Automated CV screening and promotion decisions have significant employment effects.", "type": "right", "classification": "background" },
-      { "concept": "RightToExplanation", "article": "Art. 86 AIA", "summary": "No right to explanation for rejected job applications processed by Workday AI.", "type": "right", "classification": "background" },
-      { "concept": "FundamentalRightsImpact", "article": "Art. 27 AIA", "summary": "No FRIA documentation is provided to candidates affected by Workday AI employment decisions.", "type": "right", "classification": "background" }
-    ]
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "midjourney.com",
+    "id": "workday-inc",
+    "name": "Workday, Inc.",
+    "url": "workday.com,myworkdayjobs.com,workday.wd5.myworkdayjobs.com",
     "rating": "yellow",
-    "findings": [
-      { "concept": "SyntheticContent", "article": "Art. 50(2) AIA", "summary": "AI-generated images are not machine-readable watermarked per Art. 50(2) requirements.", "type": "right", "classification": "background" },
-      { "concept": "TransparencyObligation", "article": "Art. 50 AIA", "summary": "Midjourney discloses AI-generated nature in its terms but lacks per-image labelling.", "type": "right", "classification": "implicit" }
-    ]
-  },
-  {
-    "id": "slack",
-    "name": "Slack",
-    "url": "slack.com",
-    "rating": "yellow",
-    "findings": [
-      { "concept": "ChatbotDisclosure", "article": "Art. 52(1) AIA", "summary": "Slack AI assistant is disclosed in the product UI.", "type": "right", "classification": "explicit" },
-      { "concept": "AutomatedDecision", "article": "GDPR Art. 22", "summary": "AI-powered message classification and search ranking — no right to contest stated.", "type": "right", "classification": "background" }
-    ]
+    "findings": []
   }
 ]
